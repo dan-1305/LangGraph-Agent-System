@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự báo giá Bất Động Sản</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; color: #666; font-weight: bold; }
+        input, select, button { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #5cb85c; color: white; border: none; cursor: pointer; font-size: 16px; margin-top: 10px; }
+        button:hover { background-color: #4cae4c; }
+        .result { margin-top: 20px; padding: 15px; background: #eef9ee; border-left: 4px solid #5cb85c; display: none; font-size: 18px; font-weight: bold; text-align: center; }
+        .error { margin-top: 20px; padding: 15px; background: #f9eeee; border-left: 4px solid #d9534f; display: none; color: #d9534f; }
+    </style>
+</head>
+<body>
+
+<div class="container" style="max-width: 800px;">
+    <h2>Dự báo Giá Nhà Đất & Bản đồ Nhiệt</h2>
+    
+    <div style="margin-bottom: 20px; text-align: center;">
+        <button type="button" id="toggleMapBtn" style="background-color: #007bff; width: auto; padding: 10px 20px;">🗺️ Xem Bản đồ Giá trung bình theo Quận</button>
+    </div>
+    
+    <div id="mapContainer" style="display: none; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; height: 400px;">
+        <iframe src="/map" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <form id="predictionForm">
+        <div class="form-group">
+            <label for="area">Diện tích (m²)</label>
+            <input type="number" id="area" name="area" required min="1" step="any" placeholder="Ví dụ: 100">
+        </div>
+        
+        <div class="form-group">
+            <label for="province">Tỉnh / Thành phố</label>
+            <select id="province" name="province" required>
+                {% for p in provinces %}
+                <option value="{{ p }}">{{ p }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="district">Quận / Huyện</label>
+            <select id="district" name="district" required>
+                {% for d in districts %}
+                <option value="{{ d }}">{{ d }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="property_type">Loại Hình BĐS</label>
+            <select id="property_type" name="property_type" required>
+                <option value="House">Nhà Phố</option>
+                <option value="Apartment">Căn Hộ / Chung Cư</option>
+                <option value="Villa">Biệt Thự / Villa</option>
+                <option value="Land">Đất Nền</option>
+                <option value="Warehouse">Kho / Xưởng</option>
+            </select>
+        </div>
+
+        <div class="form-group" style="display: flex; gap: 10px;">
+            <div style="flex: 1;">
+                <label for="num_floors">Số Lầu</label>
+                <input type="number" id="num_floors" name="num_floors" required min="0" step="1" value="0">
+            </div>
+            <div style="flex: 1;">
+                <label for="width_m">Bề Ngang (m)</label>
+                <input type="number" id="width_m" name="width_m" required min="0" step="any" value="0">
+            </div>
+            <div style="flex: 1;">
+                <label for="alley_width_m">Hẻm (m)</label>
+                <input type="number" id="alley_width_m" name="alley_width_m" required min="0" step="any" value="0">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Đặc điểm bổ sung</label>
+            <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                <label style="font-weight: normal;"><input type="checkbox" name="is_frontage" value="1" style="width: auto;"> Mặt tiền</label>
+                <label style="font-weight: normal;"><input type="checkbox" name="is_alley" value="1" style="width: auto;"> Trong hẻm</label>
+                <label style="font-weight: normal;"><input type="checkbox" name="has_furniture" value="1" style="width: auto;"> Có nội thất</label>
+                <label style="font-weight: normal;"><input type="checkbox" name="is_so_hong" value="1" style="width: auto;"> Sổ hồng/Sổ đỏ</label>
+            </div>
+        </div>
+
+        <button type="submit">Dự báo Giá</button>
+    </form>
+
+    <div id="result" class="result"></div>
+    <div id="error" class="error"></div>
+</div>
+
+<script>
+    document.getElementById('predictionForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = new FormData(this);
+        const resultDiv = document.getElementById('result');
+        const errorDiv = document.getElementById('error');
+        
+        resultDiv.style.display = 'none';
+        errorDiv.style.display = 'none';
+        
+        fetch('/predict', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if(data.success) {
+                resultDiv.innerHTML = `Giá dự báo: <b>${data.prediction}</b><br><span style="font-size: 14px; font-weight: normal; color: #555;">(Thuộc mô hình phân khúc: ${data.segment})</span>`;
+                resultDiv.style.display = 'block';
+            } else {
+                errorDiv.textContent = 'Lỗi: ' + data.error;
+                errorDiv.style.display = 'block';
+            }
+        })
+        .catch(error => {
+            errorDiv.textContent = 'Đã xảy ra lỗi kết nối.';
+            errorDiv.style.display = 'block';
+        });
+    });
+
+    document.getElementById('toggleMapBtn').addEventListener('click', function() {
+        const mapContainer = document.getElementById('mapContainer');
+        if (mapContainer.style.display === 'none') {
+            mapContainer.style.display = 'block';
+            this.textContent = 'Ẩn Bản đồ';
+            this.style.backgroundColor = '#6c757d';
+        } else {
+            mapContainer.style.display = 'none';
+            this.textContent = '🗺️ Xem Bản đồ Giá trung bình theo Quận';
+            this.style.backgroundColor = '#007bff';
+        }
+    });
+</script>
+
+</body>
+</html>

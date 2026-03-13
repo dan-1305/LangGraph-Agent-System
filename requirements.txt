@@ -1,0 +1,11 @@
+# Core Logic & Utilities
+pydantic<3.0
+python-dotenv
+schedule
+
+# LangGraph Core System
+langchain-openai
+langchain-core
+langgraph
+langgraph-checkpoint-sqlite
+langchain-experimental

@@ -1,0 +1,5 @@
+moviepy
+edge-tts
+openai
+python-dotenv
+pillow
