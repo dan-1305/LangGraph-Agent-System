@@ -25,15 +25,20 @@ except Exception as e:
     model_high_end = None
     model_mass_market = None
 
-# Load raw_data từ SQLite để lấy unique dropdown
+# Load raw_data từ SQLite để lấy unique dropdown (fallback sang CSV nếu DB không tồn tại - ví dụ trên Render)
 try:
-    conn = sqlite3.connect(DB_PATH)
-    df_raw = pd.read_sql_query("SELECT Province, District FROM Properties", conn)
-    conn.close()
+    if DB_PATH.exists():
+        conn = sqlite3.connect(DB_PATH)
+        df_raw = pd.read_sql_query("SELECT Province, District FROM Properties", conn)
+        conn.close()
+    else:
+        csv_path = BASE_DIR / "data" / "raw_data.csv"
+        df_raw = pd.read_csv(csv_path)
+        
     provinces = sorted(df_raw['Province'].dropna().unique().tolist())
     districts = sorted(df_raw['District'].dropna().unique().tolist())
 except Exception as e:
-    print(f"Lỗi tải Database: {e}")
+    print(f"Lỗi tải Database/CSV: {e}")
     provinces = []
     districts = []
 
@@ -50,10 +55,14 @@ def show_map() -> str:
     Render bản đồ Heatmap giá nhà theo Quận/Huyện.
     """
     try:
-        # Load lại data từ Database
-        conn = sqlite3.connect(DB_PATH)
-        df = pd.read_sql_query("SELECT Price_VND, Area_m2, District FROM Properties", conn)
-        conn.close()
+        # Load lại data từ Database hoặc CSV
+        if DB_PATH.exists():
+            conn = sqlite3.connect(DB_PATH)
+            df = pd.read_sql_query("SELECT Price_VND, Area_m2, District FROM Properties", conn)
+            conn.close()
+        else:
+            csv_path = BASE_DIR / "data" / "raw_data.csv"
+            df = pd.read_csv(csv_path)[['Price_VND', 'Area_m2', 'District']]
         
         df = df.dropna(subset=['Price_VND', 'Area_m2', 'District'])
         df = df[df['Area_m2'] > 10]

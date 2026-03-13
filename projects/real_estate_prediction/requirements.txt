@@ -5,3 +5,4 @@ xgboost
 flask
 folium
 python-docx
+gunicorn
