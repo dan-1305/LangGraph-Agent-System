@@ -11,6 +11,9 @@ env/
 .env
 .env.*
 !.env.example
+keys.txt
+valid_keys.txt
+*keys.txt
 
 # Databases
 *.db
