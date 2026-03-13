@@ -28,6 +28,8 @@ projects/data/*.db
 data/document/
 data/
 *.pdf
+# Allow the small raw_data.csv for Render
+!projects/real_estate_prediction/data/raw_data.csv
 *.docx
 *.pptx
 *.mp4
