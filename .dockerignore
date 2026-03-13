@@ -1,0 +1,54 @@
+# Git and environment
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+lib/
+lib64/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large Data, Documents, PDFs & Videos
+data/document/
+data/output/
+*.pdf
+*.docx
+*.pptx
+*.mp4
+*.crdownload
+*.bmp
+*.jpg
+*.png
+
+# Project Specific Data to ignore in Docker
+projects/sillytavern_world_card_generator/data/outputs/
+projects/auto_affiliate_video/data/background_videos/
+projects/minhchung_pdf_generator/MinhChung/
+
+# IDEs and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Node (for MCP servers, we don't need them inside Python container)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+error_log.md
+LATEST_REPORT.md
