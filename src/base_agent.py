@@ -42,18 +42,34 @@ class BaseAgent:
     def _call_llm(self, prompt: str, is_json: bool = False) -> str:
         """
         Gửi prompt đến LLM thông qua ChatOpenAI và trả về chuỗi kết quả.
-        Tự động hướng dẫn mô hình xuất JSON nếu cần.
+        Tự động hướng dẫn mô hình xuất JSON nếu cần. Có cơ chế Exponential Backoff.
         """
-        try:
-            if is_json and "JSON" not in prompt:
-                prompt += "\n\nVUI LÒNG TRẢ VỀ KẾT QUẢ DƯỚI DẠNG ĐỊNH DẠNG JSON CHUẨN. KHÔNG THÊM BẤT KỲ VĂN BẢN NÀO BÊN NGOÀI JSON."
-                
-            response = self.llm.invoke(prompt)
-            return response.content
+        import time
+        import random
+        
+        if is_json and "JSON" not in prompt:
+            prompt += "\n\nVUI LÒNG TRẢ VỀ KẾT QUẢ DƯỚI DẠNG ĐỊNH DẠNG JSON CHUẨN. KHÔNG THÊM BẤT KỲ VĂN BẢN NÀO BÊN NGOÀI JSON."
             
-        except Exception as e:
-            print(f"❌ Error calling LLM API (ChatOpenAI): {str(e)}")
-            return ""
+        retries = 3
+        delay = 5.0
+        for i in range(retries):
+            try:
+                response = self.llm.invoke(prompt)
+                return response.content
+            except Exception as e:
+                err_msg = str(e).lower()
+                if "429" in err_msg or "quota" in err_msg or "rate limit" in err_msg or "exhausted" in err_msg or "503" in err_msg:
+                    if i == retries - 1:
+                        print(f"❌ [API Error] LLM API thất bại sau {retries} lần thử: {e}")
+                        return ""
+                    sleep_time = delay + random.uniform(0, 2)
+                    print(f"⚠️ [API Rate Limit] Bị chặn. Đợi {sleep_time:.1f}s rồi thử lại (Lần {i+1}/{retries})...")
+                    time.sleep(sleep_time)
+                    delay *= 2
+                else:
+                    print(f"❌ Error calling LLM API: {str(e)}")
+                    return ""
+        return ""
 
     def _parse_json_response(self, response_text: str) -> Optional[Any]:
         """

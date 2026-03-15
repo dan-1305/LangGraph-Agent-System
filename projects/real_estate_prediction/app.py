@@ -28,7 +28,8 @@ except Exception as e:
 # Load raw_data từ SQLite để lấy unique dropdown (fallback sang CSV nếu DB không tồn tại - ví dụ trên Render)
 try:
     if DB_PATH.exists():
-        conn = sqlite3.connect(DB_PATH)
+        conn = sqlite3.connect(DB_PATH, timeout=20.0)
+        conn.execute('PRAGMA journal_mode=WAL;')
         df_raw = pd.read_sql_query("SELECT Province, District FROM Properties", conn)
         conn.close()
     else:
@@ -57,7 +58,8 @@ def show_map() -> str:
     try:
         # Load lại data từ Database hoặc CSV
         if DB_PATH.exists():
-            conn = sqlite3.connect(DB_PATH)
+            conn = sqlite3.connect(DB_PATH, timeout=20.0)
+            conn.execute('PRAGMA journal_mode=WAL;')
             df = pd.read_sql_query("SELECT Price_VND, Area_m2, District FROM Properties", conn)
             conn.close()
         else:

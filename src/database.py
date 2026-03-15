@@ -9,7 +9,8 @@ class SystemDB:
         self.db_path = os.path.join(base_dir, "data", "system_logs.db")
         
         os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
-        self.conn = sqlite3.connect(self.db_path)
+        self.conn = sqlite3.connect(self.db_path, timeout=20.0)
+        self.conn.execute('PRAGMA journal_mode=WAL;')
         self._create_tables()
         
     def _create_tables(self):
