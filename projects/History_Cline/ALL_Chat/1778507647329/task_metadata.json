@@ -1,0 +1,589 @@
+{
+  "files_in_context": [
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778507670648,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778507673356,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/7. Phạm Công Danh và Nguyễn Công Tiến_Dự báo giá cổ phiếu-chỉ số chứng khoán cơ bản .docx",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1778508033092,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Bao_cao_Hoc_May_Draft.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778508101885,
+      "cline_edit_date": 1778508101885,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Bao_cao_Hoc_Sau_Draft.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778508108780,
+      "cline_edit_date": 1778508108780,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Phan_Chia_Cong_Viec_Va_Lo_Trinh.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778510196845,
+      "cline_edit_date": 1778510196845,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Phan_Chia_Cong_Viec_Va_Lo_Trinh.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778510518413,
+      "cline_edit_date": 1778510518413,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Tien_Machine_Learning/05_Tien_Streamlit_App.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778512060045,
+      "cline_edit_date": 1778512060045,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Checklist_Tien_Do_Deadlines.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778512225589,
+      "cline_edit_date": 1778512225589,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Tien_Machine_Learning/01_Tien_Data_Pipeline.ipynb",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778512423039,
+      "cline_edit_date": 1778512423039,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Danh_Deep_Learning_Core/03_Danh_LSTM_Models.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778512451344,
+      "cline_edit_date": 1778512451344,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Tien_Machine_Learning/01_Tien_Data_Pipeline.ipynb",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1778512423039,
+      "cline_edit_date": 1778512423039,
+      "user_edit_date": 1778512872436
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Tien_Machine_Learning/01_Tien_Data_Pipeline.ipynb",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1778512423039,
+      "cline_edit_date": 1778512423039,
+      "user_edit_date": 1778512877886
+    },
+    {
+      "path": "tools/run_notebooks.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513337448,
+      "cline_edit_date": 1778513337448,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_notebooks.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513388938,
+      "cline_edit_date": 1778513388938,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_data.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513519318,
+      "cline_edit_date": 1778513519318,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_lstm.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513541518,
+      "cline_edit_date": 1778513541518,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_data.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513619613,
+      "cline_edit_date": 1778513619613,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_lstm.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513647602,
+      "cline_edit_date": 1778513647602,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_data.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513701951,
+      "cline_edit_date": 1778513701951,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_lstm.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513750341,
+      "cline_edit_date": 1778513750341,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_lstm.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778513796725,
+      "cline_edit_date": 1778513796725,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_ml.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778514506298,
+      "cline_edit_date": 1778514506298,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/06_Document_DML/Học sâu_Bài 1. Giới thiệu Neural Networks và Môi trường Keras hoặc PyTorch.pdf",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778514552105,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/06_Document_DML/Học sâu_Bài 2. Huấn luyện Mạng Nơ-ron (Training & Optimization).pdf",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778514579404,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_lstm.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778514616481,
+      "cline_edit_date": 1778514616481,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_ml.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778514937197,
+      "cline_edit_date": 1778514937197,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/7. Phạm Công Danh và Nguyễn Công Tiến_Dự báo giá cổ phiếu-chỉ số chứng khoán cơ bản .docx",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778515322213,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Muc_Tieu_Nang_Cao_Va_Stress_Test.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778515365707,
+      "cline_edit_date": 1778515365707,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_qa_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778516731472,
+      "cline_edit_date": 1778516731472,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_qa_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778516829375,
+      "cline_edit_date": 1778516829375,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_qa_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778516892134,
+      "cline_edit_date": 1778516892134,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_lstm.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778516971164,
+      "cline_edit_date": 1778516971164,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_ml.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778517019242,
+      "cline_edit_date": 1778517019242,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_tester_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778517163116,
+      "cline_edit_date": 1778517163116,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/02_Notebooks/05_Demo_Streamlit_Colab.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778561125980,
+      "cline_edit_date": 1778561125980,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_ml.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778561477915,
+      "cline_edit_date": 1778561477915,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/run_pipeline_lstm.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778561504183,
+      "cline_edit_date": 1778561504183,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1778561569632-dmcxopn.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1778561610940,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1778561569632-dmcxopn.log",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1778561610940,
+      "cline_edit_date": null,
+      "user_edit_date": 1778562097266
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1778561569632-dmcxopn.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778562204158,
+      "cline_edit_date": null,
+      "user_edit_date": 1778562097266
+    },
+    {
+      "path": "tools/run_pipeline_lstm.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778562329754,
+      "cline_edit_date": 1778562329754,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1778562382425-6ogx5wn.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778562421088,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "ml_output.txt",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1778562588081,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1778562663281-986r1jz.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778562718181,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "ml_output.txt",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778563421460,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Bao_cao_Hoc_May_Draft.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778563761026,
+      "cline_edit_date": 1778563761026,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Bao_cao_Hoc_Sau_Draft.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778563792561,
+      "cline_edit_date": 1778563792561,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/00_HUONG_DAN_CHAY_DO_AN.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778563824245,
+      "cline_edit_date": 1778563824245,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1778507649236,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778508060128,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778508784901,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778510174919,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778510418348,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778510501403,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778510853988,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778511455995,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778512123009,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778512201248,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778512310155,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778512391982,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778512930040,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778513024254,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778513957745,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778514483447,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778515258928,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778515309220,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778515827184,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778516706021,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778560840202,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778561083102,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778561337260,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778561433720,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778562113109,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778562171184,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778563326403,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778563403394,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778563661496,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778563731816,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1778507649228,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.119.0",
+      "cline_version": "3.82.0"
+    }
+  ]
+}

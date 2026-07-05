@@ -1,0 +1,6 @@
+[project]
+name = "disk_cleaner"
+version = "0.1.0"
+description = "Disk Cleaner & Deep Scanner utilities"
+requires-python = ">=3.9"
+dependencies = []

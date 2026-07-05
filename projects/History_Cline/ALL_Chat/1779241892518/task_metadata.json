@@ -1,0 +1,282 @@
+{
+  "files_in_context": [
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1779241924986,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1779241927746,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1779241930731,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/BepInEx/config/AutoTranslatorConfig.ini",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1779242285642,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/BepInEx/config/AutoTranslatorConfig.ini",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1779242285642,
+      "cline_edit_date": null,
+      "user_edit_date": 1779242354058
+    },
+    {
+      "path": "projects/BepInEx/config/AutoTranslatorConfig.ini",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779242358489,
+      "cline_edit_date": 1779242358489,
+      "user_edit_date": 1779242354058
+    },
+    {
+      "path": "projects/BepInEx/gemini_batch_translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779242365280,
+      "cline_edit_date": 1779242365280,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/BepInEx/gemini_batch_translator.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779242660152,
+      "cline_edit_date": 1779242660152,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/BepInEx/config/AutoTranslatorConfig.ini",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779243290112,
+      "cline_edit_date": 1779243290112,
+      "user_edit_date": 1779242354058
+    },
+    {
+      "path": "Đại Họa Thứ Tư v1.8 (Bản trải nghiệm 2.0) - 2026-05-22@23h19m15s010ms.jsonl",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1779584029473,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "extract_story.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779584149509,
+      "cline_edit_date": 1779584149509,
+      "user_edit_date": null
+    },
+    {
+      "path": "extract_story.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779584179287,
+      "cline_edit_date": 1779584179287,
+      "user_edit_date": null
+    },
+    {
+      "path": "Truyen_Dai_Hoa_Thu_Tu.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1779584204135,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "extract_story.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779584264259,
+      "cline_edit_date": 1779584264259,
+      "user_edit_date": null
+    },
+    {
+      "path": "Truyen_Dai_Hoa_Thu_Tu.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1779584204135,
+      "cline_edit_date": null,
+      "user_edit_date": 1779584277436
+    },
+    {
+      "path": "Truyen_Dai_Hoa_Thu_Tu.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1779584288106,
+      "cline_edit_date": null,
+      "user_edit_date": 1779584277436
+    },
+    {
+      "path": "extract_story.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779585111147,
+      "cline_edit_date": 1779585111147,
+      "user_edit_date": null
+    },
+    {
+      "path": "ThaoTac_KeoTha_Nhanh.bat",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779585118484,
+      "cline_edit_date": 1779585118484,
+      "user_edit_date": null
+    },
+    {
+      "path": "GiaoDien_ChuyenDoi_Truyen.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779585125925,
+      "cline_edit_date": 1779585125925,
+      "user_edit_date": null
+    },
+    {
+      "path": "create_ppt.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779794473218,
+      "cline_edit_date": 1779794473218,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1779241894513,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779242324928,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779242492832,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779242636918,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779242912107,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779243272677,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779244025112,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779584114629,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779584626785,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779585074596,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779793457685,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779794434975,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780154306808,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1779241894505,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.120.0",
+      "cline_version": "3.83.0"
+    },
+    {
+      "ts": 1779244025091,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.120.0",
+      "cline_version": "3.84.0"
+    },
+    {
+      "ts": 1779584626755,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.121.0",
+      "cline_version": "3.84.0"
+    },
+    {
+      "ts": 1780154306790,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.122.1",
+      "cline_version": "3.86.0"
+    }
+  ]
+}

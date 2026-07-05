@@ -1,0 +1,711 @@
+{
+  "files_in_context": [
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782105212206,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/SYSTEM_MAP.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782105214976,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/README.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782105224035,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".env.example",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782105232293,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "reports/architecture_violations.json",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782105241109,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".env",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782105249510,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "scripts/start_scheduler.bat",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782105263812,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106313696,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/scheduler_state.json",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106315896,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106343245,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/nodes/omni_overlord.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106354007,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/pyproject.toml",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106362373,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106372506,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/.clinerules",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106392685,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106832467,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106859609,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782106881769,
+      "cline_edit_date": 1782106881769,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/nodes/omni_overlord.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782106899155,
+      "cline_edit_date": 1782106899155,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782106913755,
+      "cline_edit_date": 1782106913755,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/main.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782106950901,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782107012128,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ExtractDoanChat/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782107035567,
+      "cline_edit_date": 1782107035567,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782107111306,
+      "cline_edit_date": 1782107111306,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/data_fetcher.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782107166532,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/core/router.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782107181277,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/data_fetcher.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782107166532,
+      "cline_edit_date": null,
+      "user_edit_date": 1782107202268
+    },
+    {
+      "path": "projects/ai_trading_agent/src/data_fetcher.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782107206099,
+      "cline_edit_date": 1782107206099,
+      "user_edit_date": 1782107202268
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782107219220,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782107232256,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782106832467,
+      "cline_edit_date": null,
+      "user_edit_date": 1782107259332
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782107264112,
+      "cline_edit_date": 1782107264112,
+      "user_edit_date": 1782107259332
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782107303005,
+      "cline_edit_date": 1782107303005,
+      "user_edit_date": 1782107259332
+    },
+    {
+      "path": ".env",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782107831800,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/README.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782109329691,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782109402057,
+      "cline_edit_date": 1782109402057,
+      "user_edit_date": 1782107259332
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782109565763,
+      "cline_edit_date": 1782109565763,
+      "user_edit_date": 1782107259332
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782109565763,
+      "cline_edit_date": 1782109565763,
+      "user_edit_date": 1782109569432
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782109565763,
+      "cline_edit_date": 1782109565763,
+      "user_edit_date": 1782109950283
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782109955055,
+      "cline_edit_date": 1782109955055,
+      "user_edit_date": 1782109950283
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782109982637,
+      "cline_edit_date": 1782109982637,
+      "user_edit_date": 1782109950283
+    },
+    {
+      "path": "projects/local_proxy_server/core/router.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782110193764,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782110214938,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782110214938,
+      "cline_edit_date": null,
+      "user_edit_date": 1782110301601
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782110306041,
+      "cline_edit_date": 1782110306041,
+      "user_edit_date": 1782110301601
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782110490032,
+      "cline_edit_date": 1782109982637,
+      "user_edit_date": 1782109950283
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782110536700,
+      "cline_edit_date": 1782110536700,
+      "user_edit_date": 1782110301601
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1782110592204-f2hyei3.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782110626374,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782110662851,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782110301601
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1782110592204-f2hyei3.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1782110626374,
+      "cline_edit_date": null,
+      "user_edit_date": 1782110677220
+    },
+    {
+      "path": "projects/local_proxy_server/core/router.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782110193764,
+      "cline_edit_date": null,
+      "user_edit_date": 1782110697374
+    },
+    {
+      "path": "projects/local_proxy_server/core/router.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782110701954,
+      "cline_edit_date": 1782110701954,
+      "user_edit_date": 1782110697374
+    },
+    {
+      "path": "projects/local_proxy_server/core/rotation_manager.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782111894197,
+      "cline_edit_date": 1782111894197,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/core/config.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782111942687,
+      "cline_edit_date": 1782111942687,
+      "user_edit_date": 1782109950283
+    },
+    {
+      "path": "projects/local_proxy_server/core/router.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782111996158,
+      "cline_edit_date": 1782111996158,
+      "user_edit_date": 1782110697374
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782112037799,
+      "cline_edit_date": 1782112037799,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782112076082,
+      "cline_edit_date": 1782112076082,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112076082,
+      "cline_edit_date": 1782112076082,
+      "user_edit_date": 1782112093737
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112076082,
+      "cline_edit_date": 1782112076082,
+      "user_edit_date": 1782112095347
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112076082,
+      "cline_edit_date": 1782112076082,
+      "user_edit_date": 1782112097455
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112076082,
+      "cline_edit_date": 1782112076082,
+      "user_edit_date": 1782112098590
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112076082,
+      "cline_edit_date": 1782112076082,
+      "user_edit_date": 1782112100028
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112076082,
+      "cline_edit_date": 1782112076082,
+      "user_edit_date": 1782112101291
+    },
+    {
+      "path": "projects/local_proxy_server/tests/test_proxy.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782112108857,
+      "cline_edit_date": 1782112108857,
+      "user_edit_date": 1782112101291
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782110301601
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112166230
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112167670
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112169407
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112172489
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112175675
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112176716
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112178659
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112179970
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782112134381,
+      "cline_edit_date": 1782110662851,
+      "user_edit_date": 1782112181531
+    },
+    {
+      "path": "projects/local_proxy_server/core/adapter.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782112188172,
+      "cline_edit_date": 1782112188172,
+      "user_edit_date": 1782112181531
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1782105151206,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782106512244,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782107519228,
+      "model_id": "gemini-3.5-flash",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782107769939,
+      "model_id": "gemini-2.5-flash",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782108468069,
+      "model_id": "copilot/gpt-5-mini",
+      "model_provider_id": "vscode-lm",
+      "mode": "act"
+    },
+    {
+      "ts": 1782108519230,
+      "model_id": "claude-code/claude-haiku-4.5",
+      "model_provider_id": "vscode-lm",
+      "mode": "act"
+    },
+    {
+      "ts": 1782108532350,
+      "model_id": "claude-haiku-4.5",
+      "model_provider_id": "vscode-lm",
+      "mode": "act"
+    },
+    {
+      "ts": 1782108645148,
+      "model_id": "glm-4.7",
+      "model_provider_id": "zai",
+      "mode": "act"
+    },
+    {
+      "ts": 1782111096506,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782111256874,
+      "model_id": "gemini-2.5-flash",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782111307044,
+      "model_id": "gemini-2.5-flash-lite-preview-06-17",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782111357206,
+      "model_id": "gemini-3.5-flash",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782111409635,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782111439436,
+      "model_id": "gemini-2.5-flash",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782111643797,
+      "model_id": "gemini-2.5-pro",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782111681942,
+      "model_id": "glm-5.1",
+      "model_provider_id": "zai",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782111829190,
+      "model_id": "glm-5.1",
+      "model_provider_id": "zai",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1782105151197,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.125.1",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

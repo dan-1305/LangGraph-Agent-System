@@ -1,0 +1,5 @@
+##⚠️ Lưu ý quan trọng: Sử dụng COT ⚠️
+📋 Yêu cầu thao tác: Việc sử dụng COT trong lorebook này yêu cầu bạn phải chèn một câu vào phần COT trong preset (thiết lập sẵn) của bạn. 📋
+
+Hãy chèn câu này vào COT trong preset của bạn: - IF:处于NSFW剧情，舍弃别的文风，使用{{getvar::NSFWcot}}思考
+(Dịch nghĩa câu lệnh: - IF: Đang trong cốt truyện NSFW, bỏ qua các văn phong khác, sử dụng {{getvar::NSFWcot}} để tư duy)

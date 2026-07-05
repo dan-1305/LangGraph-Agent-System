@@ -1,0 +1,95 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": ["con hẻm", "trong xóm", "hàng xóm", "đầu ngõ", "alley"],
+      "comment": "[MAP] Con Hẻm Trong Xóm - Safe Zone / Stealth Area",
+      "content": "[HỆ THỐNG - KHU VỰC KHÁM PHÁ: CON HẺM TRONG XÓM]\nNơi sinh sống của gia đình {{user}} tại Biên Hòa. Khu vực này có tỷ lệ chạm trán Mobs 'Chó cỏ' (HP thấp, cắn trộm) và các Elite NPC 'Bà Hàng Xóm'.\n- ĐẶC TÍNH NPC HÀNG XÓM: Sinh vật bất tử, tầm nhìn 360 độ, kỹ năng [Truyền tin tốc độ ánh sáng]. Nếu {{user}} bị bắt gặp đi chơi net hoặc làm việc xấu, hệ thống sẽ tự động cập nhật Thanh Nộ Khí của Mẹ Lan lên 80% ngay cả khi {{user}} chưa về nhà.\n- LỜI KHUYÊN HỆ THỐNG: Khuyến nghị kích hoạt chế độ [Lén Lút] (Stealth Mode) khi di chuyển qua đây vào giờ giới nghiêm (trưa nắng hoặc 8h tối).",
+      "constant": false,
+      "selective": true,
+      "addMemo": true,
+      "order": 10,
+      "position": 4,
+      "probability": 100,
+      "depth": 4
+    },
+    "1": {
+      "uid": 1,
+      "key": ["trường", "lớp", "giám thị", "cô giáo", "bài cũ", "sổ đầu bài"],
+      "comment": "[DUNGEON] Trường Tiểu Học - Ngục Tối Cấp S",
+      "content": "[HỆ THỐNG - HẦM NGỤC CẤP S: TRƯỜNG TIỂU HỌC]\nDungeon bắt buộc phải tham gia 5 ngày/tuần. Tiếng trống trường là còi báo động (Raid Siren).\n- KHU VỰC TRONG NGỤC: 'Lớp học' gây debuff liên tục [Buồn Ngủ: -50% Tỉnh táo]. 'Căng-tin' là khu Hồi Sinh (HP) nhưng làm hao hụt Tiền tiêu vặt (VND).\n- QUÁI VẬT & TRÙM: 'Giáo viên Chủ nhiệm' có kỹ năng [Kiểm tra bài cũ] gây hiệu ứng Tê Liệt (Stun) diện rộng. 'Thầy Giám thị' là Boss Ẩn chuyên đi tuần tra, có kỹ năng [Tịch thu Vật Phẩm] (Điện thoại, truyện tranh) chuyển thẳng vào Kho Bạc Nhà Trường vĩnh viễn.\n- TRẠNG THÁI TỬ THẦN: Bị ghi tên vào 'Sổ Đầu Bài' sẽ kích hoạt Event 'Ăn đòn liên hoàn khi họp phụ huynh'.",
+      "constant": false,
+      "selective": true,
+      "addMemo": true,
+      "order": 10,
+      "position": 4,
+      "probability": 100,
+      "depth": 4
+    },
+    "2": {
+      "uid": 2,
+      "key": ["tiệm net", "tạp hóa", "net cỏ", "cô bảy", "mua đồ", "gacha", "bốc thăm"],
+      "comment": "[SHOP / GACHA] Tiệm Net & Tạp Hóa Đầu Ngõ",
+      "content": "[HỆ THỐNG - KHU VỰC THƯƠNG MẠI & GACHA TẠP HÓA]\nBao gồm Tiệm Net cỏ và Xe Tạp Hóa đầu ngõ, ngập tràn mùi mồ hôi chua xen lẫn mùi mì tôm.\n- TÍNH NĂNG GACHA: Nơi duy nhất để xả VNĐ bốc thăm/quay thưởng. Tỷ lệ Reroll (Tỉ lệ rớt đồ): 80% trúng vật phẩm rác (kẹo the, còi nilon), 19% trúng vật phẩm hồi HP cấp thấp (Xúc xích đỏ), 1% trúng Đồ Hiếm (Thẻ bài Yugioh/Pokemon lấp lánh).\n- NGUY HIỂM TIỀM ẨN: Khu vực này có tỷ lệ 20% kích hoạt Random Encounter 'Mẹ đi lùng'. Nếu kích hoạt, sẽ nhảy ngay sang mini-game sinh tồn [Trốn tìm tử thần] với thời gian đếm ngược.",
+      "constant": false,
+      "selective": true,
+      "addMemo": true,
+      "order": 10,
+      "position": 4,
+      "probability": 100,
+      "depth": 4
+    },
+    "3": {
+      "uid": 3,
+      "key": ["siêu thị", "big c", "coopmart", "cuối tuần", "mua sắm", "lạc đường"],
+      "comment": "[RAID BOSS] Siêu thị Big C",
+      "content": "[HỆ THỐNG - KHU VỰC RAID CUỐI TUẦN: SIÊU THỊ BIG C]\nNơi đông đúc, máy lạnh phà phà. {{user}} thường phải đi theo Tổ đội (Party) cùng Mẹ Lan và các em gái.\n- NHIỆM VỤ PHỤ (SIDE QUESTS): Nhận các chuỗi quest như 'Giữ giỏ hàng' (bị dính trạng thái Trói Buộc trong 10 phút), 'Tìm quầy sữa tươi' (Yêu cầu điểm Điều Hướng cao).\n- HIỆU ỨNG ĐẶC BIỆT: Rủi ro Lạc Đường (Lost). Nếu {{user}} di chuyển cách Party quá 10 mét, lập tức dính debuff [Hoảng loạn cấp 1] và kích hoạt NPC Mẹ Lan sử dụng skill [Loa Phát Thanh Siêu Thị] để triệu hồi về quầy dịch vụ khách hàng (Trừ uy tín cực mạnh).",
+      "constant": false,
+      "selective": true,
+      "addMemo": true,
+      "order": 10,
+      "position": 4,
+      "probability": 100,
+      "depth": 4
+    },
+    "4": {
+      "uid": 4,
+      "key": ["tiền", "vnđ", "tiêu vặt", "nghèo", "vũ khí", "trang bị", "chổi lông gà", "dép lào", "đánh đòn"],
+      "comment": "[WORLD RULE] Kinh Tế VNĐ & Kho Vũ Khí Của Mẹ",
+      "content": "[HỆ THỐNG LUẬT - KINH TẾ VNĐ & VŨ KHÍ TỐI THƯỢNG]\n- TIỀN TỆ (CURRENCY): Sử dụng duy nhất VNĐ (Tiền lẻ 1k, 2k, 5k). Tiền chỉ được cày (farm) thông qua việc làm Quest (Rửa bát, quét nhà) hoặc Event Lễ Tết (Lì xì). Trạng thái [Cháy túi] = Cấm tham gia Gacha và Shop.\n- KHO VŨ KHÍ TRẤN PHÁI CỦA BOSS MẸ LAN:\n  + [Chổi Lông Gà] (Độ hiếm: Epic): Vũ khí cận chiến, tầm đánh trung bình, tốc độ đánh (ATK Speed) 3.0, gây hiệu ứng Bỏng rát (Burn) rát mông trong 30 phút.\n  + [Dép Lào] (Độ hiếm: Legendary): Vũ khí ném tầm xa, Tỷ lệ Chí mạng (Crit Rate) 100% khi Mẹ phóng, tích hợp radar theo dõi mục tiêu (Homing Missile).\n  + [Móc Nhôm Quần Áo] (Độ hiếm: Rare): Vũ khí lạnh, gây sát thương vật lý xuyên giáp.",
+      "constant": true,
+      "selective": true,
+      "addMemo": true,
+      "order": -100,
+      "position": 4,
+      "probability": 100,
+      "depth": 4
+    },
+    "5": {
+      "uid": 5,
+      "key": ["mẹ tức", "chửi", "ăn đòn", "la mắng", "nộ khí", "tức giận"],
+      "comment": "[WORLD RULE] Thanh Nộ Khí (Aggro System)",
+      "content": "[HỆ THỐNG LUẬT - THANH NỘ KHÍ (AGGRO METER) CỦA MẸ LAN]\nMẹ Lan luôn có một thanh Aggro ẩn lơ lửng trên đầu trong mắt của hệ thống {{user}}.\n- TĂNG NỘ (+10% đến +50%): Kích hoạt bởi các hành vi như: Dậy muộn, bị điểm kém, chọc em gái khóc, nhà cửa bừa bộn.\n- GIẢM NỘ (-10% đến -30%): Dùng các skill Hồi máu cảm xúc như: Tự giác học bài, nịnh nọt (Flattery), chủ động làm việc nhà.\n- ĐẠT ĐỈNH (NỘ 100%): Kích hoạt Ultimate Event 'Tia chớp Dép Lào' hoặc 'Sư Tử Hống'. {{user}} ngay lập tức nhận debuff [Sợ hãi tê liệt] và mất toàn bộ tự do di chuyển (bị cấm túc) trong 2 đến 24 giờ.",
+      "constant": true,
+      "selective": true,
+      "addMemo": true,
+      "order": -110,
+      "position": 4,
+      "probability": 100,
+      "depth": 4
+    },
+    "6": {
+      "uid": 6,
+      "key": ["chào", "người lớn", "lễ phép", "em út", "văn hóa", "trẻ con", "nhường em", "hỗn láo"],
+      "comment": "[WORLD RULE] Văn Hóa Tương Tác NPC",
+      "content": "[HỆ THỐNG LUẬT - GIAO THỨC TƯƠNG TÁC XÃ HỘI (SOCIAL PROTOCOL)]\nBối cảnh Việt Nam ép buộc {{user}} phải tuân thủ nghiêm ngặt luật tương tác NPC, nếu vi phạm sẽ ăn bad ending:\n- GIAO THỨC LỄ PHÉP (Mandatory Quest): Gặp NPC người lớn tuổi hơn (Hàng xóm, thầy cô, họ hàng) bắt buộc phải chạy lệnh [Chào hỏi: Khoanh tay, Dạ thưa]. Trả lời trống không sẽ lập tức nhận trừ điểm Danh vọng (Reputation) toàn xóm và ăn sát thương vật lý (Tát) từ Mẹ.\n- LUẬT EM ÚT (Boss Ngầm Bất Bại): Khi tranh giành đồ chơi hay cãi nhau với em gái út Bé (4 tuổi), Hệ thống sẽ TỰ ĐỘNG XỬ THUA cho {{user}}. Các NPC Người Lớn luôn tự động buff khiên bảo vệ vô hình cho em út kèm theo lời nguyền: 'Nó còn nhỏ, nhường nó đi'. {{user}} bị cấm phản kháng.",
+      "constant": true,
+      "selective": true,
+      "addMemo": true,
+      "order": -120,
+      "position": 4,
+      "probability": 100,
+      "depth": 4
+    }
+  }
+}

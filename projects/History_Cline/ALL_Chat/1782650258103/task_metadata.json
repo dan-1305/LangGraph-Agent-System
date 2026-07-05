@@ -1,0 +1,270 @@
+{
+  "files_in_context": [
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782650334743,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782650336900,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/TRADING_LORE.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782650416125,
+      "cline_edit_date": 1782650416125,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782650428622,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/whale_tracker.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782650452450,
+      "cline_edit_date": 1782650452450,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782650463184,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782650463184,
+      "cline_edit_date": null,
+      "user_edit_date": 1782650524426
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782650528913,
+      "cline_edit_date": 1782650528913,
+      "user_edit_date": 1782650524426
+    },
+    {
+      "path": "projects/ai_trading_agent/src/self_reflection.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782650564169,
+      "cline_edit_date": 1782650564169,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782650334743,
+      "cline_edit_date": null,
+      "user_edit_date": 1782650579508
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782650584139,
+      "cline_edit_date": 1782650584139,
+      "user_edit_date": 1782650579508
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782650336900,
+      "cline_edit_date": null,
+      "user_edit_date": 1782650606326
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782650610821,
+      "cline_edit_date": 1782650610821,
+      "user_edit_date": 1782650606326
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782731471940,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782731471940,
+      "cline_edit_date": null,
+      "user_edit_date": 1782731518731
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782731523604,
+      "cline_edit_date": 1782731523604,
+      "user_edit_date": 1782731518731
+    },
+    {
+      "path": "tools/system/rag_query.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782749490380,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/rag_ingest.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782749796976,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "README.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782749956221,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782749973693,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/30_DAYS_SURVIVAL_PLAN.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782751158291,
+      "cline_edit_date": 1782751158291,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/scrape_opgg.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782920876321,
+      "cline_edit_date": 1782920876321,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/scrape_opgg.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782921623200,
+      "cline_edit_date": 1782921623200,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1782650259772,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782650399787,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782749380818,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782750976765,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782919146107,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782919332080,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782921988148,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1782650259766,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.126.0",
+      "cline_version": "3.89.2"
+    },
+    {
+      "ts": 1782731435411,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.126.0",
+      "cline_version": "4.0.2"
+    },
+    {
+      "ts": 1782919146086,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.126.0",
+      "cline_version": "4.0.5"
+    },
+    {
+      "ts": 1782922207706,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.127.0",
+      "cline_version": "4.0.5"
+    }
+  ]
+}

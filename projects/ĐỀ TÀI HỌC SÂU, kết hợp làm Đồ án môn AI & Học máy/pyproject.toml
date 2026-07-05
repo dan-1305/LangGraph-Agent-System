@@ -1,0 +1,6 @@
+[project]
+name = "de-tai-hoc-sau"
+version = "0.1.0"
+description = "Đề tài học sâu"
+requires-python = ">=3.10"
+dependencies = []

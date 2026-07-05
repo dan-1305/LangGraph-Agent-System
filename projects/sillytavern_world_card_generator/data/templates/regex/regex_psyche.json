@@ -1,0 +1,50 @@
+{
+  "fontScale": "1.1",
+  "fontSize": 17,
+  "fontColor": "#e0e5f5",
+  "chatFont": "",
+  "renderLimit": 20,
+  "contextLimit": 0,
+  "autoHideSummarized": false,
+  "fixedHideRange": "",
+  "enableThinkingAnimation": true,
+  "enableTypewriterOutput": true,
+  "showThinkingProcess": false,
+  "rules": [
+    {
+      "id": "24e73528-d16a-4445-a3c8-94d906d040f8",
+      "scriptName": "【普赛克】用户tag",
+      "findRegex": "^([\\s\\S]*)$",
+      "replaceString": "<new_user>\n$1\n</new_user>",
+      "trimStrings": [],
+      "placement": [
+        1
+      ],
+      "disabled": false,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": 1
+    },
+    {
+      "id": "9407de6e-36c8-4119-a798-0dc83c15dc43",
+      "scriptName": "【普赛克】隐藏防截断",
+      "findRegex": "/<safe>.*?</safe>/gs",
+      "replaceString": "",
+      "trimStrings": [],
+      "placement": [
+        2
+      ],
+      "disabled": false,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": null
+    }
+  ],
+  "chainRules": []
+}

@@ -1,0 +1,891 @@
+{
+  "files_in_context": [
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777466525702,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777466527845,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777466530074,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777466532293,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777466530074,
+      "cline_edit_date": null,
+      "user_edit_date": 1777466690898
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777466530074,
+      "cline_edit_date": null,
+      "user_edit_date": 1777466693482
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777466697880,
+      "cline_edit_date": 1777466697880,
+      "user_edit_date": 1777466693482
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777466532293,
+      "cline_edit_date": null,
+      "user_edit_date": 1777466700405
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777466704693,
+      "cline_edit_date": 1777466704693,
+      "user_edit_date": 1777466700405
+    },
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777466525702,
+      "cline_edit_date": null,
+      "user_edit_date": 1777466707299
+    },
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777466711589,
+      "cline_edit_date": 1777466711589,
+      "user_edit_date": 1777466707299
+    },
+    {
+      "path": "src/factory/workflows/daily_health_loop.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777504695153,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777504810463,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/workflows/daily_health_loop.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777504695153,
+      "cline_edit_date": null,
+      "user_edit_date": 1777504864366
+    },
+    {
+      "path": "src/factory/workflows/daily_health_loop.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777504867900,
+      "cline_edit_date": 1777504867900,
+      "user_edit_date": 1777504864366
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777506062034,
+      "cline_edit_date": 1777506062034,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/workflows/daily_health_loop.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777506081505,
+      "cline_edit_date": 1777506081505,
+      "user_edit_date": 1777504864366
+    },
+    {
+      "path": "tests/test_daily_loop.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777506103768,
+      "cline_edit_date": 1777506103768,
+      "user_edit_date": null
+    },
+    {
+      "path": "tests/test_daily_loop.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777506182600,
+      "cline_edit_date": 1777506182600,
+      "user_edit_date": null
+    },
+    {
+      "path": "reports/daily_health_test_results.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777506461576,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777506858165,
+      "cline_edit_date": 1777506858165,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/gcli_delegate.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777506865293,
+      "cline_edit_date": 1777506865293,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777507756217,
+      "cline_edit_date": 1777507756217,
+      "user_edit_date": null
+    },
+    {
+      "path": "tests/test_all_roles_gcli.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777509106941,
+      "cline_edit_date": 1777509106941,
+      "user_edit_date": null
+    },
+    {
+      "path": "reports/GRAND_ARENA_EVALUATION.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777509928859,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/PENDING_TECH_DEBT.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777510376460,
+      "cline_edit_date": 1777510376460,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/V3_EXPANSION_PLAN.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777510886622,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/V3_EXPANSION_PLAN.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777510886622,
+      "cline_edit_date": null,
+      "user_edit_date": 1777510908729
+    },
+    {
+      "path": "docs/V3_EXPANSION_PLAN.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777510913342,
+      "cline_edit_date": 1777510913342,
+      "user_edit_date": 1777510908729
+    },
+    {
+      "path": "tools/system/build_indexer.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777511804633,
+      "cline_edit_date": 1777511804633,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/build_indexer.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777511881944,
+      "cline_edit_date": 1777511881944,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clineignore",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777511972284,
+      "cline_edit_date": 1777511972284,
+      "user_edit_date": null
+    },
+    {
+      "path": ".gitignore",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777512088575,
+      "cline_edit_date": 1777512088575,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777511925996-og1zyf2.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777512169724,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777511925996-og1zyf2.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1777512169724,
+      "cline_edit_date": null,
+      "user_edit_date": 1777512255756
+    },
+    {
+      "path": "docs/PENDING_TECH_DEBT.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777638844231,
+      "cline_edit_date": 1777510376460,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777638897274,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "requirements.txt",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777638923256,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777638897274,
+      "cline_edit_date": null,
+      "user_edit_date": 1777638984912
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777638989706,
+      "cline_edit_date": 1777638989706,
+      "user_edit_date": 1777638984912
+    },
+    {
+      "path": "requirements.txt",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777638923256,
+      "cline_edit_date": null,
+      "user_edit_date": 1777639006000
+    },
+    {
+      "path": "requirements.txt",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777639010661,
+      "cline_edit_date": 1777639010661,
+      "user_edit_date": 1777639006000
+    },
+    {
+      "path": "tools/system/doc_debate_runner.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777639256586,
+      "cline_edit_date": 1777639256586,
+      "user_edit_date": null
+    },
+    {
+      "path": "reports/DOC_DEBATE_ANALYSIS.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777639494218,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "reports/DOC_DEBATE_ANALYSIS.md",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1777639494218,
+      "cline_edit_date": null,
+      "user_edit_date": 1777639525015
+    },
+    {
+      "path": "README.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777640502993,
+      "cline_edit_date": 1777640502993,
+      "user_edit_date": 1777466707299
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777640518687,
+      "cline_edit_date": 1777466697880,
+      "user_edit_date": 1777466693482
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777640518687,
+      "cline_edit_date": 1777466697880,
+      "user_edit_date": 1777640666172
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777640671393,
+      "cline_edit_date": 1777640671393,
+      "user_edit_date": 1777640666172
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777640687844,
+      "cline_edit_date": 1777466704693,
+      "user_edit_date": 1777466700405
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777640687844,
+      "cline_edit_date": 1777466704693,
+      "user_edit_date": 1777640716644
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777640721346,
+      "cline_edit_date": 1777640721346,
+      "user_edit_date": 1777640716644
+    },
+    {
+      "path": "docs/V3_EXPANSION_PLAN.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777640740218,
+      "cline_edit_date": 1777510913342,
+      "user_edit_date": 1777510908729
+    },
+    {
+      "path": "docs/V3_EXPANSION_PLAN.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777640740218,
+      "cline_edit_date": 1777510913342,
+      "user_edit_date": 1777640763214
+    },
+    {
+      "path": "docs/V3_EXPANSION_PLAN.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777640768476,
+      "cline_edit_date": 1777640768476,
+      "user_edit_date": 1777640763214
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777640786062,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777640786062,
+      "cline_edit_date": null,
+      "user_edit_date": 1777640806091
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777640810956,
+      "cline_edit_date": 1777640810956,
+      "user_edit_date": 1777640806091
+    },
+    {
+      "path": "tools/system/git_manager.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777640961998,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".gitignore",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777641127850,
+      "cline_edit_date": 1777641127850,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/ROADMAP_DL_STOCK_THESIS.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777725190126,
+      "cline_edit_date": 1777725190126,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/ROADMAP_DL_STOCK_THESIS.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777725190126,
+      "cline_edit_date": 1777725190126,
+      "user_edit_date": 1777725803186
+    },
+    {
+      "path": "docs/ROADMAP_DL_STOCK_THESIS.md",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1777725190126,
+      "cline_edit_date": 1777725190126,
+      "user_edit_date": 1777725810407
+    },
+    {
+      "path": "docs/ROADMAP_DATA_DEV.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777726227364,
+      "cline_edit_date": 1777726227364,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/ROADMAP_AI_ENGINEER.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777726259234,
+      "cline_edit_date": 1777726259234,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/ROADMAP_AI_BACKUP_OPTIONS.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777727045385,
+      "cline_edit_date": 1777727045385,
+      "user_edit_date": null
+    },
+    {
+      "path": "export_project_clean.bat",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777728382485,
+      "cline_edit_date": 1777728382485,
+      "user_edit_date": null
+    },
+    {
+      "path": "export_project_clean.bat",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777729553315,
+      "cline_edit_date": 1777729553315,
+      "user_edit_date": null
+    },
+    {
+      "path": ".gitignore",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777729774220,
+      "cline_edit_date": 1777729774220,
+      "user_edit_date": null
+    },
+    {
+      "path": ".gitignore",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777732061905,
+      "cline_edit_date": 1777732061905,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777733569141,
+      "cline_edit_date": 1777733569141,
+      "user_edit_date": 1777640806091
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777733569141,
+      "cline_edit_date": 1777733569141,
+      "user_edit_date": 1777733766661
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777734454764,
+      "cline_edit_date": 1777734454764,
+      "user_edit_date": 1777733766661
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777734782542,
+      "cline_edit_date": 1777734782542,
+      "user_edit_date": 1777733766661
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1777466269144,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777466659529,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777504651778,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777504797884,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777505108436,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777506042015,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777506623801,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777506826968,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777507245358,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777507730481,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777507972569,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777509079668,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777510162715,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777510347615,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777510601715,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777510871529,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777511058779,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777511757254,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777638585786,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777638681669,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777638819947,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777638883092,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777639112696,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777639201644,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777640906984,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777641058249,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777724686843,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777725146613,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777725888949,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777726197851,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777726526761,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777727006465,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777728180652,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777728358331,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777728702228,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777729190266,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777729943324,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777731981457,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777732146104,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777732987457,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777734040417,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777734399855,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777734618197,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777734736241,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1777466269139,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.117.0",
+      "cline_version": "3.81.0"
+    },
+    {
+      "ts": 1777638585756,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.118.1",
+      "cline_version": "3.81.0"
+    },
+    {
+      "ts": 1777724686821,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.118.1",
+      "cline_version": "3.82.0"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+site_name: LangGraph Agent System
+site_description: Hệ thống đa đặc vụ (Polymorphic Agent System) với LangGraph
+site_author: Jarvis Auto
+
+theme:
+  name: material
+  language: vi
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Chuyển sang chế độ tối
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Chuyển sang chế độ sáng
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+
+nav:
+  - Trang chủ: index.md
+  - Kiến trúc hệ thống:
+      - Tổng quan: architecture/overview.md
+      - ADR (Quyết định kiến trúc): architecture/adr.md
+  - Core Modules:
+      - Base Agent: api/base_agent.md
+      - Database: api/database.md
+      - Local Proxy: api/local_proxy.md
+      - Token Tracker: api/token_tracker.md
+      - Backup Manager: api/backup_manager.md
+  - Skills & Tools:
+      - Skill Manager: api/skill_manager.md
+      - RAG Tools: api/rag_tools.md
+  - Dự án con (Projects):
+      - Airdrop Guerrilla: projects/airdrop_guerrilla.md
+      - AI Trading Agent: projects/ai_trading_agent.md
+      - CEO Agent: projects/ceo_agent.md
+      - Auto Affiliate Video: projects/auto_affiliate_video.md
+  - Cẩm nang & Hướng dẫn:
+      - Sổ tay sinh tồn: guides/survival_plan.md
+      - Roadmap: guides/roadmap.md
+      - Quản lý Bug: guides/bug_tracker.md

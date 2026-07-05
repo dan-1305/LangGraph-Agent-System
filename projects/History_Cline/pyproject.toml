@@ -1,0 +1,5 @@
+[project]
+name = "History_Cline"
+version = "0.1.0"
+description = "Dummy project"
+dependencies = []

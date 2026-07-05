@@ -1,0 +1,10 @@
+[project]
+name = "bepinex_tools"
+version = "0.1.0"
+description = "Tools for BepInEx plugin development and translation"
+authors = [{ name = "Cline", email = "cline@langgraph.agent" }]
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

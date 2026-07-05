@@ -1,0 +1,227 @@
+{
+  "files_in_context": [
+    {
+      "path": "projects/History_Cline/analysis_user/All_User_Inputs_Combined_SFW.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781548635363,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781548957573,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781548957573,
+      "cline_edit_date": null,
+      "user_edit_date": 1781548975740
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781548980124,
+      "cline_edit_date": 1781548980124,
+      "user_edit_date": 1781548975740
+    },
+    {
+      "path": "extract_recent_chats.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781549579120,
+      "cline_edit_date": 1781549579120,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781549981541,
+      "cline_edit_date": 1781549981541,
+      "user_edit_date": 1781548975740
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781550141006,
+      "cline_edit_date": 1781550141006,
+      "user_edit_date": 1781548975740
+    },
+    {
+      "path": ".env",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781618455766,
+      "cline_edit_date": 1781618455766,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781619127280,
+      "cline_edit_date": 1781619127280,
+      "user_edit_date": 1781548975740
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781619981312,
+      "cline_edit_date": 1781619981312,
+      "user_edit_date": 1781548975740
+    },
+    {
+      "path": ".env.example",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781620210797,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".env",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781621812095,
+      "cline_edit_date": 1781621812095,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1781548613920,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781548833127,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781549087791,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781549329981,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781549762912,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781549926874,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781550027674,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781550100536,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781617874588,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781617991975,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781618736103,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781618847625,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781619327929,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781619385218,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781621446200,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781621597746,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781622458929,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781622814471,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781664707892,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1781548613913,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.2",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

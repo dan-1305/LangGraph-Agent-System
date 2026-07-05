@@ -1,0 +1,244 @@
+{
+  "files_in_context": [
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/model_architecture.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781534016327,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Danh_Deep_Learning_Core/03_Danh_LSTM_Models.ipynb",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781534025705,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Danh_Deep_Learning_Core/03_Danh_LSTM_Models.ipynb",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781534025705,
+      "cline_edit_date": null,
+      "user_edit_date": 1781534045072
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Danh_Deep_Learning_Core/03_Danh_LSTM_Models.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781534051782,
+      "cline_edit_date": 1781534051782,
+      "user_edit_date": 1781534045072
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/Danh_Deep_Learning_Core/04_Danh_Backtesting_Eval.ipynb",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781534068546,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/3_DL_LSTM_Models.ipynb",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781534992756,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/README.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781535971187,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/CONTEXT.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781535973787,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/README.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781535971187,
+      "cline_edit_date": null,
+      "user_edit_date": 1781536501470
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/README.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781536506294,
+      "cline_edit_date": 1781536506294,
+      "user_edit_date": 1781536501470
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/CONTEXT.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781535973787,
+      "cline_edit_date": null,
+      "user_edit_date": 1781536509483
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/CONTEXT.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781536514316,
+      "cline_edit_date": 1781536514316,
+      "user_edit_date": 1781536509483
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/split_docx.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781536937845,
+      "cline_edit_date": 1781536937845,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/fix_docx.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781537828204,
+      "cline_edit_date": 1781537828204,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/merge_docx.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781538988804,
+      "cline_edit_date": 1781538988804,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/super_clean_docx.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781539466932,
+      "cline_edit_date": 1781539466932,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/final_deep_clean.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781539912603,
+      "cline_edit_date": 1781539912603,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/micro_clean.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781540406375,
+      "cline_edit_date": 1781540406375,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/apply_headings.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781541992407,
+      "cline_edit_date": 1781541992407,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1781533975242,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781534821655,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781534984221,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781535789291,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781536386366,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781538415836,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781538945509,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781539706957,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781539863069,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781541702105,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781541828467,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1781533975235,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.0",
+      "cline_version": "3.89.2"
+    },
+    {
+      "ts": 1781537623372,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.2",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

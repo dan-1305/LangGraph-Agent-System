@@ -1,0 +1,331 @@
+{
+  "files_in_context": [
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662111510,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662119391,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/PENDING_TECH_DEBT.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662127348,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/CEO_STRATEGIC_PLAN.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662136240,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/CEO_DIRECTIVES.json",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662157015,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662174673,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662185129,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/PROJECT_SUMMARY.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662219643,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/tiktok_api_uploader.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662227165,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/TECH_DIRECTIVES.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780662262612,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/api_gateway.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780662416987,
+      "cline_edit_date": 1780662416987,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1780662185129,
+      "cline_edit_date": null,
+      "user_edit_date": 1780662449300
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780662453573,
+      "cline_edit_date": 1780662453573,
+      "user_edit_date": 1780662449300
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1780662453573,
+      "cline_edit_date": 1780662453573,
+      "user_edit_date": 1780662458906
+    },
+    {
+      "path": "test_gateway.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780662495575,
+      "cline_edit_date": 1780662495575,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1780662453573,
+      "cline_edit_date": 1780662453573,
+      "user_edit_date": 1780662542332
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780662547041,
+      "cline_edit_date": 1780662547041,
+      "user_edit_date": 1780662542332
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1780662119391,
+      "cline_edit_date": null,
+      "user_edit_date": 1780662596675
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780662601277,
+      "cline_edit_date": 1780662601277,
+      "user_edit_date": 1780662596675
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1780662111510,
+      "cline_edit_date": null,
+      "user_edit_date": 1780662614230
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780662618656,
+      "cline_edit_date": 1780662618656,
+      "user_edit_date": 1780662614230
+    },
+    {
+      "path": "projects/ceo_agent/ceo_morning_routine.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1780663834865,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ceo_agent/ceo_morning_routine.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1780663834865,
+      "cline_edit_date": null,
+      "user_edit_date": 1780663866173
+    },
+    {
+      "path": "projects/ceo_agent/ceo_morning_routine.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780663870831,
+      "cline_edit_date": 1780663870831,
+      "user_edit_date": 1780663866173
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780664532507,
+      "cline_edit_date": 1780664532507,
+      "user_edit_date": 1780662596675
+    },
+    {
+      "path": "projects/real_execution_simulator/agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1780665687369,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/real_execution_simulator/agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1780665687369,
+      "cline_edit_date": null,
+      "user_edit_date": 1780665728655
+    },
+    {
+      "path": "projects/real_execution_simulator/agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780665733504,
+      "cline_edit_date": 1780665733504,
+      "user_edit_date": 1780665728655
+    },
+    {
+      "path": "projects/real_execution_simulator/agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780665863860,
+      "cline_edit_date": 1780665863860,
+      "user_edit_date": 1780665728655
+    },
+    {
+      "path": "projects/real_execution_simulator/agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780665963802,
+      "cline_edit_date": 1780665963802,
+      "user_edit_date": 1780665728655
+    },
+    {
+      "path": "projects/real_execution_simulator/tools.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780666081647,
+      "cline_edit_date": 1780666081647,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1780662066243,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780662364987,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780662669820,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780662811051,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780663242898,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780663338680,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780664283645,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780664478921,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780664608010,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780665658179,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780666309920,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1780662066237,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.123.0",
+      "cline_version": "3.87.0"
+    }
+  ]
+}

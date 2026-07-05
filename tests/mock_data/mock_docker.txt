@@ -1,0 +1,2 @@
+CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O
+1234567890ab   redis     0.05%     1.5GiB / 2GiB         75.0%     1kB / 0B

@@ -1,0 +1,5 @@
+# Các thư mục lưu trữ rác, không cho Cline quét để tránh tốn Context
+analysis_user/raw_logs/
+_archive_old_files/
+old_archive.zip
+old_archive2.zip

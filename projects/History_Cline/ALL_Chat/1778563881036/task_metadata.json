@@ -1,0 +1,658 @@
+{
+  "files_in_context": [
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1778563900023,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1778563902279,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1778563904661,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1778563904661,
+      "cline_edit_date": null,
+      "user_edit_date": 1778564141966
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564146023,
+      "cline_edit_date": 1778564146023,
+      "user_edit_date": 1778564141966
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1778563900023,
+      "cline_edit_date": null,
+      "user_edit_date": 1778564154125
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564158240,
+      "cline_edit_date": 1778564158240,
+      "user_edit_date": 1778564154125
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1778563902279,
+      "cline_edit_date": null,
+      "user_edit_date": 1778564170704
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564174899,
+      "cline_edit_date": 1778564174899,
+      "user_edit_date": 1778564170704
+    },
+    {
+      "path": "tools/system/sync_docs.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564201806,
+      "cline_edit_date": 1778564201806,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/sync_docs.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564221746,
+      "cline_edit_date": 1778564221746,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/gcli_delegate.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564430857,
+      "cline_edit_date": 1778564430857,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/gcli_delegate.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564452679,
+      "cline_edit_date": 1778564452679,
+      "user_edit_date": null
+    },
+    {
+      "path": "reports/DOC_DEBATE_ANALYSIS.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1778564477817,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/cleanup_docs.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564511652,
+      "cline_edit_date": 1778564511652,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/cleanup_docs.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778564532222,
+      "cline_edit_date": 1778564532222,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/root_cleanup.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778565117208,
+      "cline_edit_date": 1778565117208,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/root_cleanup.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778565131477,
+      "cline_edit_date": 1778565131477,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/root_cleanup.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778565157150,
+      "cline_edit_date": 1778565157150,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/PENDING_TECH_DEBT.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1779028400667,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1779028403799,
+      "cline_edit_date": 1778564146023,
+      "user_edit_date": 1778564141966
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1779028668525,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1779028668525,
+      "cline_edit_date": null,
+      "user_edit_date": 1779028704683
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779028708959,
+      "cline_edit_date": 1779028708959,
+      "user_edit_date": 1779028704683
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029145851,
+      "cline_edit_date": 1779029145851,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/README.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029171277,
+      "cline_edit_date": 1779029171277,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/world_engine/grid_map.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029193111,
+      "cline_edit_date": 1779029193111,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/world_engine/tech_tree.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029215538,
+      "cline_edit_date": 1779029215538,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/world_engine/tech_tree.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029231924,
+      "cline_edit_date": 1779029231924,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/agents/memory_module.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029556878,
+      "cline_edit_date": 1779029556878,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/agents/eden_player.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029564001,
+      "cline_edit_date": 1779029564001,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029674009,
+      "cline_edit_date": 1779029674009,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/simulation_runner.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779029952271,
+      "cline_edit_date": 1779029952271,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1779030336465,
+      "cline_edit_date": 1778564146023,
+      "user_edit_date": 1778564141966
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1779030339187,
+      "cline_edit_date": 1778564174899,
+      "user_edit_date": 1778564170704
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1779030339187,
+      "cline_edit_date": 1778564174899,
+      "user_edit_date": 1779030357915
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779030362477,
+      "cline_edit_date": 1779030362477,
+      "user_edit_date": 1779030357915
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1779030336465,
+      "cline_edit_date": 1778564146023,
+      "user_edit_date": 1779030379151
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779030383563,
+      "cline_edit_date": 1779030383563,
+      "user_edit_date": 1779030379151
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/README.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1779030624491,
+      "cline_edit_date": 1779029171277,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/README.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1779030624491,
+      "cline_edit_date": 1779029171277,
+      "user_edit_date": 1779030642193
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/README.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779030646749,
+      "cline_edit_date": 1779030646749,
+      "user_edit_date": 1779030642193
+    },
+    {
+      "path": "docs/EDEN_RESEARCH_PAPER.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779058962959,
+      "cline_edit_date": 1779058962959,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779059942128,
+      "cline_edit_date": 1779059942128,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/agents/memory_module.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779059996192,
+      "cline_edit_date": 1779059996192,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/agents/eden_player.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779060015195,
+      "cline_edit_date": 1779060015195,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/PIONEER_RESEARCH_INSIGHTS.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779060770977,
+      "cline_edit_date": 1779060770977,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/agents/memory_module.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1779060864957,
+      "cline_edit_date": 1779059996192,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/agents/memory_module.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1779060864957,
+      "cline_edit_date": 1779059996192,
+      "user_edit_date": 1779060885242
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/agents/memory_module.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779060890089,
+      "cline_edit_date": 1779060890089,
+      "user_edit_date": 1779060885242
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/telemetry.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779061275743,
+      "cline_edit_date": 1779061275743,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/world_engine/grid_map.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779061300053,
+      "cline_edit_date": 1779061300053,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/simulation_runner.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779061356139,
+      "cline_edit_date": 1779061356139,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/agents/eden_player.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779061682179,
+      "cline_edit_date": 1779061682179,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minecraft_eden_simulation/src/simulation_runner.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779061810522,
+      "cline_edit_date": 1779061810522,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1778563882722,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778564121313,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778564297124,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778564408738,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778564909939,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778565047889,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778565372022,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779028383532,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779028532459,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779028634804,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779028804034,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779029081962,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779029399881,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779029498361,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779029854993,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779029914036,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779030243043,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779030311679,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779030429196,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779030614387,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779058761573,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779058934040,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779059069762,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779059682020,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779059838623,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779059924317,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779060491882,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779060741417,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779061021222,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779061237333,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779061578365,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779061629264,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1778563882711,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.119.0",
+      "cline_version": "3.82.0"
+    },
+    {
+      "ts": 1779028318833,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.120.0",
+      "cline_version": "3.83.0"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+1. Mẫu Nhân Vật (Character/NPC Entry)
+Cấu trúc này gọi là Attribute-based. AI sẽ đọc các từ khóa rồi tự "render" ra hành động.
+
+Keywords: {{char}}, Tên_Nhân_Vật, Biệt_Danh
+Content:
+
+[Character("Tên_Nhân_Vật")
+{Age("200")
+Gender("Nam")
+Personality("Lạnh lùng", "Quyết đoán", "Thâm trầm")
+Occupation("Ma tu", "Luyện đan sư")
+Description("Mắt phượng", "Tóc trắng", "Trường bào đen")
+Goals("Trường sinh", "Báo thù")
+Skills("U Minh Chưởng", "Khống Hỏa Thuật")}]
+
+Tại sao dùng ngoặc nhọn {} và ngoặc vuông []? Để AI hiểu đây là một khối dữ liệu (Data block), nó sẽ ưu tiên xử lý logic trước khi xử lý văn bản.
+
+2. Mẫu Hệ Thống/Thế Giới (World/System Entry)
+Dành cho các quy luật vật lý hoặc cấp độ tu luyện.
+
+Keywords: Luyện Khí, Trúc Cơ, Cảnh giới, Tu vi
+Content:
+
+<World_System: Tu vi cảnh giới>
+- Luyện Khí: Cảm ứng linh khí. Chia 13 tầng.
+- Trúc Cơ: Linh lực hóa lỏng. Thọ nguyên +100 năm.
+- Kim Đan: Linh lực kết đan. Có thể ngự kiếm.
+[Rule: Chênh lệch một đại cảnh giới là áp chế tuyệt đối về linh áp, kẻ yếu hơn sẽ cảm thấy nghẹt thở và khó vận chuyển linh lực.]
+
+3. Mẫu Bộ phận & Sinh dục (Anatomy/NSFW Entry)
+Đây là phần ông hỏi kỹ. Mẫu trên các diễn đàn thường chia ra làm 2 phần: Description (Mô tả) và Reaction (Phản ứng).
+
+Keywords: Bàn tay, Ngực, Dương vật, Cơ thể, Da thịt
+Content:
+
+[Anatomy: {{char}}]
+- Penis_Specs: {Size: "22cm", Shape: "Hơi cong", Texture: "Gân guốc", Color: "Sẫm"}
+- Sensitivities: {Glans: "Cực kỳ nhạy cảm", Base: "Chịu được lực mạnh"}
+- Fluids: {Semen: "Đặc", "Trắng đục", "Số lượng nhiều"}
+[Behavior: Khi hưng phấn, {{char}} thường thở dồn dập, gân xanh nổi lên ở thái dương và có xu hướng chiếm hữu mạnh mẽ.]
+
+Ngoài các mẫu thuộc tính (Attribute-based) mà tôi đã giới thiệu, trên các diễn đàn chuyên sâu về Roleplay (RP) như Rentry hoặc Chub.ai, người ta còn sử dụng các định dạng "nén" token hoặc định dạng thiên về kể chuyện (prose) để AI xử lý mượt hơn.
+
+Dưới đây là 3 mẫu "nâng cao" khác mà ông có thể áp dụng:
+
+1. Mẫu WPL (World Property Language) - Tối ưu Token nhất
+Đây là "vũ khí" của dân IT khi muốn nhét thật nhiều thông tin vào mà không làm lag máy (đặc biệt là con i3-1215u của ông sẽ cám ơn vì điều này). Nó loại bỏ các từ nối dư thừa.
+
+Keywords: Bối cảnh, Thế giới, Địa điểm
+Content:
+
+[World: Tiên Giới; Type: Hardcore Cultivation; Tone: Dark, Brutal; Law: Weak eat Strong; Energy: Spiritual Qi; Danger: High]
+[Location: Vạn Độc Lâm; Feature: Miasma, Poisonous Insects; Treasure: Độc Linh Thảo; Guard: Thiên Độc Ngân Xà]
+
+Ưu điểm: Cực kỳ tiết kiệm bộ nhớ. AI hiểu đây là các tag dữ liệu và tự suy luận ra bối cảnh xung quanh.
+
+2. Mẫu Prose (Văn xuôi mô tả) - Tăng độ mượt cho AI
+Nếu ông thấy AI của mình nói chuyện hơi "máy móc", hãy dùng mẫu này. AI sẽ học theo cách hành văn trong Lorebook để phản hồi.
+
+Keywords: Chiến đấu, Kỹ năng, Chiêu thức
+Content:
+
+Khi {{char}} thi triển "Thanh Vân Kiếm Pháp", không khí xung quanh đột ngột trở nên lạnh lẽo. Những luồng kiếm khí màu xanh nhạt bao quanh thân kiếm, phát ra tiếng rít xé gió. Mỗi đường kiếm đều mang theo ý chí bất khuất, ưu tiên tấn công vào điểm yếu của đối thủ nhưng vẫn giữ được sự hoa mỹ, thanh thoát của một kiếm tu chính đạo.
+
+Ưu điểm: Giúp AI mô tả hành động có chiều sâu và "nghệ" hơn, rất hợp với dân đọc tiên hiệp như ông.
+
+3. Mẫu Trang phục & Vật phẩm (Inventory/Clothing)
+Dùng để cố định vẻ ngoài của nhân vật, tránh việc AI đang chat tự nhiên bảo nhân vật "cởi áo" trong khi đang mặc giáp sắt.
+
+Keywords: Trang phục, Quần áo, Pháp bảo, Vũ khí
+Content:
+
+[Equipment: {{char}}]
+- Head: Ngọc quán (búi tóc bằng ngọc).
+- Torso: Trường bào tơ tằm màu xanh, thêu mây trắng, có giáp nhẹ bên trong.
+- Waist: Đai lưng da thú, treo túi trữ vật và một miếng ngọc bội cổ.
+- Weapon: Thanh Vân Kiếm (vỏ kiếm bằng gỗ sưa).
+[Property: Trang phục có khả năng tự làm sạch và kháng bụi bẩn nhẹ.]

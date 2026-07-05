@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: airdrop_guerrilla
+Version: 0.1.0
+Requires-Python: >=3.9
+Requires-Dist: playwright
+Requires-Dist: nest-asyncio

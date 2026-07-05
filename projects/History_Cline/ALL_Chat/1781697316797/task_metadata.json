@@ -1,0 +1,254 @@
+{
+  "files_in_context": [
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/README.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781697395659,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/CONTEXT.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781697397859,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/02_Notebooks/05_Demo_Streamlit_Colab.ipynb",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781746861988,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/app.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781746882331,
+      "cline_edit_date": 1781746882331,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/app.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781747761772,
+      "cline_edit_date": 1781747761772,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/3_DL_LSTM_Models.ipynb",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781747988080,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/model_architecture.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781748004055,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/model_architecture.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781748004055,
+      "cline_edit_date": null,
+      "user_edit_date": 1781748029689
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/model_architecture.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781748034386,
+      "cline_edit_date": 1781748034386,
+      "user_edit_date": 1781748029689
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/4_Backtesting_Eval.ipynb",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781748221387,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/feature_engineering.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781748242180,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/data_ingestion.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781748265291,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/upgrade_train.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781748310589,
+      "cline_edit_date": 1781748310589,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1781748358577-1cemdrc.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781748383385,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/upgrade_train.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781748523130,
+      "cline_edit_date": 1781748523130,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/01_Data/FPT_VN_clean.csv",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781748604015,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/01_Data/processed_data.csv",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781748631316,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/upgrade_train.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781748676890,
+      "cline_edit_date": 1781748676890,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1781748739772-0s2eak9.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781748784349,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/FINAL_Do_an_Hoc_may_va_AI.docx",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781756800427,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/FINAL_Do_an_Hoc_sau.docx",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781756820013,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/app.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781756948214,
+      "cline_edit_date": 1781747761772,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/app.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781756948214,
+      "cline_edit_date": 1781747761772,
+      "user_edit_date": 1781756970577
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/app.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781756974841,
+      "cline_edit_date": 1781756974841,
+      "user_edit_date": 1781756970577
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1781697318434,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781746834108,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781747644806,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781747744248,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781756639413,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781756858121,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1781697318428,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.2",
+      "cline_version": "3.89.2"
+    },
+    {
+      "ts": 1781747644732,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.125.0",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

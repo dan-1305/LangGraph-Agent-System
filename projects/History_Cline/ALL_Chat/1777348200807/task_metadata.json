@@ -1,0 +1,69 @@
+{
+  "files_in_context": [
+    {
+      "path": "projects/sillytavern_world_card_generator/PunPunn_User_Personas.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777348780588,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "extract_nsfw_personas.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777349816442,
+      "cline_edit_date": 1777349816442,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1777348202996,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777349764390,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777351426241,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1777348202989,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.117.0",
+      "cline_version": "3.81.0"
+    },
+    {
+      "ts": 1777545852663,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.118.1",
+      "cline_version": "3.81.0"
+    },
+    {
+      "ts": 1777681311903,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.118.1",
+      "cline_version": "3.82.0"
+    }
+  ]
+}

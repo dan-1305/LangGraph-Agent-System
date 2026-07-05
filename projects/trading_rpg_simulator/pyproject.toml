@@ -1,0 +1,10 @@
+[project]
+name = "trading-rpg-simulator"
+version = "0.1.0"
+description = "RPG Trading Simulator for AI Agents"
+authors = [{name = "Admin", email = "admin@example.com"}]
+dependencies = [
+    "langchain-openai",
+]
+readme = "README.md"
+requires-python = ">=3.10"

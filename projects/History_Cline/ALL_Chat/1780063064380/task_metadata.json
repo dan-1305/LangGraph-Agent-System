@@ -1,0 +1,821 @@
+{
+  "files_in_context": [
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780063250727,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780063355951,
+      "cline_edit_date": 1780063355951,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780063370213,
+      "cline_edit_date": 1780063370213,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1780063384802,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780063399050,
+      "cline_edit_date": 1780063399050,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/injector.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780063413445,
+      "cline_edit_date": 1780063413445,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780063428553,
+      "cline_edit_date": 1780063428553,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/decompiler.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780063762290,
+      "cline_edit_date": 1780063762290,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064518517,
+      "cline_edit_date": 1780064518517,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064542988,
+      "cline_edit_date": 1780064542988,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064580985,
+      "cline_edit_date": 1780064580985,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064605074,
+      "cline_edit_date": 1780064605074,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064629523,
+      "cline_edit_date": 1780064629523,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064653972,
+      "cline_edit_date": 1780064653972,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064676527,
+      "cline_edit_date": 1780064676527,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064709378,
+      "cline_edit_date": 1780064709378,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064739537,
+      "cline_edit_date": 1780064739537,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780064763229,
+      "cline_edit_date": 1780064763229,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780065265697,
+      "cline_edit_date": 1780065265697,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780065532206,
+      "cline_edit_date": 1780065532206,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780065682874,
+      "cline_edit_date": 1780065682874,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780065830367,
+      "cline_edit_date": 1780065830367,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066064842,
+      "cline_edit_date": 1780066064842,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066126578,
+      "cline_edit_date": 1780066126578,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066174801,
+      "cline_edit_date": 1780066174801,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066232315,
+      "cline_edit_date": 1780066232315,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066529475,
+      "cline_edit_date": 1780066529475,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066644668,
+      "cline_edit_date": 1780066644668,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066702204,
+      "cline_edit_date": 1780066702204,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066773700,
+      "cline_edit_date": 1780066773700,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066841857,
+      "cline_edit_date": 1780066841857,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780066939450,
+      "cline_edit_date": 1780066939450,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067055711,
+      "cline_edit_date": 1780067055711,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067146016,
+      "cline_edit_date": 1780067146016,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067182773,
+      "cline_edit_date": 1780067182773,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067257430,
+      "cline_edit_date": 1780067257430,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067311196,
+      "cline_edit_date": 1780067311196,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067352427,
+      "cline_edit_date": 1780067352427,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067405970,
+      "cline_edit_date": 1780067405970,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067448523,
+      "cline_edit_date": 1780067448523,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067492543,
+      "cline_edit_date": 1780067492543,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067536523,
+      "cline_edit_date": 1780067536523,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067591853,
+      "cline_edit_date": 1780067591853,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067630075,
+      "cline_edit_date": 1780067630075,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067723353,
+      "cline_edit_date": 1780067723353,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067770519,
+      "cline_edit_date": 1780067770519,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067831837,
+      "cline_edit_date": 1780067831837,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067878841,
+      "cline_edit_date": 1780067878841,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067914812,
+      "cline_edit_date": 1780067914812,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780067956287,
+      "cline_edit_date": 1780067956287,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780068100816,
+      "cline_edit_date": 1780068100816,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780068179702,
+      "cline_edit_date": 1780068179702,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780068228504,
+      "cline_edit_date": 1780068228504,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780068320515,
+      "cline_edit_date": 1780068320515,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/injector.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780068604642,
+      "cline_edit_date": 1780068604642,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780068797002,
+      "cline_edit_date": 1780068797002,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780068816982,
+      "cline_edit_date": 1780068816982,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780068850590,
+      "cline_edit_date": 1780068850590,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780069132876,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780069322016,
+      "cline_edit_date": 1780069322016,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780069363403,
+      "cline_edit_date": 1780069363403,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780069462900,
+      "cline_edit_date": 1780069462900,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780069535872,
+      "cline_edit_date": 1780069535872,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780069669990,
+      "cline_edit_date": 1780069669990,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780069690780,
+      "cline_edit_date": 1780069690780,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780069815071,
+      "cline_edit_date": 1780069815071,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780069926912,
+      "cline_edit_date": 1780069926912,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780070039633,
+      "cline_edit_date": 1780070039633,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780070073188,
+      "cline_edit_date": 1780070073188,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780070140725,
+      "cline_edit_date": 1780070140725,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780070212966,
+      "cline_edit_date": 1780070212966,
+      "user_edit_date": null
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780070476067,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/BepInEx/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780070609965,
+      "cline_edit_date": 1780070609965,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/translator.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780070767710,
+      "cline_edit_date": 1780070767710,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780070806689,
+      "cline_edit_date": 1780070806689,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/injector.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780098788468,
+      "cline_edit_date": 1780098788468,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780098814135,
+      "cline_edit_date": 1780098814135,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780098863170,
+      "cline_edit_date": 1780098863170,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780098908886,
+      "cline_edit_date": 1780098908886,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780099028063,
+      "cline_edit_date": 1780099028063,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/extractor.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780099797734,
+      "cline_edit_date": 1780099797734,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/core/injector.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780099840005,
+      "cline_edit_date": 1780099840005,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780099869987,
+      "cline_edit_date": 1780099869987,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780099971190,
+      "cline_edit_date": 1780099971190,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780100086511,
+      "cline_edit_date": 1780100086511,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/godot_translator/main.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780100809254,
+      "cline_edit_date": 1780100809254,
+      "user_edit_date": null
+    },
+    {
+      "path": "handoff.txt",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780139674774,
+      "cline_edit_date": 1780139674774,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1780063066297,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780063333045,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780063548013,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780063597611,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780063823372,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780064487608,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780069092676,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780069232190,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780070435590,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780070537219,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780098075994,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780098752484,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780099683020,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780099756228,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780135860978,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780137048969,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780139377762,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780139612981,
+      "model_id": "gemini-3-flash-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1780063066289,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.122.1",
+      "cline_version": "3.86.0"
+    }
+  ]
+}

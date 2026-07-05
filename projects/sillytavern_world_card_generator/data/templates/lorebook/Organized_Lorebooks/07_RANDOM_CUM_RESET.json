@@ -1,0 +1,29 @@
+
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "key": [
+                "dừng lại",
+                "nghỉ một chút",
+                "lau sạch",
+                "hết giận rồi",
+                "làm lại nào",
+                "tiếp tục thôi"
+            ],
+            "comment": "[Random Ejaculation] - Reset Trigger",
+            "content": "{{setvar::random_cum_triggered::false}}",
+            "constant": true,
+            "selective": true,
+            "addMemo": true,
+            "order": 0,
+            "position": "4",
+            "disable": false,
+            "excludeRecursion": false,
+            "preventRecursion": false,
+            "useProbability": true,
+            "probability": 100,
+            "depth": 4
+        }
+    }
+}

@@ -1,0 +1,227 @@
+{
+  "files_in_context": [
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777799720524,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777799774657,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777799777252,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/google_services.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777800107812,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/google_services.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777800107812,
+      "cline_edit_date": null,
+      "user_edit_date": 1777800117652
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/google_services.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777800121950,
+      "cline_edit_date": 1777800121950,
+      "user_edit_date": 1777800117652
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/config.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777800130840,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/vision_parser.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777800146460,
+      "cline_edit_date": 1777800146460,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/src/test_vision_calendar.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777800165498,
+      "cline_edit_date": 1777800165498,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/telegram_bot.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777800174798,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/telegram_webhook.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777800183918,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/telegram_webhook.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777800183918,
+      "cline_edit_date": null,
+      "user_edit_date": 1777800203507
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/telegram_webhook.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777800207807,
+      "cline_edit_date": 1777800207807,
+      "user_edit_date": 1777800203507
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/tools/calendar_ui.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777800431842,
+      "cline_edit_date": 1777800431842,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777801106663,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/vision_parser.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777801181012,
+      "cline_edit_date": 1777801181012,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/jarvis_core/vision_parser.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777801469384,
+      "cline_edit_date": 1777801469384,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/tools/calendar_ui.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777802113590,
+      "cline_edit_date": 1777802113590,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1777799661378,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777800099367,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777800336888,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777800411425,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777800675212,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777801130192,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777801365652,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777801425173,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777801726963,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777802084070,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777802324348,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1777799661372,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.118.1",
+      "cline_version": "3.82.0"
+    }
+  ]
+}

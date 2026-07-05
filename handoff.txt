@@ -1,0 +1,38 @@
+# PROJECT HANDOFF: GODOT GAME TRANSLATOR (NSFW-SPECIALIZED)
+
+## 1. PROJECT OVERVIEW
+- **Subproject Path:** `projects/godot_translator/`
+- **Target Game:** NSFW game "さよならのチェックリスト" (Godot 4.x Engine).
+- **Source Files:** De-compiled GDScript (`.gd`) and Scene (`.tscn`) files in `d:\Users\Admin\Downloads\kimochi\Game\[Kimochi] [RJ01503291] さよならのチェックリスト\Output2`.
+
+## 2. TECHNICAL ARCHITECTURE (Level 5 System)
+- **Extractor:** 
+    - Handles multiple encodings (`UTF-8`, `Shift-JIS`, `CP932`).
+    - Uses advanced regex to extract Japanese text from both `.gd` and `.tscn` (properties like `text = "..."`).
+- **Translator (Core):**
+    - Model: `gemini-3.1-pro-preview` (via GCLI proxy).
+    - Features: Batch translation for token efficiency, Circuit Breaker for safety fallbacks.
+    - Specialized: High-quality NSFW localization (preserves slang, nuance, and code control chars like `%s`, `\n`).
+- **Injector:**
+    - Implements **Mirroring Structure**: Toggles automatic recursive directory creation in `translated_project/`.
+    - **Circuit Breaker Mandate:** Automatically deletes `.remap` and `.gdc` files in the output to force Godot Engine to load translated text source.
+    - Full Mirroring: Copies non-text assets (images, audio) to maintain project integrity.
+
+## 3. CURRENT PROGRESS & STATE
+- **Completion Rate:** ~94% (Approx. 17,800/18,881 files processed).
+- **Status:** Currently paused due to environment timeout (10-minute limit). 
+- **Last Processed File:** Around Scene/Parts components.
+- **Smart Skip Enabled:** `main.py` is configured to skip already copied assets and focus only on remaining `.gd`/`.tscn` translations.
+
+## 4. NEXT STEPS FOR CONTINUATION
+1. **Resume Batch:** Run `uv run python projects/godot_translator/main.py` from the root.
+2. **Handle Font:** If game text appears empty or as squares, replace `translated_project/font/font_basic.ttf` with a Unicode/Vietnamese-supported font.
+3. **Pack Game:** Use **GDRE Tools** to "Create PCK from folder" using `translated_project/` as source.
+
+## 5. RECENT FIXES
+- Created `projects/BepInEx/pyproject.toml` to fix monorepo workspace errors.
+- Updated `src/base_agent.py` to correctly handle `base_url` stripping `/chat/completions` for `ChatOpenAI`.
+- Fixed Windows console encoding issues for Vietnamese/Japanese output.
+
+---
+*Signed: Principal System Architect (Cline)*

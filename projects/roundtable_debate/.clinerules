@@ -1,0 +1,19 @@
+# ROUNDTABLE DEBATE - DOMAIN RULES
+# CẢNH BÁO: FILE NÀY CHỈ CHỨA LOGIC NGHIỆP VỤ (BUSINESS LOGIC) CỦA ROUNDTABLE DEBATE.
+# TẤT CẢ CÁC VẤN ĐỀ VỀ KIẾN TRÚC, BẢO MẬT, API, TYPE HINTING ĐỀU PHẢI TUÂN THỦ `.clinerules` Ở THƯ MỤC ROOT.
+# [XUNG ĐỘT]: NẾU CÓ MÂU THUẪN, LUẬT ROOT LUÔN THẮNG VỀ KIẾN TRÚC, LUẬT NÀY LUÔN THẮNG VỀ NGHIỆP VỤ.
+
+## 1. MỤC TIÊU NGHIỆP VỤ (DOMAIN FOCUS)
+- Agent này tập trung vào các tác vụ nghiệp vụ cốt lõi của domain `roundtable_debate`.
+- Không tự ý can thiệp vào scope của các Agent khác trừ khi được cấu hình Router.
+
+## 2. QUẢN LÝ TRẠNG THÁI (STATE MANAGEMENT)
+- Quản lý trạng thái thông qua các cơ chế local (File, SQLite) hoặc VectorDB tùy theo quy mô dữ liệu.
+- Không lưu trữ các cục dữ liệu khổng lồ trên Memory (RAM) để tránh OOM.
+
+## 3. BẢO MẬT VÀ PHÂN QUYỀN
+- Mọi API key sử dụng trong Domain này đều phải gọi qua `os.getenv()`. Cấm hardcode key vào source code.
+- Chặn mọi hành vi import `requests` để gọi các API AI, bắt buộc kế thừa BaseAgent.
+
+## 4. XỬ LÝ LỖI (FALLBACK)
+- Cần có cơ chế bắt exception an toàn và ghi vào log chi tiết.

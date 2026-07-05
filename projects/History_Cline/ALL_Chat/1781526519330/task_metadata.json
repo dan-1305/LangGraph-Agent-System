@@ -1,0 +1,307 @@
+{
+  "files_in_context": [
+    {
+      "path": "logs/CEO_CONTEXT.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781528726393,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/CEO_CONTEXT.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781528726393,
+      "cline_edit_date": null,
+      "user_edit_date": 1781528811198
+    },
+    {
+      "path": "logs/CEO_CONTEXT.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781528726393,
+      "cline_edit_date": null,
+      "user_edit_date": 1781528924946
+    },
+    {
+      "path": "logs/CEO_CONTEXT.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781528928727,
+      "cline_edit_date": 1781528928727,
+      "user_edit_date": 1781528924946
+    },
+    {
+      "path": "logs/ceo_background3.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": null,
+      "cline_edit_date": null,
+      "user_edit_date": 1781529103133
+    },
+    {
+      "path": "logs/ceo_background4.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781529229455,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/ceo_background4.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781529305579,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/ceo_background4.log",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781529305579,
+      "cline_edit_date": null,
+      "user_edit_date": 1781529305627
+    },
+    {
+      "path": "logs/CEO_CONTEXT.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781528928727,
+      "cline_edit_date": 1781528928727,
+      "user_edit_date": 1781529334168
+    },
+    {
+      "path": "run_hoc_sau.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781529346349,
+      "cline_edit_date": 1781529346349,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/CEO_CONTEXT.md",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1781528928727,
+      "cline_edit_date": 1781528928727,
+      "user_edit_date": 1781529511540
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1781529394152-dmurbbf.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781529515409,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/ceo_background4.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1781529305579,
+      "cline_edit_date": null,
+      "user_edit_date": 1781529616707
+    },
+    {
+      "path": "run_hoc_sau.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781530114044,
+      "cline_edit_date": 1781530114044,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/hoc_sau_run.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781530367673,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781530541369,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".env",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781530809874,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "test_gateway.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781530900336,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".env.example",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781530955928,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781530977000,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781530541369,
+      "cline_edit_date": null,
+      "user_edit_date": 1781531055495
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781531060075,
+      "cline_edit_date": 1781531060075,
+      "user_edit_date": 1781531055495
+    },
+    {
+      "path": "logs/hoc_sau_run_v2.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781531120896,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/model_architecture.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781531683302,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/create_colab_notebook.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781531709664,
+      "cline_edit_date": 1781531709664,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/create_colab_notebook.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781532889223,
+      "cline_edit_date": 1781532889223,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/data_ingestion.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781533313695,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/feature_engineering.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781533333997,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/backtest_engine.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781533337679,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Phan_Chia_Cong_Viec_Va_Lo_Trinh.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781533702677,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Checklist_Tien_Do_Deadlines.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781533706404,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1781528661612,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781529640314,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781530091748,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781532131979,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781532809349,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781533228062,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781533895566,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1781529640281,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.0",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

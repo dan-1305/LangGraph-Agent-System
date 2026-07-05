@@ -1,0 +1,617 @@
+{
+  "files_in_context": [
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781699162503,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781699162503,
+      "cline_edit_date": null,
+      "user_edit_date": 1781699299794
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781699304031,
+      "cline_edit_date": 1781699304031,
+      "user_edit_date": 1781699299794
+    },
+    {
+      "path": "projects/ai_trading_agent/.clinerules",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781699361006,
+      "cline_edit_date": 1781699361006,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/.clinerules",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781699367995,
+      "cline_edit_date": 1781699367995,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/qa_chaos_agent/.clinerules",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781699443974,
+      "cline_edit_date": 1781699443974,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781699446128,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781699446128,
+      "cline_edit_date": null,
+      "user_edit_date": 1781699629189
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781699633474,
+      "cline_edit_date": 1781699633474,
+      "user_edit_date": 1781699629189
+    },
+    {
+      "path": "tools/system/mass_generate_clinerules.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781699828783,
+      "cline_edit_date": 1781699828783,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/mass_generate_clinerules.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781699983795,
+      "cline_edit_date": 1781699983795,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/scanners/architecture_scanner.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781700337482,
+      "cline_edit_date": 1781700337482,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/scanners/architecture_scanner.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781700353694,
+      "cline_edit_date": 1781700353694,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781700417292,
+      "cline_edit_date": 1781700417292,
+      "user_edit_date": 1781699629189
+    },
+    {
+      "path": "tools/system/garbage_collector.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781700731951,
+      "cline_edit_date": 1781700731951,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/scanners/project_stat_analyzer.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781701081123,
+      "cline_edit_date": 1781701081123,
+      "user_edit_date": null
+    },
+    {
+      "path": "reports/PROJECT_STATISTICS_REPORT.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781701181164,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/scanners/project_stat_analyzer.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781701430376,
+      "cline_edit_date": 1781701430376,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/auto_mapper.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781701566320,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/auto_mapper.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781701566320,
+      "cline_edit_date": null,
+      "user_edit_date": 1781701955909
+    },
+    {
+      "path": "tools/system/auto_mapper.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781701960328,
+      "cline_edit_date": 1781701960328,
+      "user_edit_date": 1781701955909
+    },
+    {
+      "path": "tools/ui/dashboard_app.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781702280262,
+      "cline_edit_date": 1781702280262,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781702438250,
+      "cline_edit_date": 1781702438250,
+      "user_edit_date": 1781699629189
+    },
+    {
+      "path": "tools/scanners/architecture_auditor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781702683102,
+      "cline_edit_date": 1781702683102,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/scanners/architecture_auditor.py",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1781702683102,
+      "cline_edit_date": 1781702683102,
+      "user_edit_date": 1781702688260
+    },
+    {
+      "path": "ARCHITECTURE_AUDIT_REPORT.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781702734873,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781703044383,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781703044383,
+      "cline_edit_date": null,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781703158231,
+      "cline_edit_date": 1781703158231,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": ".env",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781717583572,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781717882446,
+      "cline_edit_date": 1781717882446,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "docs/BUG_TRACKER.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781718020487,
+      "cline_edit_date": 1781718020487,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781718695614,
+      "cline_edit_date": 1781718695614,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781718890901,
+      "cline_edit_date": 1781718890901,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781719104852,
+      "cline_edit_date": 1781719104852,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781719309188,
+      "cline_edit_date": 1781719309188,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781719392792,
+      "cline_edit_date": 1781719392792,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781719585219,
+      "cline_edit_date": 1781719585219,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "tools/ui/dashboard_app.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781743156411,
+      "cline_edit_date": 1781702280262,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/ui/dashboard_app.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781743156411,
+      "cline_edit_date": 1781702280262,
+      "user_edit_date": 1781743177028
+    },
+    {
+      "path": "tools/ui/dashboard_app.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781743181873,
+      "cline_edit_date": 1781743181873,
+      "user_edit_date": 1781743177028
+    },
+    {
+      "path": "tools/ui/dashboard_app.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781743506325,
+      "cline_edit_date": 1781743506325,
+      "user_edit_date": 1781743177028
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781743543502,
+      "cline_edit_date": 1781743543502,
+      "user_edit_date": 1781699629189
+    },
+    {
+      "path": "run_dashboard.bat",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781743674582,
+      "cline_edit_date": 1781743674582,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/ui/dashboard_app.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781744092508,
+      "cline_edit_date": 1781744092508,
+      "user_edit_date": 1781743177028
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781744506934,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/ui/dashboard_app.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781744627516,
+      "cline_edit_date": 1781744627516,
+      "user_edit_date": 1781743177028
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781744506934,
+      "cline_edit_date": null,
+      "user_edit_date": 1781744722715
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781744727319,
+      "cline_edit_date": 1781744727319,
+      "user_edit_date": 1781744722715
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781744864287,
+      "cline_edit_date": 1781744864287,
+      "user_edit_date": 1781744722715
+    },
+    {
+      "path": "tools/ui/dashboard_app.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781744998608,
+      "cline_edit_date": 1781744998608,
+      "user_edit_date": 1781743177028
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781745409012,
+      "cline_edit_date": 1781745409012,
+      "user_edit_date": 1781744722715
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781745475366,
+      "cline_edit_date": 1781745475366,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781745571849,
+      "cline_edit_date": 1781745571849,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781745932059,
+      "cline_edit_date": 1781745932059,
+      "user_edit_date": 1781744722715
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/wallet_manager.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781746079088,
+      "cline_edit_date": 1781746079088,
+      "user_edit_date": 1781703153596
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781746650966,
+      "cline_edit_date": 1781746650966,
+      "user_edit_date": 1781744722715
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1781698972298,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781699262650,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781700229480,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781700274036,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781700575594,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781700706217,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781701326797,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781701375011,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781702012717,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781702180526,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781716575558,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781717797450,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781742867319,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781743128660,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781743371751,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781743458573,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781743874160,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781744037998,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781744314127,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781744554251,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781745247130,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781745351811,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781746535771,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781746602973,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1781698972291,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.2",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

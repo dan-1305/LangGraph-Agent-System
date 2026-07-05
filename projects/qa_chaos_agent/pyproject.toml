@@ -1,0 +1,5 @@
+[project]
+name = "qa_chaos_agent"
+version = "0.1.0"
+description = "QA Chaos Agent Fuzzer"
+dependencies = []

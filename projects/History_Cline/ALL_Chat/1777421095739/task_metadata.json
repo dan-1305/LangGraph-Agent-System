@@ -1,0 +1,253 @@
+{
+  "files_in_context": [
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777421476191,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777421476191,
+      "cline_edit_date": null,
+      "user_edit_date": 1777421494276
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777421497966,
+      "cline_edit_date": 1777421497966,
+      "user_edit_date": 1777421494276
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/main.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777421738261,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777421775357,
+      "cline_edit_date": 1777421775357,
+      "user_edit_date": 1777421494276
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777422625479,
+      "cline_edit_date": 1777422625479,
+      "user_edit_date": 1777421494276
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777422641298,
+      "cline_edit_date": 1777422641298,
+      "user_edit_date": 1777421494276
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777422733949,
+      "cline_edit_date": 1777422733949,
+      "user_edit_date": 1777421494276
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777422733949,
+      "cline_edit_date": 1777422733949,
+      "user_edit_date": 1777422777078
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777422782816,
+      "cline_edit_date": 1777422782816,
+      "user_edit_date": 1777422777078
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777422830799,
+      "cline_edit_date": 1777422830799,
+      "user_edit_date": 1777422777078
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777423043513,
+      "cline_edit_date": 1777423043513,
+      "user_edit_date": 1777422777078
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/test_upload.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777423343222,
+      "cline_edit_date": 1777423343222,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777423996538,
+      "cline_edit_date": 1777423996538,
+      "user_edit_date": 1777422777078
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/test_upload.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777424057291,
+      "cline_edit_date": 1777424057291,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777424134868,
+      "cline_edit_date": 1777424134868,
+      "user_edit_date": 1777422777078
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777424563920,
+      "cline_edit_date": 1777424563920,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777424636283,
+      "cline_edit_date": 1777424636283,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777424705670,
+      "cline_edit_date": 1777424705670,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1777421097400,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777421428196,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777421644886,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777421714728,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777421935946,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777421980131,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777422182886,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777422354720,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777422525549,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777422557795,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777423594488,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777423874994,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777424345891,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777424440755,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1777421097394,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.117.0",
+      "cline_version": "3.81.0"
+    }
+  ]
+}

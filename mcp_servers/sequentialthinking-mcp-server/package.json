@@ -1,0 +1,11 @@
+{
+  "name": "sequentialthinking-mcp-server",
+  "version": "1.0.0",
+  "description": "Sequential Thinking MCP Server installation",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server-sequential-thinking": "*"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "files_in_context": [
+    {
+      "path": "projects/sillytavern_world_card_generator/data/CauTrucLore.txt",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777794705110,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/sillytavern_world_card_generator/data/templates/lorebook/Loli_Foot_Fetish_VN.json",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778027890449,
+      "cline_edit_date": 1778027890449,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/sillytavern_world_card_generator/data/templates/lorebook/Loli_Foot_Fetish_VN.json",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778028625312,
+      "cline_edit_date": 1778028625312,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/sillytavern_world_card_generator/data/templates/lorebook/Loli_Foot_Fetish_VN.json",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1778028816692,
+      "cline_edit_date": 1778028816692,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/sillytavern_world_card_generator/tools/non_ai_lorebook_extractor.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779146385704,
+      "cline_edit_date": 1779146385704,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/sillytavern_world_card_generator/tools/streamlit_lorebook_app.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779147464608,
+      "cline_edit_date": 1779147464608,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/sillytavern_world_card_generator/tools/streamlit_lorebook_app.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1779148242523,
+      "cline_edit_date": 1779148242523,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1777794677357,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778027759166,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778028109163,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1778028362066,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1778134687084,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779146327156,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779147349069,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779147428702,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779147964721,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1779148171359,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1779148473286,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1777794677350,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.118.1",
+      "cline_version": "3.82.0"
+    },
+    {
+      "ts": 1778457582298,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.119.0",
+      "cline_version": "3.82.0"
+    },
+    {
+      "ts": 1779145933618,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.120.0",
+      "cline_version": "3.83.0"
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "files_in_context": [
+    {
+      "path": "web_dashboard.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782410517507,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/WEB_DASHBOARD_GUIDE.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782410520274,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/ml_prediction.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782410538677,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782410540907,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/dashboard.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782410548797,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782410560494,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "web_dashboard.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782410517507,
+      "cline_edit_date": null,
+      "user_edit_date": 1782410618518
+    },
+    {
+      "path": "web_dashboard.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782410622921,
+      "cline_edit_date": 1782410622921,
+      "user_edit_date": 1782410618518
+    },
+    {
+      "path": "web_dashboard.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782410643859,
+      "cline_edit_date": 1782410643859,
+      "user_edit_date": 1782410618518
+    },
+    {
+      "path": "docs/NEXT_PHASE_PLAN.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782411127252,
+      "cline_edit_date": 1782411127252,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/binance_executor.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782411135474,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/binance_executor.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782411135474,
+      "cline_edit_date": null,
+      "user_edit_date": 1782411168323
+    },
+    {
+      "path": "projects/ai_trading_agent/src/binance_executor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782411172869,
+      "cline_edit_date": 1782411172869,
+      "user_edit_date": 1782411168323
+    },
+    {
+      "path": "projects/ai_trading_agent/src/binance_executor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782411340192,
+      "cline_edit_date": 1782411340192,
+      "user_edit_date": 1782411168323
+    },
+    {
+      "path": "projects/auto_x_bot/src/x_api_client.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782411391794,
+      "cline_edit_date": 1782411391794,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_x_bot/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782411418793,
+      "cline_edit_date": 1782411418793,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_x_bot/src/x_api_client.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782411468335,
+      "cline_edit_date": 1782411468335,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/SYSTEM_IMPROVEMENT_QUESTS.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782411726563,
+      "cline_edit_date": 1782411726563,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782435611060,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "logs/scheduler_state.json",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782435613876,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782435611060,
+      "cline_edit_date": null,
+      "user_edit_date": 1782435765649
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782435770062,
+      "cline_edit_date": 1782435770062,
+      "user_edit_date": 1782435765649
+    },
+    {
+      "path": "core_utilities/notification_gateway.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782436081000,
+      "cline_edit_date": 1782436081000,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782436097935,
+      "cline_edit_date": 1782436097935,
+      "user_edit_date": 1782435765649
+    },
+    {
+      "path": "projects/ai_trading_agent/src/binance_executor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782436116213,
+      "cline_edit_date": 1782436116213,
+      "user_edit_date": 1782411168323
+    },
+    {
+      "path": "projects/ai_trading_agent/src/news_scraper.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782436511697,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_x_bot/src/content_generator.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782436535343,
+      "cline_edit_date": 1782436535343,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_x_bot/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782436560061,
+      "cline_edit_date": 1782436560061,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_x_bot/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782436590895,
+      "cline_edit_date": 1782436590895,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_x_bot/main.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782436620746,
+      "cline_edit_date": 1782436620746,
+      "user_edit_date": null
+    },
+    {
+      "path": "web_dashboard.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782436770077,
+      "cline_edit_date": 1782436770077,
+      "user_edit_date": 1782410618518
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782437067880,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/__init__.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782437158576,
+      "cline_edit_date": 1782437158576,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_x_bot/src/__init__.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782437173039,
+      "cline_edit_date": 1782437173039,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/networks/soneium.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782438525971,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/networks/evm_base.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782438551140,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/networks/evm_base.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782438551140,
+      "cline_edit_date": null,
+      "user_edit_date": 1782438617411
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/networks/evm_base.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782438622273,
+      "cline_edit_date": 1782438622273,
+      "user_edit_date": 1782438617411
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/networks/soneium.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782438525971,
+      "cline_edit_date": null,
+      "user_edit_date": 1782438640779
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/networks/soneium.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782438645758,
+      "cline_edit_date": 1782438645758,
+      "user_edit_date": 1782438640779
+    },
+    {
+      "path": "src/database.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782472750084,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782473171746,
+      "cline_edit_date": 1782473171746,
+      "user_edit_date": 1782435765649
+    },
+    {
+      "path": "projects/ai_trading_agent/src/binance_executor.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782473196450,
+      "cline_edit_date": 1782473196450,
+      "user_edit_date": 1782411168323
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782645045961,
+      "cline_edit_date": 1782645045961,
+      "user_edit_date": null
+    },
+    {
+      "path": "core_utilities/process_watchdog.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782645108702,
+      "cline_edit_date": 1782645108702,
+      "user_edit_date": null
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782645133645,
+      "cline_edit_date": 1782645133645,
+      "user_edit_date": 1782435765649
+    },
+    {
+      "path": "core_utilities/process_watchdog.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782645183122,
+      "cline_edit_date": 1782645183122,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782645962511,
+      "cline_edit_date": 1782645962511,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782646079105,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/__init__.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782646120183,
+      "cline_edit_date": 1782646120183,
+      "user_edit_date": null
+    },
+    {
+      "path": "web_dashboard.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782646551249,
+      "cline_edit_date": 1782646551249,
+      "user_edit_date": 1782410618518
+    },
+    {
+      "path": "scheduler/main_scheduler.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782646574162,
+      "cline_edit_date": 1782646574162,
+      "user_edit_date": 1782435765649
+    },
+    {
+      "path": "core_utilities/process_watchdog.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782646596478,
+      "cline_edit_date": 1782646596478,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782646624875,
+      "cline_edit_date": 1782646624875,
+      "user_edit_date": null
+    },
+    {
+      "path": "test_backend_core.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782646903960,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "test_backend_core.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782646903960,
+      "cline_edit_date": null,
+      "user_edit_date": 1782646989495
+    },
+    {
+      "path": "test_backend_core.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782646994664,
+      "cline_edit_date": 1782646994664,
+      "user_edit_date": 1782646989495
+    },
+    {
+      "path": "dashboard.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782647017661,
+      "cline_edit_date": 1782647017661,
+      "user_edit_date": null
+    },
+    {
+      "path": "patch_stdout.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782647143668,
+      "cline_edit_date": 1782647143668,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/BUG_REPORT_2026_06_28.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782647691136,
+      "cline_edit_date": 1782647691136,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782648873625,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782648873625,
+      "cline_edit_date": null,
+      "user_edit_date": 1782648903527
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782648909059,
+      "cline_edit_date": 1782648909059,
+      "user_edit_date": 1782648903527
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1782410262362,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782410334477,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782410866196,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782411098098,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782411561804,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782411680070,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782435577131,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782435746276,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782437045830,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782437142606,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782471785724,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782473106797,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782644722989,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782645022788,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782645739886,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782645936060,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782646376053,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782646526958,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782647631722,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782648851063,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1782410262356,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.126.0",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

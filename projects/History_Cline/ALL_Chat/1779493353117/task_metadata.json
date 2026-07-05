@@ -1,0 +1,123 @@
+{
+  "files_in_context": [
+    {
+      "path": "【Hoxilo】Genshin Impact - 2026-06-18@09h28m10s521ms.jsonl",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781774684922,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "【Hoxilo】Genshin Impact - 2026-06-18@16h32m06s825ms.jsonl",
+      "record_state": "active",
+      "record_source": "file_mentioned",
+      "cline_read_date": 1781775631648,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1779493355040,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781877282054,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782174353713,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1779493355032,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.120.0",
+      "cline_version": "3.84.0"
+    },
+    {
+      "ts": 1779591406648,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.121.0",
+      "cline_version": "3.84.0"
+    },
+    {
+      "ts": 1779838633042,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.121.0",
+      "cline_version": "3.85.0"
+    },
+    {
+      "ts": 1780618390085,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.123.0",
+      "cline_version": "3.87.0"
+    },
+    {
+      "ts": 1781182348459,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.0",
+      "cline_version": "3.89.0"
+    },
+    {
+      "ts": 1781443996582,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.0",
+      "cline_version": "3.89.2"
+    },
+    {
+      "ts": 1781569705495,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.2",
+      "cline_version": "3.89.2"
+    },
+    {
+      "ts": 1781749314230,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.125.0",
+      "cline_version": "3.89.2"
+    },
+    {
+      "ts": 1782174224432,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.125.1",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

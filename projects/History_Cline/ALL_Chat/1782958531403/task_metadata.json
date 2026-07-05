@@ -1,0 +1,93 @@
+{
+  "files_in_context": [
+    {
+      "path": "d:\\Users\\Admin\\Downloads\\kimochi\\Game\\Bubblesandsisters-0.15-pc\\game\\extracted_scripts\\script.rpy",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782958708873,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "d:\\Users\\Admin\\Downloads\\kimochi\\Game\\Bubblesandsisters-0.15-pc\\game\\extracted_scripts\\scenes.rpy",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782958799398,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "d:\\Users\\Admin\\Downloads\\kimochi\\Game\\Bubblesandsisters-0.15-pc\\game\\extracted_scripts\\sexmenu.rpy",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782959036150,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "d:\\Users\\Admin\\Downloads\\kimochi\\Game\\Bubblesandsisters-0.15-pc\\game\\extracted_scripts\\gallery.rpy",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782959051366,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "VN_Style_Preset.json",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782959997618,
+      "cline_edit_date": 1782959997618,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1782958533408,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782958591476,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782958927524,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782958976104,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782959229103,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782959829249,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1782958533400,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.127.0",
+      "cline_version": "4.0.5"
+    }
+  ]
+}

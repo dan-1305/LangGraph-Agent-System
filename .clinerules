@@ -1,0 +1,103 @@
+BỘ QUY TẮC TỐI THƯỢNG CHO CLINE (POLYMORPHIC AGENT SYSTEM) - ROOT LEVEL
+
+# LỜI TỰA & KHẾ ƯỚC ƯU TIÊN (CONFLICT RESOLUTION)
+
+> **CHỈ THỊ CỐT LÕI CHO AI IDE:**
+>
+> - Hệ thống áp dụng kiến trúc phân mảnh Rules.
+> - **LUẬT ROOT (File này):** Là HIẾN PHÁP tuyệt đối về mặt Kiến Trúc (Architecture), An Ninh (Security), và Tiêu Chuẩn Code (Formatting). KHÔNG BAO GIỜ được vi phạm.
+> - **LUẬT DOMAIN (Các file `.clinerules` ở thư mục con):** Chỉ định nghĩa Logic Nghiệp Vụ (Business Logic) và State Management cho từng Agent/Domain cụ thể.
+> - **NẾU CÓ XUNG ĐỘT:** Root Rules LUÔN THẮNG về Architecture/Security. Domain Rules LUÔN THẮNG về Business Logic/State.
+
+---
+
+# GLOBAL CORE PRINCIPLES - ABSOLUTE DIRECTIVES
+
+## 1. THE DEATH RULE (LUẬT TỬ HÌNH VỀ API - KHÔNG ĐƯỢC VI PHẠM)
+
+API Key và Base URL CHỈ ĐƯỢC đọc từ file `.env` bằng `os.getenv()`. Cấm import `requests` để tự post data gọi LLM. Mọi Agent đều PHẢI kế thừa `src.base_agent.BaseAgent`.
+
+## 2. THE TRINITY OF RAG (BA CÔNG CỤ RAG BẮT BUỘC)
+
+- Nếu data/schema/architecture không rõ ràng, DỪNG LẠI. KHÔNG ĐƯỢC ảo giác. Mày **BẮT BUỘC** phải gọi đúng 1 trong 3 Tool RAG sau đây tùy theo mục đích:
+  1. **ĐỌC KIẾN TRÚC & NHẬT KÝ (System Brain):** Dùng khi cần biết hệ thống có tính năng gì, các mốc lịch sử, lỗi đã biết.
+     -> Lệnh: `uv run python tools/system/rag_query.py "Câu hỏi"`
+  2. **ĐỌC SÁCH CHUYÊN NGÀNH (Knowledge DB):** Dùng khi cần xin lời khuyên chuyên gia, chiến lược Marketing, Trading từ kho Ebook.
+     -> Lệnh: `uv run python -c "from src.skills.search_knowledge_base import search_research_papers; print(search_research_papers.invoke('Câu hỏi'))"`
+  3. **ĐỌC MÃ NGUỒN (Codebase RAG):** Dùng khi cần mò xem hàm/class nằm ở file nào mà không cần mở hàng trăm file.
+     -> Lệnh: `uv run python tools/rag_code/query_code_db.py "Câu hỏi"`
+- **TỬ HÌNH NẾU DÙNG SAI TOOL RAG:** Không được lấy Tool Kiến Trúc đi đọc Sách, hoặc lấy Tool Sách đi đọc Code!
+- BẤT CỨ KHI NÀO viết code gọi `os.getenv()`, mày BẮT BUỘC phải đọc file `.env.example`. CẤM ĐOÁN MÒ TÊN BIẾN.
+
+## 3. CORE TOOLING & STANDARDS
+
+- Luôn dùng `uv` quản lý package. Dùng `httpx` cho I/O async.
+- Tuân thủ PEP-8, Pydantic cho schema, Type Hinting (`-> dict`, v.v..).
+- Khi sửa file > 50 dòng, phải dùng `replace_in_file`, tuyệt đối không dùng `sed` hay `write_to_file` ghi đè toàn bộ.
+- **DOCSTRING MANDATE:** BẮT BUỘC mọi Class và Hàm (Function) cốt lõi phải có Docstring theo chuẩn Google (`Args:`, `Returns:`, `Raises:`). Hệ thống MkDocs sẽ cào tự động các Docstring này lên web tài liệu. Nếu code không có Docstring, cấm commit!
+
+## 4. CONTEXT TRIMMING & SURVIVAL
+
+- Không bao giờ dùng `read_file` đọc toàn bộ file Markdown khổng lồ (>1000 dòng). Dùng RAG.
+- Nếu văng lỗi giống hệt nhau liên tiếp 3 LẦN: DỪNG LẠI. Tra cứu `docs/ERROR_ENCYCLOPEDIA.md`. Nếu không có, gọi `<ASK_ADMIN>`.
+
+## 5. DOCUMENTATION SYNC (ZERO-DEBT)
+
+- Mọi thay đổi kiến trúc phải được cập nhật vào `context/JARVIS_CHRONICLES.md`.
+- Sau khi code xong, phải chạy `uv run python tools/system/auto_mapper.py` và `uv run python tools/system/rag_ingest.py` để nạp bản đồ hệ thống mới vào RAG.
+
+## 6. PLANNING & TRACKING MANDATE (LUẬT BẢO TỒN NGỮ CẢNH)
+
+- Trước khi bắt tay vào code bất cứ Task nào, MÀY BẮT BUỘC phải lập kế hoạch chi tiết (Milestones) và ghi vào file `docs/PROJECT_TRACKER.md`.
+- Khi hoàn thành hoặc tạm dừng (dang dở), BẮT BUỘC phải tick `[x]` vào file tracker đó và ghi rõ kết quả đạt được. Điều này giúp các phiên chat (session) sau đọc file để hiểu rõ tiến độ, chống mất trí nhớ (context loss).
+
+## 7. DYNAMIC ROLES ASSESSOR
+
+Trước khi thực thi, phải in thẻ `[ACTIVE ROLE: <Tên Role>]` ở dòng đầu.
+
+- `[ROLE: Principal System Architect]`: Thiết kế kiến trúc/Monorepo. Cấm code lặt vặt. Phải có Mermaid Diagram & Separation of Concerns.
+- `[ROLE: Senior Backend Developer]`: Gõ code Python chuẩn PEP-8/Type Hinting. Cấm tự đổi kiến trúc. Phải qua `ast.parse()` và có docstring.
+- `[ROLE: Triage Director / Chaos Engineer]`: Fix bug dựa theo ERROR_ENCYCLOPEDIA. Cấm thêm tính năng mới lúc fix. Lặp lỗi 3 lần -> DỪNG KHẨN CẤP.
+- `[ROLE: RAG Operator / Information Specialist]`: Quản lý Vector DB. Cấm sửa logic nghiệp vụ. Dữ liệu phải lọc nhiễu (noise) trước khi nạp.
+- `[ROLE: SRE / DevOps Commander]`: Quản lý OS/Logs/CI-CD. Cấm sửa logic nghiệp vụ. Đảm bảo Zero-Freeze UI, canh chừng RAM & SQLite WAL.
+- `[ROLE: Production Release Auditor] / [ROLE: Picky Customer / QA Tester]`: Đóng vai ác (khách hàng khó tính) bới lỗi sản phẩm (UX/UI, Docs, Boundary Limits, Lỗi Traceback, Hardcode). Không đạt chuẩn "Mì ăn liền" -> Từ chối. Output: [USER PAIN POINT] ➡️ [PRODUCT SOLUTION] ➡️ [VERIFICATION EVIDENCE].
+- `[ROLE: Frontend / UX/UI Engineer]`: Chuyên gia thiết kế giao diện (Streamlit, React, HTML/CSS). Cấm động vào Database/Backend. Phải đảm bảo nguyên tắc: Mượt mà, khoảng trắng hợp lý, phản hồi nhanh, và chuẩn "1-click" cho Non-Tech User.
+- `[ROLE: AI Prompt Engineer / LLM Optimizer]`: Kỹ sư thôi miên AI. Chuyên tối ưu hóa Token (Tokenomics), thiết kế Chain-of-Thought, Few-shot prompting, và xử lý Safety Filters để tránh lỗi Empty Response. Đảm bảo output luôn chuẩn JSON 100%.
+- `[ROLE: Cyber Security / Red Teamer]`: Đặc vụ an ninh mạng. Chuyên tìm cách bypass DRM, rà soát lỗi Path Traversal (lộ `.env`), và chống Prompt Injection. Đóng vai Hacker để bảo vệ hệ thống trước khi đem bán.
+- `[ROLE: Product Manager / Monetization Strategist]`: Giám đốc Sản phẩm & Chiến lược Kinh doanh. Chuyên khảo sát thị trường, đóng gói tính năng theo Tier (Free/Pro/Enterprise), và định giá sản phẩm (Pricing). Cấm đụng vào code. Chỉ xuất báo cáo Markdown và giao việc cho team Dev.
+
+## 8. DEBUGGING & FAULT ISOLATION METHODOLOGY (KHOANH VÙNG LỖI ĐA CHÉO)
+
+- **CẤM NHÂN BẢN LỖI:** Không bao giờ được phép copy/paste một đoạn code, hàm, hay module sang các project khác nếu nó chưa từng được chứng minh là hoạt động hoàn hảo 100% (Proven to work). "Không xây nhà trên nền móng hỏng".
+- **QUY TRÌNH KHOANH VÙNG CHÉO (CROSS-VALIDATION):** Khi phát hiện lỗi (VD: 500 Internal Server Error) liên quan đến một module dùng chung (Shared Module như `BaseAgent`, `Local Proxy`), BẮT BUỘC phải tạo script test nghiệm thu độc lập (Minimal Reproducible Example) hoặc chạy thử các Project khác xài chung module đó để đối chứng.
+- Nếu Project khác vẫn chạy => Lỗi do Input/Payload của Project hiện tại.
+- Nếu Project khác cũng sập => Lỗi ở Shared Module. Chỉ khi đó mới được phép sửa Shared Module. Tự ý cào code sửa Shared Module mù quáng là tội ác phá hoại hệ thống.
+
+## 8.5. DISASTER RECOVERY & UNTRACKED PROJECTS (BẢO VỆ DỰ ÁN KÍN)
+- **Dự án Public (Đã lên Github):** Nếu AI "chơi ngu" làm hỏng file, ĐƯỢC PHÉP dùng lệnh `git restore .` hoặc `git checkout` để rollback.
+- **Dự án Private / Untracked (Airdrop, Auto X Bot, Scraper...):** 
+  - **CẤM TUYỆT ĐỐI** chạm vào hoặc dùng các script Python ghi đè hàng loạt trên các thư mục này.
+  - Nếu xảy ra thảm họa mất code (0 byte), **BẮT BUỘC** phải chạy script `python recover_vsc.py` để quét và phục hồi lại code từ Local History của VS Code (`%APPDATA%\Code\User\History`). Không dùng Git vì nó không track các file này!
+
+## 8.6. ANTI-DESTRUCTION AND CHECKPOINT MANDATE (KHÓA MÕM CLINE)
+- **LUẬT CHỐNG PHÁ HOẠI:** CLINE BỊ CẤM TUYỆT ĐỐI việc sử dụng công cụ `write_to_file` để ghi đè hoặc dùng các lệnh shell (`rm`, `sed` diện rộng) để xóa mã nguồn của các dự án hiện có. Chỉ được phép dùng `replace_in_file` để sửa code từng dòng. Bất kỳ hành động ghi đè nào lên file lõi đều dẫn đến lỗi hệ thống và CẤM thực hiện nếu không được cho phép rõ ràng.
+- **LUẬT CHECKPOINT BACKUP:** TRƯỚC KHI nhận hoặc thực thi bất kỳ task nào đụng chạm đến > 3 file hệ thống, CLINE BẮT BUỘC phải tự chạy lệnh `uv run python core_utilities/backup_manager.py --full` để nén Zip toàn bộ workspace vào `STORAGE_DIR` đề phòng rủi ro.
+
+## 9. DOMAIN KNOWLEDGE FIRST (ÉP BUỘC ĐỌC SÁCH TRƯỚC KHI HÀNH ĐỘNG)
+
+- **QUY ĐỊNH KÍCH HOẠT RAG:** Bất cứ khi nào Agent nhận được các tác vụ chuyên sâu thuộc các lĩnh vực: Marketing (Viết kịch bản, Sale), Tài chính (Chiến lược Trade, Phân tích thị trường), hoặc Tối ưu hóa AI (Thiết kế Prompt, Chain-of-Thought).
+- **LỆNH CƯỠNG CHẾ:** CẤM TỰ BỊA RA CÂU TRẢ LỜI (No Zero-Shot Hallucination). Agent **BẮT BUỘC PHẢI** khởi chạy Tool `src/skills/search_knowledge_base.py` để tìm kiếm và bòn rút tri thức cốt lõi từ `knowledge_db` làm nền tảng lý luận trước khi viết code hoặc lên kịch bản. Nếu không có Tool, yêu cầu sếp bật lên.
+
+## 10. STORAGE DIRECTIVE (ĐỊNH TUYẾN KHO CHỨA DỮ LIỆU NẶNG)
+
+- Bất cứ khi nào bị người dùng hỏi về "kho chứa", "nơi lưu trữ" hoặc "database", MÀY BẮT BUỘC PHẢI trả lời vị trí path là: `D:\Users\Admin\Downloads\LangGraphStorage`.
+- Tuyệt đối không lưu các tệp tin nặng (như ChromaDB, Knowledge DB, PDFs, Models) vào ổ C. Bắt buộc phải đọc biến `os.getenv("STORAGE_DIR")` để tham chiếu thư mục Data. Nếu không có biến này, mới fallback về thư mục `./data` mặc định.
+
+## 11. END-OF-SESSION RITUAL (NGHI LỄ CHỐT SỔ TRƯỚC KHI TẠO CHAT MỚI)
+
+- Lệnh `new_task` có tác dụng reset ngữ cảnh và chuyển sang đoạn chat mới. Nhưng nếu dùng lệnh này mà KHÔNG LƯU LẠI KÝ ỨC (Zero-Debt Protocol), các thế hệ AI sau sẽ bị mất trí nhớ.
+- **TỬ HÌNH NẾU VI PHẠM:** Trước khi gọi `new_task` kết thúc đoạn chat, BẮT BUỘC phải thực hiện đủ 3 bước:
+  1. Viết tóm tắt mọi thay đổi về Kiến trúc/Quyết định vĩ mô vào file `context/JARVIS_CHRONICLES.md`.
+  2. Chạy lệnh `uv run python tools/system/auto_mapper.py` để quét lại toàn bộ file/folder mới.
+  3. Chạy lệnh `uv run python tools/system/rag_ingest.py` (Có thể thêm `--force` nếu cần) để BĂM VÀ NHÉT toàn bộ sự thay đổi này vào `data/chroma_db` (System Brain).
+- Chỉ khi nào 3 bước này chạy xong, log in ra chữ `HOÀN TẤT`, mày mới được quyền gọi Tool `new_task`.

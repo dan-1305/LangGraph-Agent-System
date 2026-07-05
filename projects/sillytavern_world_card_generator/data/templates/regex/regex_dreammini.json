@@ -1,0 +1,220 @@
+{
+  "fontSize": "1.05",
+  "fontColor": "#f5f5dc",
+  "chatFont": "'Noto Serif SC', serif",
+  "renderLimit": 100,
+  "contextLimit": 0,
+  "autoHideSummarized": false,
+  "fixedHideRange": "",
+  "enableStreaming": true,
+  "rules": [
+    {
+      "id": "1476a789-2639-482e-8e15-0f72c19b610c",
+      "scriptName": "【Dreammini】0.Xóa dòng chính",
+      "findRegex": "/(?<=<dream>[\\s\\S]*?)((?:[\\(（].{1,2}[\\)）])触发(?:[1-5])?|((?:\\(.{0,2}\\)|（.{0,2}）)?触发[1-5]))(?=[\\s\\S]*?</dream>)/gm",
+      "replaceString": "",
+      "trimStrings": [],
+      "placement": [
+        2
+      ],
+      "disabled": false,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "runOnEdit": false,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": 30,
+      "type": "receive"
+    },
+    {
+      "id": "6d9fbba5-cad1-433b-b029-2bede24458d3",
+      "scriptName": "1.Nhập tag đầu vào",
+      "findRegex": "^([\\s\\S]*)$",
+      "replaceString": "<input>\n$1\n</input>",
+      "trimStrings": [],
+      "placement": [
+        1
+      ],
+      "disabled": false,
+      "markdownOnly": false,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": 1
+    },
+    {
+      "id": "a54092dd-1972-4b40-a04e-9d73f4b5744c",
+      "scriptName": "2. Xóa phần dư thừa",
+      "findRegex": "/([\\s\\S]*?<\\/guide>)|(<guide>[\\s\\S]*?<\\/guide>)|(<true>[\\s\\S]*?<\\/true>)|(<prethink>[\\s\\S]*?<\\/prethink>)|(<!--\\s*run\\s*([\\s\\S]*?)\\s*-->)|(<!--\\s*guide\\s*:\\s*([\\s\\S]*?)\\s*-->)|(<!--\\s*spell\\s*([\\s\\S]*?)\\s*-->)/gi",
+      "replaceString": "",
+      "disabled": false,
+      "runOnEdit": true,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "placement": [
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": null,
+      "substituteRegex": 0,
+      "trimStrings": []
+    },
+    {
+      "id": "18567ca7-b0c6-463a-b02b-183566b4ffd2",
+      "scriptName": "3. [Thúc đẩy (thu gọn)]",
+      "findRegex": "/<plot>([\\s\\S]*?)</plot>/gsi",
+      "replaceString": "\n<details> <summary style=\"font-weight: bold; background-color: #444444; color: #ffffff;\">Tiến Triển</summary> <div style=\"background-color: #000000; color: #ffffff;\"> $1  \n</div>\n</details>\n\n",
+      "disabled": false,
+      "runOnEdit": true,
+      "markdownOnly": true,
+      "promptOnly": false,
+      "placement": [
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": 30,
+      "substituteRegex": 0,
+      "trimStrings": []
+    },
+    {
+      "id": "21ed7ae3-8926-483e-ac46-3bd55a1d6530",
+      "scriptName": "4. [Thúc đẩy (xóa phần cũ)]",
+      "findRegex": "/<plot>([\\s\\S]*?)</plot>/gsi",
+      "replaceString": "",
+      "disabled": false,
+      "runOnEdit": true,
+      "markdownOnly": false,
+      "promptOnly": true,
+      "placement": [
+        2
+      ],
+      "minDepth": 4,
+      "maxDepth": null,
+      "substituteRegex": 0,
+      "trimStrings": []
+    },
+    {
+      "id": "c28179a9-f094-4df5-a8a9-29c6f46fdd8a",
+      "scriptName": "5. Thẻ lựa chọn (xóa bỏ)",
+      "findRegex": "/<options[^>]*>[\\s\\S]*?</options>/gsi",
+      "replaceString": "",
+      "trimStrings": [],
+      "placement": [
+        2
+      ],
+      "disabled": false,
+      "markdownOnly": false,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": null
+    },
+    {
+      "id": "b1772c37-a1c5-4667-a2eb-fe225f6d5914",
+      "scriptName": "Sự kiện song song (định dạng)",
+      "findRegex": "/(<other>([\\s\\S]*?)</other>)/gsi",
+      "replaceString": "<details> <summary style=\"font-weight: bold; background-color: #444444; color: #ffffff;\">Sự Kiện Song Song</summary> <div style=\"background-color: #000000; color: #ffffff;\"> $2 \n</div>\n</details>\n",
+      "disabled": false,
+      "runOnEdit": true,
+      "markdownOnly": true,
+      "promptOnly": false,
+      "placement": [
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": 30,
+      "substituteRegex": 0,
+      "trimStrings": []
+    },
+    {
+      "id": "9dacf74e-9daf-4dde-8561-75ff2a158abc",
+      "scriptName": "Hồi Ức (Thu Gọn)",
+      "findRegex": "/(<flashback>([\\s\\S]*?)</flashback>)/gsi",
+      "replaceString": "<details> <summary style=\"font-weight: bold; background-color: #444444; color: #ffffff;\">Hồi Ức</summary> <div style=\"background-color: #000000; color: #ffffff;\"> $2 \n</div>\n</details>\n",
+      "disabled": false,
+      "runOnEdit": true,
+      "markdownOnly": true,
+      "promptOnly": false,
+      "placement": [
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": 30,
+      "substituteRegex": 0,
+      "trimStrings": []
+    },
+    {
+      "id": "197fd807-6674-4cb7-8b51-f5563977f7b4",
+      "scriptName": "Sự Kiện Trước Đó (Thu Gọn)",
+      "findRegex": "/(<before>([\\s\\S]*?)</before>)/gsi",
+      "replaceString": "<details> <summary style=\"font-weight: bold; background-color: #444444; color: #ffffff;\">Sự Kiện Trước Đó</summary> <div style=\"background-color: #000000; color: #ffffff;\"> $2 \n</div>\n</details>\n",
+      "disabled": false,
+      "runOnEdit": true,
+      "markdownOnly": true,
+      "promptOnly": false,
+      "placement": [
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": 30,
+      "substituteRegex": 0,
+      "trimStrings": []
+    },
+    {
+      "id": "838c4bea-eb2a-405d-aaf4-ba7134b92122",
+      "scriptName": "Xóa tag song song",
+      "findRegex": "/(<other>([\\s\\S]*?)</other>)|(<flashback>([\\s\\S]*?)</flashback>)|(<before>([\\s\\S]*?)</before>)/gsi",
+      "replaceString": "",
+      "disabled": false,
+      "runOnEdit": true,
+      "markdownOnly": false,
+      "promptOnly": true,
+      "placement": [
+        2
+      ],
+      "minDepth": 4,
+      "maxDepth": null,
+      "substituteRegex": 0,
+      "trimStrings": []
+    },
+    {
+      "id": "214dd8e0-cde2-4d76-b808-ca993e8ab120",
+      "scriptName": "Xóa Disclaimer",
+      "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<guifan>.*?</guifan>)|```start|<dream>|</dream>|```end|<done>|`<done>`|(<!--\\s*consider\\s*:\\s*(.*?)\\s*-->)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
+      "replaceString": "",
+      "trimStrings": [],
+      "placement": [
+        2
+      ],
+      "disabled": false,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": null,
+      "type": "receive"
+    }
+  ],
+  "chainRules": [
+    {
+      "id": "879e36df-7e0d-4b87-989b-13c912fd168d",
+      "scriptName": "Ẩn </think>",
+      "findRegex": "[\\s\\S]*?<\\/think>",
+      "replaceString": "",
+      "disabled": false,
+      "runOnEdit": true,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "placement": [
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": null,
+      "substituteRegex": 0,
+      "trimStrings": []
+    }
+  ]
+}

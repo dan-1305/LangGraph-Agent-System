@@ -1,0 +1,11 @@
+[project]
+name = "roundtable-debate"
+version = "0.1.0"
+description = "Multi-Agent Debate System (AI Roundtable)"
+authors = [{name = "Admin", email = "admin@example.com"}]
+dependencies = [
+    "langchain-openai",
+    "langgraph",
+]
+readme = "README.md"
+requires-python = ">=3.10"

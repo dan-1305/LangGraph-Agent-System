@@ -1,0 +1,1567 @@
+{
+  "files_in_context": [
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777303175304,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777303177883,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777303180193,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777303177883,
+      "cline_edit_date": null,
+      "user_edit_date": 1777303469496
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777303473917,
+      "cline_edit_date": 1777303473917,
+      "user_edit_date": 1777303469496
+    },
+    {
+      "path": "tools/system/git_manager.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777303502787,
+      "cline_edit_date": 1777303502787,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/ast_patcher.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777303529471,
+      "cline_edit_date": 1777303529471,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/state.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777303563479,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/main.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777303565723,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/workflows/daily_health_loop.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777303594663,
+      "cline_edit_date": 1777303594663,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/main.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777303565723,
+      "cline_edit_date": null,
+      "user_edit_date": 1777303612597
+    },
+    {
+      "path": "src/factory/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777303616834,
+      "cline_edit_date": 1777303616834,
+      "user_edit_date": 1777303612597
+    },
+    {
+      "path": "src/factory/state.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777304330225,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/state.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777304330225,
+      "cline_edit_date": null,
+      "user_edit_date": 1777304341224
+    },
+    {
+      "path": "src/factory/state.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777304346054,
+      "cline_edit_date": 1777304346054,
+      "user_edit_date": 1777304341224
+    },
+    {
+      "path": "src/factory/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777304366916,
+      "cline_edit_date": 1777304366916,
+      "user_edit_date": 1777303612597
+    },
+    {
+      "path": "src/factory/nodes/memory_manager.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777304406621,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/nodes/memory_manager.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777304406621,
+      "cline_edit_date": null,
+      "user_edit_date": 1777304458728
+    },
+    {
+      "path": "src/factory/nodes/memory_manager.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777304463281,
+      "cline_edit_date": 1777304463281,
+      "user_edit_date": 1777304458728
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777304487198,
+      "cline_edit_date": 1777304487198,
+      "user_edit_date": 1777303469496
+    },
+    {
+      "path": "src/factory/nodes/coder.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777329906013,
+      "cline_edit_date": 1777329906013,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/nodes/qa_reviewer.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777329943063,
+      "cline_edit_date": 1777329943063,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/nodes/triage_director.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777329977634,
+      "cline_edit_date": 1777329977634,
+      "user_edit_date": null
+    },
+    {
+      "path": "requirements.in",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777330250421,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "setup.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777330264952,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777330294464,
+      "cline_edit_date": 1777330294464,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777330318269,
+      "cline_edit_date": 1777330318269,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777330340295,
+      "cline_edit_date": 1777330340295,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777330357931,
+      "cline_edit_date": 1777330357931,
+      "user_edit_date": 1777303469496
+    },
+    {
+      "path": "tools/system/git_manager.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777330507594,
+      "cline_edit_date": 1777303502787,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/git_manager.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777330507594,
+      "cline_edit_date": 1777303502787,
+      "user_edit_date": 1777330528291
+    },
+    {
+      "path": "tools/system/git_manager.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777330532844,
+      "cline_edit_date": 1777330532844,
+      "user_edit_date": 1777330528291
+    },
+    {
+      "path": "src/factory/main.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777330556649,
+      "cline_edit_date": 1777330556649,
+      "user_edit_date": 1777303612597
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777330596281,
+      "cline_edit_date": 1777330596281,
+      "user_edit_date": 1777303469496
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777331299765,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/token_tracker.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777331302327,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777331299765,
+      "cline_edit_date": null,
+      "user_edit_date": 1777331315706
+    },
+    {
+      "path": "src/factory/config.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777331320093,
+      "cline_edit_date": 1777331320093,
+      "user_edit_date": 1777331315706
+    },
+    {
+      "path": "src/token_tracker.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777331302327,
+      "cline_edit_date": null,
+      "user_edit_date": 1777331334366
+    },
+    {
+      "path": "src/token_tracker.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777331338991,
+      "cline_edit_date": 1777331338991,
+      "user_edit_date": 1777331334366
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777331372466,
+      "cline_edit_date": 1777331372466,
+      "user_edit_date": 1777303469496
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777331656086,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777331656086,
+      "cline_edit_date": null,
+      "user_edit_date": 1777331670509
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777331675171,
+      "cline_edit_date": 1777331675171,
+      "user_edit_date": 1777331670509
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777376224805,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/prompts/overlord_constitution.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777376228363,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/factory/prompts/overlord_constitution.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777376228363,
+      "cline_edit_date": null,
+      "user_edit_date": 1777376257751
+    },
+    {
+      "path": "src/factory/prompts/overlord_constitution.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777376262377,
+      "cline_edit_date": 1777376262377,
+      "user_edit_date": 1777376257751
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777376224805,
+      "cline_edit_date": null,
+      "user_edit_date": 1777376305819
+    },
+    {
+      "path": "src/base_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777376310549,
+      "cline_edit_date": 1777376310549,
+      "user_edit_date": 1777376305819
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777376344734,
+      "cline_edit_date": 1777376344734,
+      "user_edit_date": 1777303469496
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777376600392,
+      "cline_edit_date": 1777376344734,
+      "user_edit_date": 1777303469496
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777376600392,
+      "cline_edit_date": 1777376344734,
+      "user_edit_date": 1777376831277
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777376835470,
+      "cline_edit_date": 1777376835470,
+      "user_edit_date": 1777376831277
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777377671342,
+      "cline_edit_date": 1777331675171,
+      "user_edit_date": 1777331670509
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777377674465,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777377677359,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777377680288,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777377671342,
+      "cline_edit_date": 1777331675171,
+      "user_edit_date": 1777377708826
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777377713549,
+      "cline_edit_date": 1777377713549,
+      "user_edit_date": 1777377708826
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777377674465,
+      "cline_edit_date": null,
+      "user_edit_date": 1777377763275
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777377767022,
+      "cline_edit_date": 1777377767022,
+      "user_edit_date": 1777377763275
+    },
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777377677359,
+      "cline_edit_date": null,
+      "user_edit_date": 1777377809406
+    },
+    {
+      "path": "README.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777377813542,
+      "cline_edit_date": 1777377813542,
+      "user_edit_date": 1777377809406
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777377680288,
+      "cline_edit_date": null,
+      "user_edit_date": 1777377836319
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777377840801,
+      "cline_edit_date": 1777377840801,
+      "user_edit_date": 1777377836319
+    },
+    {
+      "path": "docs/V3_EXPANSION_PLAN.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777378524547,
+      "cline_edit_date": 1777378524547,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777378558026,
+      "cline_edit_date": 1777378558026,
+      "user_edit_date": 1777377836319
+    },
+    {
+      "path": "projects/_template/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379700575,
+      "cline_edit_date": 1777379700575,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379708360,
+      "cline_edit_date": 1777379708360,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379715962,
+      "cline_edit_date": 1777379715962,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/chinese-character-recognition/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379724314,
+      "cline_edit_date": 1777379724314,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/jarvis-rpg-assistant/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379731913,
+      "cline_edit_date": 1777379731913,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/knowledge_base_agent/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379739586,
+      "cline_edit_date": 1777379739586,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/minhchung_pdf_generator/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379747412,
+      "cline_edit_date": 1777379747412,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/mnist-handwritten-digit-recognition/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379754991,
+      "cline_edit_date": 1777379754991,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/real_estate_prediction/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379762564,
+      "cline_edit_date": 1777379762564,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/sillytavern_world_card_generator/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379770191,
+      "cline_edit_date": 1777379770191,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/universal_web_scraper/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379778133,
+      "cline_edit_date": 1777379778133,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/__init__.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379878154,
+      "cline_edit_date": 1777379878154,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/__init__.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379885714,
+      "cline_edit_date": 1777379885714,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379939284,
+      "cline_edit_date": 1777379939284,
+      "user_edit_date": null
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777379946884,
+      "cline_edit_date": 1777379946884,
+      "user_edit_date": null
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777379946884,
+      "cline_edit_date": 1777379946884,
+      "user_edit_date": 1777380084454
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777379946884,
+      "cline_edit_date": 1777379946884,
+      "user_edit_date": 1777380084720
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777379946884,
+      "cline_edit_date": 1777379946884,
+      "user_edit_date": 1777380278774
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777379946884,
+      "cline_edit_date": 1777379946884,
+      "user_edit_date": 1777380279428
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777379946884,
+      "cline_edit_date": 1777379946884,
+      "user_edit_date": 1777380340364
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777380344993,
+      "cline_edit_date": 1777380344993,
+      "user_edit_date": 1777380340364
+    },
+    {
+      "path": "src/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777380352360,
+      "cline_edit_date": 1777380352360,
+      "user_edit_date": null
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777380344993,
+      "cline_edit_date": 1777380344993,
+      "user_edit_date": 1777380369790
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777380399188-23bgx1g.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777380414981,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777380399188-23bgx1g.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777380472475,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777380399188-23bgx1g.log",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777380472475,
+      "cline_edit_date": null,
+      "user_edit_date": 1777380472570
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777380399188-23bgx1g.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1777380472475,
+      "cline_edit_date": null,
+      "user_edit_date": 1777380731421
+    },
+    {
+      "path": "pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777383429016,
+      "cline_edit_date": 1777383429016,
+      "user_edit_date": 1777380369790
+    },
+    {
+      "path": "src/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777383465292,
+      "cline_edit_date": 1777383465292,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777383473379,
+      "cline_edit_date": 1777383473379,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/MONETIZATION_BLUEPRINT.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777385023485,
+      "cline_edit_date": 1777385023485,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/broll_fetcher.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777385379975,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/main.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777385409589,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/script_generator.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777385620756,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "src/config.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777385668011,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/script_generator.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777385620756,
+      "cline_edit_date": null,
+      "user_edit_date": 1777385690408
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/script_generator.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777385695110,
+      "cline_edit_date": 1777385695110,
+      "user_edit_date": 1777385690408
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777385790921-5grvtrz.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777385831176,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777385790921-5grvtrz.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1777385831176,
+      "cline_edit_date": null,
+      "user_edit_date": 1777386358456
+    },
+    {
+      "path": ".env",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777386476418,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777386518770,
+      "cline_edit_date": 1777386518770,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/scheduler.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777386526554,
+      "cline_edit_date": 1777386526554,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/main.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777386556981,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/main.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777386556981,
+      "cline_edit_date": null,
+      "user_edit_date": 1777386584408
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777386588865,
+      "cline_edit_date": 1777386588865,
+      "user_edit_date": 1777386584408
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/config.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777386706395,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777386759514-5iuk9yr.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777386808903,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777386656190-spnt2z7.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777386842462,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777386759514-5iuk9yr.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1777386808903,
+      "cline_edit_date": null,
+      "user_edit_date": 1777387033548
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1777386656190-spnt2z7.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1777386842462,
+      "cline_edit_date": null,
+      "user_edit_date": 1777387049503
+    },
+    {
+      "path": "projects/auto_affiliate_video/data/video_generation.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777387100943,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "data/output/Knowledge_Base/Finance_Investing/2_Nang_Cao/TinhHoa_PhanTichKyThuat.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777387504422,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "data/output/Knowledge_Base/Finance_Investing/2_Nang_Cao/TinhHoa_TaiChinhHanhVi.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777387507781,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "data/output/Knowledge_Base/Finance_Investing/3_Toi_Thuong/TinhHoa_NhaDauTuThongMinh.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777387510967,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/TRADING_AGENT_ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777387741052,
+      "cline_edit_date": 1777387741052,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/data/video_generation.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777387882036,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777388009737,
+      "cline_edit_date": 1777388009737,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777388116846,
+      "cline_edit_date": 1777388116846,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/fundamental_fetcher.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777388186780,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/backtest/mini_backtest.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777388210384,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/technical_engine.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777388289427,
+      "cline_edit_date": 1777388289427,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/behavioral_warden.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777388371700,
+      "cline_edit_date": 1777388371700,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777388536324,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777388536324,
+      "cline_edit_date": null,
+      "user_edit_date": 1777388589218
+    },
+    {
+      "path": "projects/ai_trading_agent/src/live_advisor.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777388593991,
+      "cline_edit_date": 1777388593991,
+      "user_edit_date": 1777388589218
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/video_editor.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777388949778,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/video_editor.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777388949778,
+      "cline_edit_date": null,
+      "user_edit_date": 1777389003771
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/video_editor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777389008720,
+      "cline_edit_date": 1777389008720,
+      "user_edit_date": 1777389003771
+    },
+    {
+      "path": "projects/auto_affiliate_video/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777389144753,
+      "cline_edit_date": 1777379715962,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777389144753,
+      "cline_edit_date": 1777379715962,
+      "user_edit_date": 1777389203029
+    },
+    {
+      "path": "projects/auto_affiliate_video/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777389207961,
+      "cline_edit_date": 1777389207961,
+      "user_edit_date": 1777389203029
+    },
+    {
+      "path": "reports/MONETIZATION_PERFORMANCE_REPORT.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777389283948,
+      "cline_edit_date": 1777389283948,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_cookies.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777389634646,
+      "cline_edit_date": 1777389634646,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777389682690,
+      "cline_edit_date": 1777389682690,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777389739119,
+      "cline_edit_date": 1777389739119,
+      "user_edit_date": 1777386584408
+    },
+    {
+      "path": ".env",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777418740994,
+      "cline_edit_date": 1777418740994,
+      "user_edit_date": null
+    },
+    {
+      "path": ".env",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777418763631,
+      "cline_edit_date": 1777418763631,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/affiliate_manager.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777418772441,
+      "cline_edit_date": 1777418772441,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777418805485,
+      "cline_edit_date": 1777418805485,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/main.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777418833579,
+      "cline_edit_date": 1777418833579,
+      "user_edit_date": 1777386584408
+    },
+    {
+      "path": "tools/extract_cookies.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777419202371,
+      "cline_edit_date": 1777419202371,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/main.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777419545971,
+      "cline_edit_date": 1777419545971,
+      "user_edit_date": 1777386584408
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/video_editor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777419861370,
+      "cline_edit_date": 1777419861370,
+      "user_edit_date": 1777389003771
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777420293998,
+      "cline_edit_date": 1777420293998,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777420381952,
+      "cline_edit_date": 1777420381952,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/auto_uploader.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777420480972,
+      "cline_edit_date": 1777420480972,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/video_editor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777420591121,
+      "cline_edit_date": 1777420591121,
+      "user_edit_date": 1777389003771
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/video_editor.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777420695265,
+      "cline_edit_date": 1777420695265,
+      "user_edit_date": 1777389003771
+    },
+    {
+      "path": "projects/auto_affiliate_video/src/video_editor.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777420846323,
+      "cline_edit_date": 1777420846323,
+      "user_edit_date": 1777389003771
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1777303154207,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777303444149,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777304015325,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777304298247,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777304620698,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777304809849,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777330402633,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777330497669,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777330851584,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777331289068,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777331554761,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777331646585,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777376012652,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777376167809,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777376568042,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777376707423,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777377479237,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777377647456,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777378134947,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777378496362,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777379422785,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777379654854,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777383101279,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777383401623,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777383738685,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777384966397,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777385301555,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777385540856,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777387066467,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777387697722,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777387838437,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777387954316,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777388737658,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777388822737,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777389449826,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777389571820,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777390309663,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777390396068,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777418484289,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777418711495,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777419006576,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777419125958,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777419400742,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777419528317,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777419792638,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777419826320,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777420125039,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777420246993,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777421006911,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1777303154198,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.117.0",
+      "cline_version": "3.81.0"
+    }
+  ]
+}

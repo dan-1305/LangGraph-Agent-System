@@ -1,0 +1,17 @@
+{
+    "id": "a751bb6a-a815-4624-bea4-56611b3c70e2",
+    "scriptName": "Ẩn bảng lựa chọn hành động với AI",
+    "findRegex": "/<choices>[\\s\\S]*?<\\/choices>/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

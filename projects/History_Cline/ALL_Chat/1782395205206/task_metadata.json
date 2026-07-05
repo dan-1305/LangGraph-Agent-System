@@ -1,0 +1,621 @@
+{
+  "files_in_context": [
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1782395262047-zwc4bcd.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782395271759,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1782395262047-zwc4bcd.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1782395271759,
+      "cline_edit_date": null,
+      "user_edit_date": 1782395303002
+    },
+    {
+      "path": "core_utilities/logger.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782395923643,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".env.example",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782396227519,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "core_utilities/logger.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782395923643,
+      "cline_edit_date": null,
+      "user_edit_date": 1782396372386
+    },
+    {
+      "path": "core_utilities/logger.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782396375740,
+      "cline_edit_date": 1782396375740,
+      "user_edit_date": 1782396372386
+    },
+    {
+      "path": "test_tele_alert.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782396414427,
+      "cline_edit_date": 1782396414427,
+      "user_edit_date": null
+    },
+    {
+      "path": "test_tele_alert.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782396458378,
+      "cline_edit_date": 1782396458378,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782396535590,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782396535590,
+      "cline_edit_date": null,
+      "user_edit_date": 1782396555686
+    },
+    {
+      "path": "projects/ai_trading_agent/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782396559929,
+      "cline_edit_date": 1782396559929,
+      "user_edit_date": 1782396555686
+    },
+    {
+      "path": "projects/ai_trading_agent/src/ml_prediction.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782396586038,
+      "cline_edit_date": 1782396586038,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782396615617,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782396615617,
+      "cline_edit_date": null,
+      "user_edit_date": 1782396658282
+    },
+    {
+      "path": "projects/ai_trading_agent/src/langgraph_agent.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782396661522,
+      "cline_edit_date": 1782396661522,
+      "user_edit_date": 1782396658282
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782396679102,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782396679102,
+      "cline_edit_date": null,
+      "user_edit_date": 1782396700312
+    },
+    {
+      "path": "projects/ai_trading_agent/live_advisor.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782396704516,
+      "cline_edit_date": 1782396704516,
+      "user_edit_date": 1782396700312
+    },
+    {
+      "path": "projects/airdrop_guerrilla/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782397537409,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782397537409,
+      "cline_edit_date": null,
+      "user_edit_date": 1782397550622
+    },
+    {
+      "path": "projects/airdrop_guerrilla/pyproject.toml",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782397554852,
+      "cline_edit_date": 1782397554852,
+      "user_edit_date": 1782397550622
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782397597908,
+      "cline_edit_date": 1782397597908,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782397633293,
+      "cline_edit_date": 1782397633293,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782398239265,
+      "cline_edit_date": 1782398239265,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782398283785,
+      "cline_edit_date": 1782398283785,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/disk_cleaner/run_cleaner.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782399031711,
+      "cline_edit_date": 1782399031711,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/disk_cleaner/run_cleaner.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782399063247,
+      "cline_edit_date": 1782399063247,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/disk_cleaner/run_cleaner.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782399159122,
+      "cline_edit_date": 1782399159122,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/disk_cleaner/deep_scanner.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782400201634,
+      "cline_edit_date": 1782400201634,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1782400279440-t6105b1.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782400704590,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "web_dashboard.py",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782401640444,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "web_dashboard.py",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1782401640444,
+      "cline_edit_date": null,
+      "user_edit_date": 1782401723566
+    },
+    {
+      "path": "web_dashboard.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782401728041,
+      "cline_edit_date": 1782401728041,
+      "user_edit_date": 1782401723566
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782401799739,
+      "cline_edit_date": 1782401799739,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/disk_cleaner/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782401860826,
+      "cline_edit_date": 1782401860826,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/docs/AIRDROP_ROADMAP.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782402298500,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782402856535,
+      "cline_edit_date": 1782402856535,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782402910055,
+      "cline_edit_date": 1782402910055,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782403429142,
+      "cline_edit_date": 1782403429142,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782403538974,
+      "cline_edit_date": 1782403538974,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782403995536,
+      "cline_edit_date": 1782403995536,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782404234455,
+      "cline_edit_date": 1782404234455,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782404551544,
+      "cline_edit_date": 1782404551544,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782404626289,
+      "cline_edit_date": 1782404626289,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782404891100,
+      "cline_edit_date": 1782404891100,
+      "user_edit_date": 1782397550622
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782404944934,
+      "cline_edit_date": 1782404944934,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782404988747,
+      "cline_edit_date": 1782404988747,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782405296315,
+      "cline_edit_date": 1782405296315,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/zealy_bot.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782405324527,
+      "cline_edit_date": 1782405324527,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782405527683,
+      "cline_edit_date": 1782405527683,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782405688069,
+      "cline_edit_date": 1782405688069,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782405977651,
+      "cline_edit_date": 1782405977651,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/airdrop_guerrilla/src/automation/stealth_behavior.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782406279411,
+      "cline_edit_date": 1782406279411,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782406803967,
+      "cline_edit_date": 1782406803967,
+      "user_edit_date": null
+    },
+    {
+      "path": "tests/test_advanced_rag_flow.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782408770700,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1782409035601,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782409285396,
+      "cline_edit_date": 1782409285396,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782409358906,
+      "cline_edit_date": 1782409358906,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1782409955223-pnwzhzj.log",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1782410015565,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1782395207132,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782396209690,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782396931861,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782397512724,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782397778578,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782398066370,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782398878747,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782398954843,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782400058844,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782400153479,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782400641682,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782401243252,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782401600493,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782401694232,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782402217523,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782402820694,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782405148462,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782405245618,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782406142070,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782406228146,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782407645894,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782409213765,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1782395207124,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.126.0",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

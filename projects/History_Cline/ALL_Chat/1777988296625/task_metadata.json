@@ -1,0 +1,159 @@
+{
+  "files_in_context": [
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/7. Phạm Công Danh và Nguyễn Công Tiến_Dự báo giá cổ phiếu-chỉ số chứng khoán cơ bản .docx",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777988519346,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/requirements.txt",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777988643128,
+      "cline_edit_date": 1777988643128,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/00_Data_Collection_Preprocessing.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777988666112,
+      "cline_edit_date": 1777988666112,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/01_Machine_Learning_Demo.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777988672857,
+      "cline_edit_date": 1777988672857,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/02_Deep_Learning_LSTM_Demo.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777988713726,
+      "cline_edit_date": 1777988713726,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/README.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777988720325,
+      "cline_edit_date": 1777988720325,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/03_Multimodal_FinBERT_Backtest.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777988757986,
+      "cline_edit_date": 1777988757986,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/CONTEXT.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777988764886,
+      "cline_edit_date": 1777988764886,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/1_Data_Pipeline.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777989142893,
+      "cline_edit_date": 1777989142893,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/2_ML_Baselines.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777989149739,
+      "cline_edit_date": 1777989149739,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/3_DL_LSTM_Models.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777989184529,
+      "cline_edit_date": 1777989184529,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/04_Source_Code/4_Backtesting_Eval.ipynb",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777989191420,
+      "cline_edit_date": 1777989191420,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/README.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777989219067,
+      "cline_edit_date": 1777989219067,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/ĐỀ TÀI HỌC SÂU, kết hợp làm Đồ án môn AI & Học máy/Stock_Forecasting_Project/CONTEXT.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777989225854,
+      "cline_edit_date": 1777989225854,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1777988298759,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777988600657,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777988848418,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777988962261,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777989827274,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1777988298751,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.118.1",
+      "cline_version": "3.82.0"
+    }
+  ]
+}

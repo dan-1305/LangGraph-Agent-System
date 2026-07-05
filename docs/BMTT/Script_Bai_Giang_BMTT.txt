@@ -1,0 +1,28 @@
+Chào các em sinh viên. Thầy biết môn An toàn Bảo mật thông tin có rất nhiều công thức toán học khô khan, dễ làm các em hoảng sợ. Nhưng hôm nay, thầy sẽ chỉ cho các em bí quyết để vượt qua 4 dạng bài tập cực kỳ quan trọng: Affine, Hill, RSA và Playfair, theo một cách cực kỳ đơn giản và dễ nhớ. Các em chỉ cần chú ý lắng nghe nhé!
+
+Đầu tiên, nguyên tắc sống còn số 1: Các em TUYỆT ĐỐI không được dùng bảng mã ASCII để làm bài. Mọi bài tập Mật mã cổ điển đều sử dụng bảng chữ cái tiếng Anh từ A đến Z, và được đánh số thứ tự từ 0 đến 25. Mọi phép tính cộng, trừ, nhân, chia đều phải lấy phần dư cho 26. Tức là, nếu em tính ra một số lớn hơn 25, hoặc một số âm, em phải cộng hoặc trừ cho 26 liên tục cho đến khi con số rơi vào khoảng từ 0 đến 25 mới thôi. Nhớ kỹ nhé, Modulo 26 là chìa khóa!
+
+Bây giờ, chúng ta vào dạng bài đầu tiên: Mã hóa Affine.
+Mã Affine có công thức mã hóa là C = a nhân P cộng b, tất cả mod 26. 
+Để giải mã, công thức ngược lại là: P bằng nghịch đảo của a, nhân cho mở ngoặc, C trừ b, đóng ngoặc. 
+Ví dụ đề bài cho a bằng 19, b bằng 23. Các em hay mắc kẹt ở chỗ tìm phần tử nghịch đảo của 19. Đừng sợ! Các em không cần dùng thuật toán Ơ clit mở rộng dài dòng đâu. Cứ lấy máy tính ra bấm. Thử lần lượt các số. Ta thấy 19 nhân 11 bằng 209. Lấy 209 chia 26 dư 1. Vậy nghịch đảo của 19 chính là 11! Rất nhanh phải không? 
+Tiếp theo, ta có C trừ 23. Trừ 23 dễ tính nhầm ra số âm lắm. Các em hãy lấy trừ 23 cộng thêm 26 là ra dương 3. Vậy là công thức giải mã Affine rút gọn siêu đẹp: P bằng 11 nhân cho mở ngoặc, C cộng 3. Vào bài thi, cứ thế mà kẻ bảng tính nhẩm là ra ngay!
+
+Dạng thứ hai, và cũng là cái bẫy lớn nhất: Mã Hill.
+Mã Hill thực chất là nhân ma trận. Nhưng cái bẫy ở đây là các em phải nhớ: Ký tự bản rõ phải được biểu diễn dưới dạng VECTOR CỘT, chứ không phải vector hàng!
+Ví dụ, ma trận khóa K là 2 nhân 2. Bản rõ là chữ 'do', tương đương với số 3 và 14. Các em phải dựng đứng số 3 và 14 lên thành một cái cột. 
+Khi nhân, ta lấy HÀNG 1 của ma trận Khóa, nhân tương ứng với cái CỘT đó. Tức là phần tử K_1_1 nhân 3, cộng phần tử K_1_2 nhân 14. Nhớ nhé, Hàng nhân Cột. Tính sai chiều vector là các em đi tong cả bài đấy.
+Còn lúc Giải mã Hill, các em cần tìm nghịch đảo của ma trận. Đầu tiên, tính định thức ĐÉT của K. Rồi tìm nghịch đảo của cái ĐÉT đó theo modulo 26, giống như cách mình bấm máy tính tìm nghịch đảo ở bài Affine vậy. Sau đó, nhân với ma trận phụ hợp là xong.
+
+Dạng thứ ba: RSA.
+RSA thì công thức cực dễ: Mã hóa là C bằng M mũ e, modulo N. 
+Bí quyết để lấy điểm ở đây là biết cách tìm khóa d. Khóa d là nghịch đảo của e theo modulo của hàm phi Euler. Đề bài thường cho P và Q. N thì bằng P nhân Q. Hàm phi N thì bằng P trừ 1 nhân với Q trừ 1. 
+Giả sử Phi N bằng 120, và e bằng 7. Ta tìm d sao cho 7 nhân d chia 120 dư 1. Thử nhẩm nhé: 7 nhân 103 bằng 721. Lấy 721 chia 120 được 6, dư 1. Suy ra d bằng 103!
+Khi mã hóa số lớn, ví dụ tính 20 mũ 7, đừng cố bấm hết một lần trên máy tính bỏ túi vì nó sẽ tràn số. Hãy tách ra thành 20 mũ 2, rồi mũ 3, rồi nhân thêm 20, và nhớ lấy modulo 143 sau mỗi lần nhân để số luôn nhỏ.
+
+Cuối cùng, dạng Playfair.
+Bài này chơi chữ trên bảng 5 nhân 5. Vì bảng 5 nhân 5 chỉ có 25 ô, mà bảng chữ cái có 26 chữ, nên các em luôn nhớ phải gộp hai chữ cái I ngắn và J vào chung một ô.
+Quy tắc có 3 câu thần chú: "Cùng hàng thì qua phải, cùng cột thì đi xuống, khác hàng khác cột thì lấy góc hình chữ nhật đối diện".
+Khi tách bản rõ thành từng cặp 2 chữ cái, nếu gặp hai chữ giống hệt nhau đứng liền nhau, các em bắt buộc phải chèn chữ cái X vào giữa chúng rồi mới được tách cặp.
+
+Đó là toàn bộ bí quyết để xử đẹp các dạng bài tính toán của môn An toàn Bảo mật thông tin. Thầy chúc các em ôn bài hiệu quả, bình tĩnh xử lý các bẫy ma trận và đạt điểm cao trong kỳ thi sắp tới nhé! Chào các em!

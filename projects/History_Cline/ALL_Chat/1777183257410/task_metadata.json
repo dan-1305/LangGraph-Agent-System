@@ -1,0 +1,255 @@
+{
+  "files_in_context": [
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777183273544,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777183274177,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "HUONG_DAN_SU_DUNG.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777183274822,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777183275460,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777183273544,
+      "cline_edit_date": null,
+      "user_edit_date": 1777183519373
+    },
+    {
+      "path": "README.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777183273544,
+      "cline_edit_date": null,
+      "user_edit_date": 1777183520696
+    },
+    {
+      "path": "README.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777183523904,
+      "cline_edit_date": 1777183523904,
+      "user_edit_date": 1777183520696
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777183275460,
+      "cline_edit_date": null,
+      "user_edit_date": 1777183529974
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777183533405,
+      "cline_edit_date": 1777183533405,
+      "user_edit_date": 1777183529974
+    },
+    {
+      "path": "docs/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1777183696690,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "summary.txt",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777183756940,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1777183696690,
+      "cline_edit_date": null,
+      "user_edit_date": 1777183946204
+    },
+    {
+      "path": "docs/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777183949694,
+      "cline_edit_date": 1777183949694,
+      "user_edit_date": 1777183946204
+    },
+    {
+      "path": "early_logs.txt",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777183983778,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777184116551,
+      "cline_edit_date": 1777184116551,
+      "user_edit_date": 1777183946204
+    },
+    {
+      "path": "docs/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777184382068,
+      "cline_edit_date": 1777184382068,
+      "user_edit_date": 1777183946204
+    },
+    {
+      "path": "docs/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777184387496,
+      "cline_edit_date": 1777184387496,
+      "user_edit_date": 1777183946204
+    },
+    {
+      "path": "docs/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777184584119,
+      "cline_edit_date": 1777184584119,
+      "user_edit_date": 1777183946204
+    },
+    {
+      "path": "all_logs_summary.txt",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1777184726996,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1777184865492,
+      "cline_edit_date": 1777184865492,
+      "user_edit_date": 1777183946204
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1777183258041,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777183490564,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777183680586,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777183879150,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777184246339,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777184358701,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777184468449,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777184527143,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777184681484,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777184796555,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777184958021,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1777189625051,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1777190006598,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1777183258033,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.117.0",
+      "cline_version": "3.81.0"
+    }
+  ]
+}

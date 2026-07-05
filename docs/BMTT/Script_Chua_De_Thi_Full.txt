@@ -1,0 +1,37 @@
+Chào các em sinh viên. Chào mừng các em đến với buổi tổng ôn cuối kỳ môn An toàn và Bảo mật thông tin. Đề cương của chúng ta gồm 10 câu, chia làm hai phần: Bài tập tính toán và Lý thuyết. Trong buổi hôm nay, thầy sẽ hướng dẫn các em cách "ăn trọn" điểm tối đa của cả 10 câu này. Các em chú ý lắng nghe nhé!
+
+Chúng ta bắt đầu với CÂU 1: Mã hóa Affine. 
+Để giải mã Affine, các em cần nhớ công thức: P bằng nghịch đảo của a, nhân cho mở ngoặc, C trừ b, đóng ngoặc. 
+Điểm mấu chốt là tìm phần tử nghịch đảo của a. Ví dụ a bằng 19, các em đừng cố nhớ thuật toán Ơ-clit. Hãy bấm máy tính, lấy 19 nhân 11 bằng 209, đem chia cho 26 dư 1. Vậy nghịch đảo của 19 là 11! Tiếp theo, biểu thức C trừ 23 dễ làm ra số âm, các em hãy lấy trừ 23 cộng thêm 26 là thành dương 3. Cuối cùng, công thức rút gọn siêu đẹp sẽ là: P bằng 11 nhân cho mở ngoặc, C cộng 3. Việc còn lại chỉ là kẻ bảng, ráp số vào bấm là ra. Rất dễ lấy điểm đúng không?
+
+Sang CÂU 2 và CÂU 3: Mã Hill. 
+Mã Hill thực chất là nhân ma trận, nhưng có một cái bẫy chết người ở đây: Ký tự bản rõ phải được biểu diễn dưới dạng VECTOR CỘT, không phải vector hàng! Các em tách bản rõ thành từng khối, dựng đứng chúng lên thành cái cột, rồi lấy từng Hàng của ma trận Khóa nhân tương ứng với cái Cột đó. Tính sai chiều vector là sai toàn bộ bài!
+Khi Giải mã Hill, các em cần tìm ma trận nghịch đảo. Đầu tiên, tính định thức ĐÉT của ma trận Khóa. Ví dụ bài 2 tính ra ĐÉT bằng 25. Nghịch đảo của 25 theo modulo 26 chính là 25. Sau đó, với ma trận 2 nhân 2, em đổi chỗ đường chéo chính, đổi dấu đường chéo phụ để ra ma trận phụ hợp, rồi nhân với 25 là xong. Với ma trận 3 nhân 3 ở bài 3, bước tính ma trận phụ hợp sẽ dài hơn một chút vì phải dùng phần bù đại số, các em nhớ cẩn thận dấu âm dương nhé.
+
+CÂU 4: Hệ mật RSA. 
+Bí quyết ăn điểm RSA nằm ở chỗ tìm khóa bí mật d. Khóa d là nghịch đảo của e theo modulo của hàm Phi N. Ví dụ, hàm Phi N bằng 120, và e bằng 7. Ta tìm d sao cho 7 nhân d chia 120 dư 1. Các em nhẩm thử, 7 nhân 103 bằng 721. Lấy 721 chia 120 được 6, dư 1. Vậy suy ra d bằng 103!
+Lúc mã hóa số lớn, như 20 mũ 7, đừng bấm một lượt trên máy tính vì sẽ tràn bộ nhớ. Hãy tách ra thành 20 mũ 2, rồi nâng dần lên, và lấy modulo 143 liên tục sau mỗi bước tính.
+
+CÂU 6 và CÂU 7: Mã Playfair.
+Playfair chơi chữ trên bảng 5 nhân 5. Vì bảng chỉ có 25 ô mà chữ cái tiếng Anh có 26 chữ, các em LUÔN LUÔN phải gộp chữ I ngắn và J vào chung một ô. Quy tắc mã hóa là 3 câu thần chú: Cùng hàng thì tiến qua phải một ô. Cùng cột thì đi xuống dưới một ô. Khác hàng khác cột thì lấy góc của hình chữ nhật đối diện. Nếu bản rõ lẻ, thêm X vào cuối. Nếu hai chữ cái giống nhau đứng liền nhau, chèn X vào giữa.
+
+Bây giờ, chúng ta chuyển sang phần LÝ THUYẾT để lấy trọn 10 điểm.
+
+CÂU 5 và CÂU 8: Phân biệt IPS và IDS.
+Các em hãy tưởng tượng, mạng máy tính như một ngôi nhà.
+IDS - Hệ thống phát hiện xâm nhập - giống như cái camera an ninh. Nó chỉ đứng ngoài giám sát. Nếu có trộm, nó sẽ kêu lên báo động, gửi Alert cho quản trị viên, nhưng nó KHÔNG trực tiếp bắt trộm. IDS là hệ thống THỤ ĐỘNG.
+Ngược lại, IPS - Hệ thống ngăn ngừa xâm nhập - giống như anh bảo vệ đứng ở cửa. Anh ta nằm TRỰC TIẾP trên đường truyền dữ liệu (Inline). Nếu phát hiện có mã độc, IPS sẽ lập tức chặn đứng, ngắt kết nối (Drop/Block) gói tin đó ngay. IPS là hệ thống CHỦ ĐỘNG. 
+
+CÂU 9: Vai trò của SSL/TLS.
+SSL/TLS là xương sống của HTTPS, nó cung cấp 3 tính năng cốt lõi. Trong bài thi, các em phải nêu đủ 3 từ khóa này:
+Thứ nhất, Mã hóa (Encryption): Nó biến dữ liệu thành bản mã không thể đọc hiểu, giúp chống lại việc nghe lén mật khẩu hay số thẻ tín dụng trên đường truyền.
+Thứ hai, Xác thực (Authentication): SSL sử dụng Chứng chỉ số để chứng minh với người dùng rằng họ đang truy cập đúng vào trang web thật, chứ không phải trang web giả mạo lừa đảo.
+Thứ ba, Tính toàn vẹn (Integrity): Nó đảm bảo dữ liệu không bị sửa đổi hay cắt xén trên đường truyền đi.
+
+CÂU 10: Cơ chế hoạt động của Chữ ký số.
+Để làm đúng câu này, các em cần trình bày rõ 2 quá trình diễn ra ở 2 đầu.
+Tại đầu người gửi (Quá trình Ký): Người gửi dùng hàm Băm, hay còn gọi là Hash, để tóm tắt tài liệu. Sau đó, họ dùng chính Khóa Bí Mật (Private Key) của mình để mã hóa cái bản băm đó. Kết quả tạo ra một Chữ ký số đính kèm vào tài liệu.
+Tại đầu người nhận (Quá trình Kiểm tra): Người nhận sẽ dùng Khóa Công Khai (Public Key) của người gửi để giải mã chữ ký đó, thu lại được bản băm gốc. Cuối cùng, người nhận tự băm tài liệu vừa nhận được và so sánh hai bản băm. Nếu giống nhau, tài liệu là an toàn.
+Chữ ký số có vai trò chống giả mạo, đảm bảo toàn vẹn dữ liệu và đặc biệt là Chống chối bỏ. Người gửi không thể chối cãi rằng họ không gửi tài liệu đó.
+
+Đó là toàn bộ bí kíp để lấy 10 điểm bài thi An toàn Bảo mật thông tin. Thầy chúc các em ôn bài thật tốt, giữ vững tâm lý khi làm bài toán ma trận, và học thuộc các từ khóa lý thuyết thầy vừa chỉ. Chúc các em đạt kết quả cao nhất! Chào các em!

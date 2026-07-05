@@ -1,0 +1,65 @@
+# ===============================================================
+# .gitignore CỰC ĐOAN - BẢO VỆ AN NINH & CHỐNG NSFW (LANGGRAPH MASTER)
+# ===============================================================
+
+# --- [CẤM TUYỆT ĐỐI] DỮ LIỆU CÁ NHÂN & BIẾN MÔI TRƯỜNG ---
+.env
+.env*
+!.env.example
+secrets.json
+*.pem
+*.key
+
+# --- [CẤM TUYỆT ĐỐI] NỘI DUNG NSFW & HÌNH ẢNH SINH RA ---
+images_output/
+temp_ui_images/
+assets/models/
+models/
+output/
+data/output/
+*.onnx
+*.pth
+*.bin
+*.weights
+*.safetensors
+
+# --- [CẤM TUYỆT ĐỐI] DỮ LIỆU LỚN & DATABASE ---
+*.db
+*.sqlite3
+*.sqlite
+*.pkl
+*.joblib
+*.csv
+*.xlsx
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# --- [CẤM TUYỆT ĐỐI] LOGS & LỊCH SỬ HỆ THỐNG ---
+logs/
+analysis_user/
+*.log
+.vscode/
+.idea/
+.history/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- [CẤM TUYỆT ĐỐI] MÔI TRƯỜNG ẢO & CACHE ---
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.uv/
+
+# --- [CẤM TUYỆT ĐỐI] CÁC THƯ MỤC CẤU HÌNH TRÌNH DUYỆT ---
+chrome_profile/
+msedge_profile/
+
+# --- [QUY TẮC ĐẶC BIỆT] CHỈ CHO PHÉP CODE & DOCS ---
+# (Mọi thứ khác mặc định bị chặn bởi các quy tắc trên)

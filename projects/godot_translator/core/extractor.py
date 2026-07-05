@@ -1,0 +1,93 @@
+import re
+from pathlib import Path
+from rich.console import Console
+
+console = Console()
+
+class GodotExtractor:
+    """Module to extract Japanese strings from Godot GDScript (.gd) and Scene (.tscn) files."""
+    
+    # Regex to match Japanese characters: Hiragana, Katakana, and Kanji
+    # Modified to be more robust against encoding issues
+    JP_TEXT_PATTERN = re.compile(r'["\']([^"\']*(?:[ぁ-んァ-ヶー一-龠]|[\xe4-\xef][\x80-\xbf][\x80-\xbf])+[^"\']*)["\']')
+    
+    # Specific pattern for .tscn files to catch node properties like text = "..."
+    TSCN_TEXT_PATTERN = re.compile(r'text\s*=\s*["\']([^"\']*[ぁ-んァ-ヶー一-龠]+[^"\']*)["\']')
+
+    def __init__(self, target_dir: str):
+        self.target_dir = Path(target_dir)
+
+    def scan_files(self):
+        """Recursively scan for .gd and .tscn files."""
+        files = list(self.target_dir.rglob("*.gd")) + list(self.target_dir.rglob("*.tscn"))
+        console.print(f"[bold blue]Found {len(files)} potential source files (.gd/.tscn).[/bold blue]")
+        return files
+
+    def extract_from_file(self, file_path: Path):
+        """Extract Japanese strings from a single file based on its type."""
+        try:
+            content = None
+            # Prioritize UTF-8
+            for encoding in ['utf-8', 'euc-jp', 'cp932', 'shift_jis', 'latin-1']:
+                try:
+                    with open(file_path, 'r', encoding=encoding) as f:
+                        temp_content = f.read()
+                    
+                    if encoding == 'latin-1':
+                        try:
+                            temp_content = temp_content.encode('latin-1').decode('utf-8')
+                        except:
+                            pass
+                    
+                    if re.search(r'[ぁ-んァ-ヶー一-龠]+', temp_content):
+                        content = temp_content
+                        break
+                    
+                    if content is None:
+                        content = temp_content
+                except UnicodeDecodeError:
+                    continue
+            
+            if content is None:
+                with open(file_path, 'rb') as f:
+                    content = f.read().decode('utf-8', errors='ignore')
+
+            # Use different patterns based on file extension
+            if file_path.suffix == ".tscn":
+                # Combine general pattern and TSCN specific pattern for better coverage
+                matches = self.JP_TEXT_PATTERN.findall(content) + self.TSCN_TEXT_PATTERN.findall(content)
+            else:
+                matches = self.JP_TEXT_PATTERN.findall(content)
+                
+            # Remove duplicates while preserving order
+            unique_matches = list(dict.fromkeys(matches))
+            
+            return unique_matches
+        except Exception as e:
+            console.print(f"[bold red]Error reading {file_path}: {e}[/bold red]")
+            return []
+
+if __name__ == "__main__":
+    target = r"d:\Users\Admin\Downloads\kimochi\Game\[Kimochi] [RJ01503291] さよならのチェックリスト\Output2"
+    extractor = GodotExtractor(target)
+    
+    # Fix console output for Windows
+    import sys
+    import io
+    if sys.platform == "win32":
+        if hasattr(sys.stdout, 'reconfigure'):
+            sys.stdout.reconfigure(encoding='utf-8')
+    
+    # Test on a .tscn file if possible
+    found_any = False
+    for p in Path(target).rglob("*.tscn"):
+        texts = extractor.extract_from_file(p)
+        if texts:
+            console.print(f"[bold green]Found JP content in TSCN: {p.name}[/bold green]")
+            for t in texts[:5]:
+                console.print(f"  - {t}")
+            found_any = True
+            break
+            
+    if not found_any:
+        console.print("[yellow]No JP content found in .tscn files.[/yellow]")

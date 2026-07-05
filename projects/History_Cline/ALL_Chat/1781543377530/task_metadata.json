@@ -1,0 +1,255 @@
+{
+  "files_in_context": [
+    {
+      "path": "docs/archive_data/analysis_user/All_User_Inputs_Combined.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781543453461,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/archive_data/analysis_user/User_Inputs_Index.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781543466132,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "censor_18plus.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781543502316,
+      "cline_edit_date": 1781543502316,
+      "user_edit_date": null
+    },
+    {
+      "path": "docs/archive_data/analysis_user/User_Inputs_Index.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781543677833,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "censor_18plus_v2.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781543702980,
+      "cline_edit_date": 1781543702980,
+      "user_edit_date": null
+    },
+    {
+      "path": "censor_18plus_v3.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781543837946,
+      "cline_edit_date": 1781543837946,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/History_Cline/ALL_Chat/1777183257410/ui_messages.json",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781544581653,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects\\\\\\\\real_estate_prediction",
+      "record_state": "active",
+      "record_source": "file_mentioned",
+      "cline_read_date": 1781544583778,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "extract_recent_chats.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781544759966,
+      "cline_edit_date": 1781544759966,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781546675875,
+      "cline_edit_date": 1781546675875,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781546907244,
+      "cline_edit_date": 1781546907244,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781546945840,
+      "cline_edit_date": 1781546945840,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/system/delegate_audit.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781547039710,
+      "cline_edit_date": 1781547039710,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1781547086140-tsuedu0.log",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781547141470,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cline\\background-1781547086140-tsuedu0.log",
+      "record_state": "active",
+      "record_source": "user_edited",
+      "cline_read_date": 1781547141470,
+      "cline_edit_date": null,
+      "user_edit_date": 1781547177545
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781547468054,
+      "cline_edit_date": 1781547468054,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781547582953,
+      "cline_edit_date": 1781547582953,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/REFLECTIONS_AND_EVOLUTION.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781547632454,
+      "cline_edit_date": 1781547632454,
+      "user_edit_date": null
+    },
+    {
+      "path": ".clinerules",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781548085626,
+      "cline_edit_date": 1781548085626,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/edtech/create_qtkdcks_audio_simple.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781548303344,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1781543379895,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781543445076,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781544492058,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781544686640,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781545212077,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781546652603,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781546746661,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781546879636,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781547203360,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781547440560,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781547770291,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1781548060135,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1781548165151,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1781543379886,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.124.2",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

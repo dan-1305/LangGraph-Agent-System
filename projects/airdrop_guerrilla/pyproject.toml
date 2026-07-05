@@ -1,0 +1,9 @@
+[project]
+name = "airdrop_guerrilla"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "playwright",
+    "playwright-stealth",
+    "nest-asyncio"
+]

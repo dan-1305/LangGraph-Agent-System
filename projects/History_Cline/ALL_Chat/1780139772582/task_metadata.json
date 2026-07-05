@@ -1,0 +1,403 @@
+{
+  "files_in_context": [
+    {
+      "path": "handoff.txt",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780139831126,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780139833424,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780139835492,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/ROADMAP.md",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780139838140,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "translated_test/p_option_push_select.gd",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780155923927,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "translated_project/scene/global/global_data.gd",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1780184629538,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "translated_project/scene/global/global_data.gd",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1780184629538,
+      "cline_edit_date": null,
+      "user_edit_date": 1780184650907
+    },
+    {
+      "path": "translated_project/scene/global/global_data.gd",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780184655778,
+      "cline_edit_date": 1780184655778,
+      "user_edit_date": 1780184650907
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780193955173,
+      "cline_edit_date": 1780193955173,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780194011716,
+      "cline_edit_date": 1780194011716,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780194064314,
+      "cline_edit_date": 1780194064314,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780194119855,
+      "cline_edit_date": 1780194119855,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780194191425,
+      "cline_edit_date": 1780194191425,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780194812793,
+      "cline_edit_date": 1780194812793,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780194907411,
+      "cline_edit_date": 1780194907411,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780195003777,
+      "cline_edit_date": 1780195003777,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/translate_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780196314826,
+      "cline_edit_date": 1780196314826,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/translate_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780197799640,
+      "cline_edit_date": 1780197799640,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780198197646,
+      "cline_edit_date": 1780198197646,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780198578987,
+      "cline_edit_date": 1780198578987,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780198673442,
+      "cline_edit_date": 1780198673442,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780199015311,
+      "cline_edit_date": 1780199015311,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780199211724,
+      "cline_edit_date": 1780199211724,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/extract_godot_csv.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780200373162,
+      "cline_edit_date": 1780200373162,
+      "user_edit_date": null
+    },
+    {
+      "path": "SAYONARA_NO_CHECKLIST/locate.data",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1780202308763,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/convert_data_to_csv.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780203080782,
+      "cline_edit_date": 1780203080782,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/translate_csv.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780204808245,
+      "cline_edit_date": 1780204808245,
+      "user_edit_date": null
+    },
+    {
+      "path": "tools/convert_csv_to_data.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1780205829438,
+      "cline_edit_date": 1780205829438,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1780139774211,
+      "model_id": "gemini-3.5-flash",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780139839115,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780140025683,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780141849517,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780142081175,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780184567992,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780184612125,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780193838165,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780193917788,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780194401095,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780194764920,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780196189564,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780196280211,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780197982766,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780198076402,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780198323724,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780198520238,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780198814059,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780198968091,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780199829184,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780200285989,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780200892835,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780201544546,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780203453925,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780204727566,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1780205732173,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1780205787272,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1780139774206,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.122.1",
+      "cline_version": "3.86.0"
+    }
+  ]
+}

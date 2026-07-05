@@ -1,0 +1,123 @@
+{
+  "files_in_context": [
+    {
+      "path": "User_Inputs/Lumine_Fake_Innocent_Persona.txt",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782175480409,
+      "cline_edit_date": 1782175480409,
+      "user_edit_date": null
+    },
+    {
+      "path": "User_Inputs/Succubus_Futanari_FakeInnocent.json",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782175592261,
+      "cline_edit_date": 1782175592261,
+      "user_edit_date": null
+    },
+    {
+      "path": "User_Inputs/Succubus_Futanari_FakeInnocent.json",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782203979071,
+      "cline_edit_date": 1782203979071,
+      "user_edit_date": null
+    },
+    {
+      "path": "User_Inputs/Succubus_Futanari_FakeInnocent.json",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782205428933,
+      "cline_edit_date": 1782205428933,
+      "user_edit_date": null
+    },
+    {
+      "path": "User_Inputs/Shota_FakeInnocent_Persona.txt",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1782209530266,
+      "cline_edit_date": 1782209530266,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1782174463519,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782175417605,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782175906468,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782203847333,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782204214579,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782205343666,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782205856231,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782206030545,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782206847680,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    },
+    {
+      "ts": 1782209476766,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "act"
+    },
+    {
+      "ts": 1782262418611,
+      "model_id": "gemini-3.1-pro-preview",
+      "model_provider_id": "gemini",
+      "mode": "plan"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1782174463513,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.125.1",
+      "cline_version": "3.89.2"
+    }
+  ]
+}

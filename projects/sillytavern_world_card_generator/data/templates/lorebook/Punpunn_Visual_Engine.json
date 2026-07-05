@@ -1,0 +1,49 @@
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "key": [
+                "hôn",
+                "cởi đồ",
+                "rên rỉ",
+                "chịch",
+                "đụ",
+                "vú",
+                "ngực",
+                "mông",
+                "lưỡi",
+                "nước bọt",
+                "mồ hôi",
+                "đâm",
+                "cắm",
+                "nhét",
+                "lấp đầy",
+                "bên trong",
+                "sung sướng",
+                "cực khoái",
+                "bắn",
+                "tinh dịch",
+                "dịch nhờn",
+                "ướt",
+                "cắn môi"
+            ],
+            "keysecondary": [],
+            "comment": "Punpunn NSFW Trigger",
+            "content": "[KÍCH HOẠT: Punpunn_Visual_Engine (Tả thực sinh học & Vật lý 18+)]\n- SỤP ĐỔ BIỂU CẢM: Cơ mặt vỡ vụn, cắn môi đến bật máu, mắt lờ đờ/mất tiêu cự, nước bọt không tự chủ trào ra khỏi khóe miệng.\n- VẬT LÝ DA THỊT: Đặc tả không khí đặc quánh, mồ hôi bết tóc, dịch thể ướt nháp dính, độ lún của da thịt khi bị bóp mạnh, sự rung bần bật của đùi/ngực theo quán tính va chạm.\n- SỰ THA HÓA TÂM LÝ: Cơ thể hoàn toàn chiến thắng và phản bội lý trí. Ban đầu cự tuyệt nhưng sau đó não bộ bị dopamine làm cho trắng xóa, chuyển sang trạng thái van xin, khao khát hèn mọn.\n- ĐỐI THOẠI VỠ VỤN: Cấm nói câu dài. Lời thoại bị băm nát, lắp bắp, phi logic (Ví dụ: \"Ư... không... quá sâu... hỏng mất... ahh~\").",
+            "constant": false,
+            "selective": true,
+            "insertion_order": 50,
+            "enabled": true,
+            "position": 1,
+            "useRegex": false,
+            "extensions": {
+                "position": 1,
+                "placement_new": 1,
+                "depth": 4,
+                "probability": 100,
+                "match_whole_words": false,
+                "use_group_scoring": false
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+# AIRDROP GUERRILLA - DOMAIN RULES
+# CẢNH BÁO: FILE NÀY CHỈ CHỨA LOGIC NGHIỆP VỤ (BUSINESS LOGIC) CỦA AIRDROP GUERRILLA AGENT.
+# TẤT CẢ CÁC VẤN ĐỀ VỀ KIẾN TRÚC, BẢO MẬT, API, TYPE HINTING ĐỀU PHẢI TUÂN THỦ `.clinerules` Ở THƯ MỤC ROOT.
+# [XUNG ĐỘT]: NẾU CÓ MÂU THUẪN, LUẬT ROOT LUÔN THẮNG VỀ KIẾN TRÚC, LUẬT NÀY LUÔN THẮNG VỀ NGHIỆP VỤ.
+
+## 1. MỤC TIÊU NGHIỆP VỤ (DOMAIN FOCUS)
+- Agent này chuyên trách các tác vụ Airdrop, bao gồm tự động tương tác với smart contract, thu thập thông tin mạng xã hội và quản lý danh sách ví (wallets).
+- Tập trung vào luồng scraping và automation, không xen vào mảng trading.
+
+## 2. QUẢN LÝ TRẠNG THÁI (STATE MANAGEMENT)
+- Quản lý trạng thái bằng việc theo dõi tiến trình thực thi của từng ví (Đã claim, chờ xác nhận, v.v...).
+- Trạng thái được ghi vào file CSV/JSON riêng biệt để dễ audit. Không lưu vào RAM tránh rò rỉ bộ nhớ khi số lượng ví tăng.
+
+## 3. BẢO MẬT VÀ CHỐNG SYBIL
+- TUYỆT ĐỐI CẤM lưu Private Key dạng text trần (plain text). Phải có cơ chế mã hóa hoặc dùng biến môi trường để đọc.
+- Mọi logic xoay quanh Proxy, User-Agent, và chống phát hiện Sybil phải được cô lập ở mức module, không lan sang các Agent khác.
+
+## 4. XỬ LÝ LỖI VÀ RATE LIMIT
+- Automation sẽ gặp lỗi RPC liên tục. Bắt buộc có cơ chế Exponential Backoff khi gọi RPC Node.
+- Lưu ý log lỗi chi tiết từng ví nếu bị kẹt giao dịch.

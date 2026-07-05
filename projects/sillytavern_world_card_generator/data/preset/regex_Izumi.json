@@ -1,0 +1,69 @@
+{
+  "fontScale": "1.1",
+  "fontSize": 17,
+  "fontColor": "#e0e5f5",
+  "chatFont": "",
+  "renderLimit": 20,
+  "contextLimit": 0,
+  "autoHideSummarized": false,
+  "fixedHideRange": "",
+  "enableThinkingAnimation": true,
+  "enableTypewriterOutput": true,
+  "showThinkingProcess": false,
+  "rules": [
+    {
+      "id": "pg86x",
+      "scriptName": "Ẩn tucao",
+      "findRegex": "/<tucao>([\\s\\S]*?)<\\/tucao>/g",
+      "replaceString": "",
+      "disabled": false,
+      "runOnEdit": false,
+      "markdownOnly": true,
+      "promptOnly": false,
+      "placement": [
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": null,
+      "substituteRegex": 0,
+      "trimStrings": []
+    },
+    {
+      "id": "tkhub",
+      "scriptName": "Ẩn disclaimer",
+      "findRegex": "/(<disclaimer>.*?</disclaimer>)/gs",
+      "replaceString": "",
+      "disabled": false,
+      "runOnEdit": false,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "placement": [
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": null,
+      "substituteRegex": 0,
+      "trimStrings": []
+    }
+  ],
+  "chainRules": [
+    {
+      "id": "betmg",
+      "scriptName": "Ẩn thinking",
+      "findRegex": "/([\\s\\S]*?<\\/thinking>)|(<thinking>[\\s\\S]*?<\\/thinking>)/gi",
+      "replaceString": "",
+      "disabled": false,
+      "runOnEdit": false,
+      "markdownOnly": false,
+      "promptOnly": false,
+      "placement": [
+        0,
+        2
+      ],
+      "minDepth": null,
+      "maxDepth": null,
+      "substituteRegex": 0,
+      "trimStrings": []
+    }
+  ]
+}

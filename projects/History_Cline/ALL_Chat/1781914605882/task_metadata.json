@@ -1,0 +1,167 @@
+{
+  "files_in_context": [
+    {
+      "path": "tools/system/rag_query.py",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781914670685,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": ".env.example",
+      "record_state": "active",
+      "record_source": "read_tool",
+      "cline_read_date": 1781914722012,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/pyproject.toml",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914765655,
+      "cline_edit_date": 1781914765655,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/core/__init__.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914783529,
+      "cline_edit_date": 1781914783529,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/core/config.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914808357,
+      "cline_edit_date": 1781914808357,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/core/client.py",
+      "record_state": "stale",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914844041,
+      "cline_edit_date": 1781914844041,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/core/client.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914862067,
+      "cline_edit_date": 1781914862067,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/main.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914890036,
+      "cline_edit_date": 1781914890036,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/.env.example",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914908702,
+      "cline_edit_date": 1781914908702,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/README.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914941326,
+      "cline_edit_date": 1781914941326,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/tests/__init__.py",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781914962606,
+      "cline_edit_date": 1781914962606,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/TEST_GUIDE.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781915013644,
+      "cline_edit_date": 1781915013644,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "read_tool",
+      "cline_read_date": 1781915026356,
+      "cline_edit_date": null,
+      "user_edit_date": null
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781915026356,
+      "cline_edit_date": null,
+      "user_edit_date": 1781915042129
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "stale",
+      "record_source": "user_edited",
+      "cline_read_date": 1781915026356,
+      "cline_edit_date": null,
+      "user_edit_date": 1781915045353
+    },
+    {
+      "path": "context/JARVIS_CHRONICLES.md",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781915049352,
+      "cline_edit_date": 1781915049352,
+      "user_edit_date": 1781915045353
+    },
+    {
+      "path": "projects/gemini_cli/.gitignore",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781915068323,
+      "cline_edit_date": 1781915068323,
+      "user_edit_date": null
+    },
+    {
+      "path": "projects/gemini_cli/run_demo.bat",
+      "record_state": "active",
+      "record_source": "cline_edited",
+      "cline_read_date": 1781915087511,
+      "cline_edit_date": 1781915087511,
+      "user_edit_date": null
+    }
+  ],
+  "model_usage": [
+    {
+      "ts": 1781914607471,
+      "model_id": "glm-4.7",
+      "model_provider_id": "zai",
+      "mode": "act"
+    }
+  ],
+  "environment_history": [
+    {
+      "ts": 1781914607465,
+      "os_name": "win32",
+      "os_version": "10.0.19044",
+      "os_arch": "x64",
+      "host_name": "Visual Studio Code",
+      "host_version": "1.125.0",
+      "cline_version": "3.89.2"
+    }
+  ]
+}
