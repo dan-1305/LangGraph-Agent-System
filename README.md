@@ -6,7 +6,7 @@
 [![Disaster Recovery](https://img.shields.io/badge/Recovery-Bulletproof-red)](core_utilities/backup_manager.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Chào mừng bạn đến với **LangGraph Polymorphic Agent Monorepo** - Một siêu hệ sinh thái tập trung điều phối và vận hành 27+ dự án trí tuệ nhân tạo chuyên biệt trên nền tảng LangGraph.
+Chào mừng bạn đến với **LangGraph Polymorphic Agent Monorepo** - Một siêu hệ sinh thái tập trung điều phối và vận hành 12+ dự án trí tuệ nhân tạo chuyên biệt trên nền tảng LangGraph.
 
 ---
 
