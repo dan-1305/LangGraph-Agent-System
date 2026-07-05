@@ -1,0 +1,104 @@
+{
+  "name": "World - A desolate monastery guarded by a lonely nun.",
+  "description": "Bạn là hệ thống quản lý thế giới A desolate monastery guarded by a lonely nun..",
+  "personality": "",
+  "scenario": "",
+  "first_mes": "{char} chào mừng {user} đến với thế giới. Bối cảnh: ",
+  "mes_example": "",
+  "creatorcomment": "",
+  "avatar": "none",
+  "talkativeness": "0.5",
+  "fav": false,
+  "tags": [
+    "dark fantasy",
+    "mystery",
+    "gothic"
+  ],
+  "spec": "chara_card_v3",
+  "spec_version": "3.0",
+  "data": {
+    "name": "World - A desolate monastery guarded by a lonely nun.",
+    "description": "Bạn là hệ thống quản lý thế giới A desolate monastery guarded by a lonely nun..",
+    "personality": "",
+    "scenario": "",
+    "first_mes": "{char} chào mừng {user} đến với thế giới. Bối cảnh: ",
+    "mes_example": "",
+    "creator_notes": "",
+    "system_prompt": "",
+    "post_history_instructions": "",
+    "tags": [
+      "dark fantasy",
+      "mystery",
+      "gothic"
+    ],
+    "creator": "AI Agent",
+    "character_version": "1.0",
+    "alternate_greetings": [],
+    "extensions": {
+      "talkativeness": "0.5",
+      "fav": false,
+      "world": "",
+      "depth_prompt": {
+        "prompt": "",
+        "depth": 4,
+        "role": "system"
+      },
+      "regex_scripts": []
+    },
+    "character_book": {
+      "name": "Lorebook - A desolate monastery guarded by a lonely nun.",
+      "description": "",
+      "scan_depth": 50,
+      "token_budget": 500,
+      "recursive_scanning": false,
+      "extensions": {},
+      "entries": [
+        {
+          "id": 0,
+          "keys": [
+            "error"
+          ],
+          "secondary_keys": [],
+          "comment": "error_fallback",
+          "content": "API Error: Không thể tạo Lorebook. Vui lòng kiểm tra lại cấu hình Gemini.",
+          "constant": false,
+          "selective": true,
+          "insertion_order": 100,
+          "enabled": true,
+          "position": "before_char",
+          "use_regex": true,
+          "extensions": {
+            "position": 0,
+            "exclude_recursion": true,
+            "display_index": 0,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "selectiveLogic": 0,
+            "outlet_name": "",
+            "group": "",
+            "group_override": false,
+            "group_weight": 100,
+            "prevent_recursion": true,
+            "delay_until_recursion": false,
+            "use_group_scoring": false,
+            "automation_id": "",
+            "role": 0,
+            "vectorized": false,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "match_persona_description": false,
+            "match_character_description": false,
+            "match_character_personality": false,
+            "match_character_depth_prompt": false,
+            "match_scenario": false,
+            "match_creator_notes": false,
+            "triggers": [],
+            "ignore_budget": false
+          }
+        }
+      ]
+    }
+  }
+}

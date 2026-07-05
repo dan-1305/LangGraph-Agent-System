@@ -1,0 +1,119 @@
+# ===============================================================
+# .gitignore CỰC ĐOAN - BẢO VỆ AN NINH & CHỐNG NSFW (LANGGRAPH MASTER)
+# ===============================================================
+
+# --- [CẤM TUYỆT ĐỐI] DỮ LIỆU CÁ NHÂN & BIẾN MÔI TRƯỜNG ---
+.env
+.env*
+!.env.example
+secrets.json
+*.pem
+*.key
+
+# --- [CẤM TUYỆT ĐỐI] NỘI DUNG NSFW & HÌNH ẢNH SINH RA ---
+projects/nsfw_multimedia_auditor/
+data/NSFW/
+projects/FlowNSFW-main/
+projects/NSFWDetector-master/
+images_output/
+temp_ui_images/
+assets/models/
+models/
+output/
+data/output/
+*.onnx
+*.pth
+*.bin
+*.weights
+*.safetensors
+
+# --- [CẤM TUYỆT ĐỐI] DỮ LIỆU LỚN & DATABASE ---
+*.db
+*.sqlite3
+*.sqlite
+*.pkl
+*.joblib
+*.csv
+*.xlsx
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# --- [CẤM TUYỆT ĐỐI] LOGS & LỊCH SỬ HỆ THỐNG ---
+logs/
+analysis_user/
+*.log
+.vscode/
+.idea/
+.history/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- [CẤM TUYỆT ĐỐI] MÔI TRƯỜNG ẢO & CACHE ---
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.uv/
+
+# --- [CẤM TUYỆT ĐỐI] CÁC THƯ MỤC CẤU HÌNH TRÌNH DUYỆT ---
+chrome_profile/
+msedge_profile/
+
+# --- [QUY TẮC ĐẶC BIỆT] CHỈ CHO PHÉP CODE & DOCS ---
+# (Mọi thứ khác mặc định bị chặn bởi các quy tắc trên)
+
+# === S6: CACHE CLEANUP (2026-07-20) ===
+.ruff_cache/
+.pytest_cache/
+.idea/
+.coverage
+chrome_profile/
+*.egg-info/
+*.db-journal
+
+# === [EMERGENCY SECURITY HARDENING 2026-07-23] ===
+# CHỐNG NSFW & ROLEPLAY CONTENT LÊN GIT
+projects/sillytavern_world_card_generator/data/
+projects/sillytavern_world_card_generator/Bleach_Persona_v2.md
+projects/sillytavern_world_card_generator/NTR_Sneaky_Personas_TinhHoa.md
+projects/sillytavern_world_card_generator/PunPunn_User_Personas.md
+projects/sillytavern_world_card_generator/MEDICAL_HEALER_ENTRY.json
+
+# CHỐNG SÁCH BẢN QUYỀN PDF
+data/knowledge_base/
+
+# CHỐNG BINARY & EXECUTABLE
+*.exe
+*.dll
+*.so
+*.dylib
+
+# CHỐNG GDRE TOOLS (copyrighted binary)
+tools/gdre_tools/
+
+# CHỐNG BÁO CÁO PDF
+tools/reports/
+
+# CHỐNG CONFIG CÁ NHÂN
+*.mp3
+*.mp4
+*.avi
+*.webm
+
+# CHỐNG COOKIES & SESSIONS
+*cookies*.json
+*session*.json
+
+# CHỐNG NSFW SCRIPTS & TOOLS
+*nsfw*.py
+*nsfw*.json
+*hentai*.py
+*hentai*.json
+run_nsfw_writer.py
+run_ocr_hentai.py

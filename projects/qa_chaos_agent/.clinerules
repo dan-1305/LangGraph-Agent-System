@@ -1,0 +1,19 @@
+# QA CHAOS AGENT - DOMAIN RULES
+# CẢNH BÁO: FILE NÀY CHỈ CHỨA LOGIC NGHIỆP VỤ (BUSINESS LOGIC) CỦA QA CHAOS AGENT.
+# TẤT CẢ CÁC VẤN ĐỀ VỀ KIẾN TRÚC, BẢO MẬT, API, TYPE HINTING ĐỀU PHẢI TUÂN THỦ `.clinerules` Ở THƯ MỤC ROOT.
+# [XUNG ĐỘT]: NẾU CÓ MÂU THUẪN, LUẬT ROOT LUÔN THẮNG VỀ KIẾN TRÚC, LUẬT NÀY LUÔN THẮNG VỀ NGHIỆP VỤ.
+
+## 1. MỤC TIÊU NGHIỆP VỤ (DOMAIN FOCUS)
+- Agent này đóng vai trò "Kẻ hủy diệt" (Chaos Engineer), chuyên tìm lỗi, fuzzing, và phân tích rủi ro của toàn bộ hệ thống LangGraph.
+- Nhiệm vụ chính là tạo các edge-case inputs (đầu vào dị thường) và bắt các lỗi chưa được xử lý.
+
+## 2. QUẢN LÝ TRẠNG THÁI (STATE MANAGEMENT)
+- Trạng thái của QA Agent là danh sách các bài test (Test Suite) và trạng thái Pass/Fail của chúng.
+- Phải ghi chép kết quả cặn kẽ vào `docs/ERROR_ENCYCLOPEDIA.md` và `reports/`.
+
+## 3. BẢO MẬT VÀ QUYỀN TRUY CẬP
+- QA Agent được quyền đọc log và code của các dự án khác để phân tích lỗi (Autopsy), nhưng KHÔNG ĐƯỢC PHÉP thay đổi trực tiếp file của Agent khác mà chưa có lệnh của quản trị viên.
+- Môi trường test phải hoàn toàn cô lập, không để rác của QA dính vào Database Production.
+
+## 4. BÁO CÁO LỖI (ERROR REPORTING)
+- Bất cứ khi nào QA Agent tìm thấy lỗi chí mạng gây sập hệ thống (Crash), phải lập tức dùng RAG Query kiểm tra xem lỗi này đã có trong Bách khoa toàn thư hay chưa, nếu chưa thì gọi tool `encyclopedia_writer.py` để bổ sung.

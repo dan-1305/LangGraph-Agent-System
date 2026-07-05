@@ -1,0 +1,370 @@
+# 🏛️ SOVEREIGN ASSET AUDIT REPORT (WITH EVIDENCE)
+
+> **Hệ thống:** LangGraph Monorepo | **Điều tra bởi:** AID Taskforce
+
+## 🏆 1. TÀI SẢN VÀNG (GOLD - IMMUTABLE)
+*Các file cốt lõi bảo vệ vương triều. CẤM CHẠM.*
+- `[CORE]` .clinerules
+- `[CORE]` monorepo_manifest.json
+- `[CORE]` projects\airdrop_guerrilla\.clinerules
+- `[CORE]` projects\ai_trading_agent\.clinerules
+- `[CORE]` projects\auto_affiliate_video\.clinerules
+- `[CORE]` projects\ceo_agent\.clinerules
+- `[CORE]` projects\godot_translator\.clinerules
+- `[CORE]` projects\jarvis-rpg-assistant\.clinerules
+- `[CORE]` projects\knowledge_base_agent\.clinerules
+- `[CORE]` projects\qa_chaos_agent\.clinerules
+- `[CORE]` projects\real_estate_prediction\.clinerules
+- `[CORE]` projects\sillytavern_world_card_generator\.clinerules
+- `[CORE]` projects\trading_rpg_simulator\.clinerules
+- `[CORE]` projects\universal_web_scraper\.clinerules
+- `[CORE]` projects\_template\.clinerules
+*(Và nhiều file core khác...)*
+
+## 🧟 2. DANH SÁCH ZOMBIE (XÁC THỰC BỞI THÁM TỬ)
+*Không có dependency, không được import, hoặc module rỗng.*
+- [ ] `recover_all_from_history.py` (4.29 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `recover_vsc.py` (4.71 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `context\_archive\AI_Interaction_Capability_Assessment.md` (7.58 KB)
+- [ ] `context\_archive\API_BENCHMARK_REPORT.md` (1.78 KB)
+- [ ] `context\_archive\daily_health_test_results.md` (0.79 KB)
+- [ ] `context\_archive\DEBATE_ROOM_20260707_235039.md` (6.61 KB)
+- [ ] `context\_archive\DOC_DEBATE_ANALYSIS.md` (14.82 KB)
+- [ ] `context\_archive\GRAND_ARENA_EVALUATION.md` (4.52 KB)
+- [ ] `context\_archive\log_analysis.md` (3.12 KB)
+- [ ] `context\_archive\MONETIZATION_PERFORMANCE_REPORT.md` (3.53 KB)
+- [ ] `core\drm_validator.py` (1.72 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `core\logic_auditor.py` (2.18 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `core\post_mortem_engine.py` (2.47 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `core\principles_enforcer.py` (2.09 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `core\process_watchdog.py` (3.91 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `core_utilities\backup_manager.py` (6.58 KB) | **Bằng chứng:** 0 classes, 6 funcs, Has Main
+- [ ] `core_utilities\logger.py` (3.21 KB) | **Bằng chứng:** 1 classes, 4 funcs
+- [ ] `core_utilities\notification_gateway.py` (1.2 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `core_utilities\obfuscator.py` (1.74 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `core_utilities\process_watchdog.py` (5.52 KB) | **Bằng chứng:** 0 classes, 4 funcs, Has Main
+- [ ] `core_utilities\safe_file_manager.py` (1.9 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `core_utilities\self_healing.py` (3.7 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `custom_nodes\websocket_image_save.py` (1.23 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `projects\airdrop_guerrilla\src\__init__.py` (0.04 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\airdrop_guerrilla\src\analysis\scoring.py` (8.2 KB) | **Bằng chứng:** 2 classes, 6 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\automation\executor.py` (16.15 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\automation\multi_account.py` (1.62 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\automation\session_manager.py` (3.51 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\airdrop_guerrilla\src\automation\wallet_manager.py` (7.52 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\automation\zealy_bot.py` (3.72 KB) | **Bằng chứng:** 1 classes, 2 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\modes\full_auto_cli.py` (10.56 KB) | **Bằng chứng:** 0 classes, 4 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\modes\semi_auto_ui.py` (4.01 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\networks\inco.py` (0.63 KB) | **Bằng chứng:** 1 classes, 1 funcs
+- [ ] `projects\airdrop_guerrilla\src\networks\monad.py` (0.58 KB) | **Bằng chứng:** 1 classes, 1 funcs
+- [ ] `projects\airdrop_guerrilla\src\networks\soneium.py` (0.54 KB) | **Bằng chứng:** 1 classes, 1 funcs
+- [ ] `projects\airdrop_guerrilla\src\scrapers\defillama_funding_parser.py` (7.11 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\utils\migrate_to_sqlite.py` (2.82 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\utils\notifier.py` (3.79 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\utils\proxy_manager.py` (1.92 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\airdrop_guerrilla\src\utils\stealth_vault.py` (2.26 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\ai_trading_agent\backtest\backtester.py` (9.14 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\ai_trading_agent\backtest\offline_backtest.py` (13.3 KB) | **Bằng chứng:** 1 classes, 11 funcs, Has Main
+- [ ] `projects\ai_trading_agent\backtest\__init__.py` (0.02 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\ai_trading_agent\src\analysis_to_social.py` (2.49 KB) | **Bằng chứng:** 2 classes, 3 funcs, Has Main
+- [ ] `projects\ai_trading_agent\src\behavioral_warden.py` (0.26 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\ai_trading_agent\src\data_fetcher.py` (8.38 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `projects\ai_trading_agent\src\funding_rate.py` (10.86 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `projects\ai_trading_agent\src\ml_prediction.py` (0.2 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\ai_trading_agent\src\profit_harvester.py` (2.56 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `projects\ai_trading_agent\src\self_reflection.py` (0.03 KB) | **Bằng chứng:** 1 classes, 0 funcs
+- [ ] `projects\ai_trading_agent\src\technical_engine.py` (3.6 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\ai_trading_agent\src\telegram_intelligence.py` (2.0 KB) | **Bằng chứng:** 2 classes, 4 funcs, Has Main
+- [ ] `projects\ai_trading_agent\src\validation_gate.py` (2.61 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\ai_trading_agent\src\whale_tracker.py` (0.58 KB) | **Bằng chứng:** 1 classes, 5 funcs
+- [ ] `projects\ai_trading_agent\src\__init__.py` (0.04 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\ai_trading_agent\tools\check_pnl.py` (2.61 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\ai_trading_agent\tools\generate_performance_report.py` (3.29 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\ai_trading_agent\tools\reset_pnl.py` (1.01 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\ai_trading_agent\tools\verify_db.py` (1.65 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\ai_trading_agent\tools\__init__.py` (0.02 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\asset_audit_taskforce\src\arb_session.py` (2.54 KB) | **Bằng chứng:** 1 classes, 2 funcs, Has Main
+- [ ] `projects\asset_audit_taskforce\src\auditor.py` (4.96 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `projects\asset_audit_taskforce\src\detective.py` (4.87 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\asset_audit_taskforce\src\judge_executor.py` (5.68 KB) | **Bằng chứng:** 1 classes, 7 funcs, Has Main
+- [ ] `projects\asset_audit_taskforce\src\scouter.py` (3.99 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `projects\auto_affiliate_video\src\affiliate_manager.py` (1.82 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\auto_affiliate_video\src\auto_uploader.py` (1.76 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\auto_affiliate_video\src\pexel_client.py` (3.17 KB) | **Bằng chứng:** 1 classes, 2 funcs, Has Main
+- [ ] `projects\auto_affiliate_video\src\script_generator.py` (3.15 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\auto_affiliate_video\src\test_upload.py` (0.59 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\auto_affiliate_video\src\tiktok_api_uploader.py` (1.77 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\auto_affiliate_video\src\tts_engine.py` (1.84 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `projects\auto_affiliate_video\src\vector_memory.py` (3.92 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\auto_affiliate_video\src\video_editor.py` (3.2 KB) | **Bằng chứng:** 1 classes, 2 funcs, Has Main
+- [ ] `projects\auto_affiliate_video\src\video_telemetry.py` (2.61 KB) | **Bằng chứng:** 1 classes, 7 funcs
+- [ ] `projects\auto_x_bot\src\browser_bot.py` (4.11 KB) | **Bằng chứng:** 2 classes, 7 funcs, Has Main
+- [ ] `projects\auto_x_bot\src\social_coordinator.py` (2.71 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\auto_x_bot\src\__init__.py` (0.04 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\ceo_agent\autonomous_ceo.py` (8.48 KB) | **Bằng chứng:** 2 classes, 9 funcs, Has Main
+- [ ] `projects\ceo_agent\ceo_mind.py` (6.24 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `projects\ceo_agent\ceo_morning_routine.py` (12.51 KB) | **Bằng chứng:** 6 classes, 7 funcs, Has Main
+- [ ] `projects\ceo_agent\ceo_training_matrix.py` (8.39 KB) | **Bằng chứng:** 1 classes, 7 funcs, Has Main
+- [ ] `projects\ceo_agent\marketing_intel.py` (2.04 KB) | **Bằng chứng:** 2 classes, 4 funcs, Has Main
+- [ ] `projects\gemini_cli\core\client.py` (6.93 KB) | **Bằng chứng:** 5 classes, 5 funcs
+- [ ] `projects\gemini_cli\core\__init__.py` (0.04 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\gemini_cli\tests\__init__.py` (0.04 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\godot_translator\build_godot_exe.py` (1.29 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\godot_translator\test_translation.py` (2.81 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\godot_translator\core\cyber_security.py` (3.88 KB) | **Bằng chứng:** 2 classes, 8 funcs, Has Main
+- [ ] `projects\godot_translator\core\decompiler.py` (1.75 KB) | **Bằng chứng:** 1 classes, 2 funcs, Has Main
+- [ ] `projects\godot_translator\core\extractor.py` (4.55 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `projects\godot_translator\core\gdre_downloader.py` (3.28 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\godot_translator\core\injector.py` (3.33 KB) | **Bằng chứng:** 1 classes, 2 funcs, Has Main
+- [ ] `projects\godot_translator\core\pack_manager.py` (16.63 KB) | **Bằng chứng:** 2 classes, 6 funcs
+- [ ] `projects\godot_translator\core\translator.py` (3.5 KB) | **Bằng chứng:** 2 classes, 4 funcs, Has Main
+- [ ] `projects\godot_translator\utils\ui_helper.py` (1.22 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\ai_agent.py` (7.04 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\ai_agent_fixed.py` (26.47 KB) | **Bằng chứng:** 5 classes, 23 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\check_model.py` (0.86 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\db_sync.py` (3.3 KB) | **Bằng chứng:** 0 classes, 3 funcs
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\error_notifier.py` (2.55 KB) | **Bằng chứng:** 1 classes, 5 funcs
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\google_services.py` (5.92 KB) | **Bằng chứng:** 0 classes, 6 funcs
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\key_manager.py` (3.78 KB) | **Bằng chứng:** 2 classes, 5 funcs
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\migrate_data.py` (2.62 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\notes.py` (1.41 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\setup_calendar.py` (0.98 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\telegram_bot.py` (0.59 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\telegram_webhook.py` (7.53 KB) | **Bằng chứng:** 1 classes, 12 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\vision_parser.py` (4.41 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `projects\jarvis-rpg-assistant\jarvis_core\weather_service.py` (1.27 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `projects\jarvis-rpg-assistant\src\admin_panel.py` (9.67 KB) | **Bằng chứng:** 1 classes, 12 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\auto_learn.py` (3.63 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\bot_daily.py` (6.17 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\bot_evolve.py` (4.05 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\bot_teacher.py` (3.1 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\fix_db.py` (2.06 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\jarvis_launcher.py` (5.0 KB) | **Bằng chứng:** 1 classes, 5 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\note.py` (1.3 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\note_search.py` (2.72 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\src\test_vision_calendar.py` (3.09 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\tests\conftest.py` (0.23 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `projects\jarvis-rpg-assistant\tests\test_ai_agent.py` (2.52 KB) | **Bằng chứng:** 1 classes, 8 funcs
+- [ ] `projects\jarvis-rpg-assistant\tests\test_core.py` (6.3 KB) | **Bằng chứng:** 2 classes, 17 funcs
+- [ ] `projects\jarvis-rpg-assistant\tests\test_new_features.py` (1.34 KB) | **Bằng chứng:** 2 classes, 4 funcs
+- [ ] `projects\jarvis-rpg-assistant\tools\admin_gui.py` (8.25 KB) | **Bằng chứng:** 1 classes, 8 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\tools\bot_sync.py` (10.19 KB) | **Bằng chứng:** 1 classes, 9 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\tools\calendar_ui.py` (5.06 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `projects\jarvis-rpg-assistant\tools\cheat_db.py` (0.96 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\jarvis-rpg-assistant\tools\public_readiness_check.py` (2.27 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `projects\jarvis-rpg-assistant\tools\test.py` (0.37 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\jarvis-rpg-assistant\tools\test_key.py` (1.7 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `projects\knowledge_base_agent\src\ingest.py` (6.46 KB) | **Bằng chứng:** 0 classes, 7 funcs, Has Main
+- [ ] `projects\knowledge_base_agent\src\rag_agent.py` (3.54 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\LocalRelay\local_relay.py` (3.3 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `projects\local_proxy_server\core\router.py` (18.06 KB) | **Bằng chứng:** 0 classes, 7 funcs
+- [ ] `projects\local_proxy_server\tests\test_proxy.py` (5.54 KB) | **Bằng chứng:** 0 classes, 6 funcs, Has Main
+- [ ] `projects\local_proxy_server\tests\test_proxy_server.py` (8.24 KB) | **Bằng chứng:** 0 classes, 7 funcs, Has Main
+- [ ] `projects\qa_chaos_agent\src\encyclopedia_writer.py` (1.46 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `projects\qa_chaos_agent\src\fuzzer_engine.py` (4.39 KB) | **Bằng chứng:** 1 classes, 5 funcs, Has Main
+- [ ] `projects\qa_chaos_agent\src\llm_autopsy.py` (1.67 KB) | **Bằng chứng:** 1 classes, 4 funcs
+- [ ] `projects\qa_functional_agent\src\functional_tester.py` (5.89 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `projects\real_estate_prediction\generate_ppt_report.py` (6.28 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\real_estate_prediction\generate_word_report.py` (12.15 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\real_estate_prediction\train_model.py` (8.13 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `projects\sillytavern_world_card_generator\src\auto_translator.py` (4.5 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\sillytavern_world_card_generator\src\extract_png_cards.py` (2.16 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\ingest_cards.py` (4.44 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `projects\sillytavern_world_card_generator\src\lore_extractor.py` (7.79 KB) | **Bằng chứng:** 0 classes, 10 funcs, Has Main
+- [ ] `projects\sillytavern_world_card_generator\src\merge_regex.py` (1.42 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\merge_regex_all.py` (2.54 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\world_card_generator.py` (3.17 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\__init__.py` (0.04 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\agents\base_agent.py` (3.56 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\agents\coder_agent.py` (6.63 KB) | **Bằng chứng:** 1 classes, 4 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\agents\lore_master_agent.py` (8.12 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\agents\rag_card_agent.py` (1.96 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\agents\storyteller_agent.py` (4.21 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `projects\sillytavern_world_card_generator\src\models\world_card_v3.py` (4.53 KB) | **Bằng chứng:** 7 classes, 1 funcs
+- [ ] `projects\sillytavern_world_card_generator\tests\test_basic.py` (0.11 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `projects\sillytavern_world_card_generator\tools\non_ai_lorebook_extractor.py` (7.22 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `projects\trading_rpg_simulator\trader_hero.py` (5.35 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `projects\universal_web_scraper\src\alonhadat_parser.py` (10.48 KB) | **Bằng chứng:** 2 classes, 9 funcs, Has Main
+- [ ] `projects\universal_web_scraper\src\alonhadat_playwright.py` (7.7 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `projects\universal_web_scraper\src\batdongsan_playwright.py` (9.83 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `projects\universal_web_scraper\src\cleaner.py` (2.13 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\universal_web_scraper\src\parser.py` (2.81 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `projects\_template\config\settings.py` (0.07 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `scheduler\drip_feed_worker.py` (2.97 KB) | **Bằng chứng:** 1 classes, 5 funcs, Has Main
+- [ ] `scheduler\test_catchup.py` (0.52 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `src\api_gateway.py` (13.14 KB) | **Bằng chứng:** 3 classes, 15 funcs, Has Main
+- [ ] `src\base_agent.py` (11.42 KB) | **Bằng chứng:** 4 classes, 8 funcs
+- [ ] `src\token_tracker.py` (4.33 KB) | **Bằng chứng:** 2 classes, 6 funcs
+- [ ] `src\factory\state.py` (1.77 KB) | **Bằng chứng:** 2 classes, 0 funcs
+- [ ] `src\factory\__init__.py` (0.01 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `src\factory\nodes\architecture_critic.py` (3.17 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `src\factory\nodes\coder.py` (3.32 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `src\factory\nodes\context_manager.py` (3.84 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `src\factory\nodes\memory_manager.py` (1.95 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `src\factory\nodes\omni_overlord.py` (3.64 KB) | **Bằng chứng:** 1 classes, 2 funcs, Has Main
+- [ ] `src\factory\nodes\principles_gate.py` (5.38 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `src\factory\nodes\qa_agent.py` (2.46 KB) | **Bằng chứng:** 2 classes, 4 funcs
+- [ ] `src\factory\nodes\qa_reviewer.py` (6.81 KB) | **Bằng chứng:** 1 classes, 4 funcs
+- [ ] `src\factory\nodes\router_agent.py` (2.22 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `src\factory\nodes\system_designer.py` (3.98 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `src\factory\nodes\triage_director.py` (2.67 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `src\factory\workflows\daily_health_loop.py` (6.03 KB) | **Bằng chứng:** 3 classes, 13 funcs
+- [ ] `src\factory\workflows\software_production.py` (3.16 KB) | **Bằng chứng:** 0 classes, 4 funcs
+- [ ] `src\scrapers\auto_repair_selector.py` (4.28 KB) | **Bằng chứng:** 2 classes, 4 funcs
+- [ ] `src\skills\search_knowledge_base.py` (1.43 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `src\skills\skill_manager.py` (0.76 KB) | **Bằng chứng:** 1 classes, 2 funcs
+- [ ] `tests\conftest.py` (1.81 KB) | **Bằng chứng:** 0 classes, 4 funcs
+- [ ] `tests\test_advanced_rag_flow.py` (2.53 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tests\test_all_roles_gcli.py` (5.27 KB) | **Bằng chứng:** 1 classes, 5 funcs, Has Main
+- [ ] `tests\test_asset_seeder.py` (10.15 KB) | **Bằng chứng:** 6 classes, 19 funcs
+- [ ] `tests\test_base_agent.py` (2.16 KB) | **Bằng chứng:** 1 classes, 6 funcs
+- [ ] `tests\test_daily_loop.py` (3.28 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `tests\test_local_proxy.py` (0.65 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `tests\test_token_tracker.py` (0.9 KB) | **Bằng chứng:** 0 classes, 3 funcs
+- [ ] `tests\test_trading_agent.py` (2.31 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `tests\test_validation_gate.py` (2.01 KB) | **Bằng chứng:** 0 classes, 2 funcs
+- [ ] `tests\test_watchdog.py` (2.24 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `tests\compare\conftest.py` (1.81 KB) | **Bằng chứng:** 0 classes, 4 funcs
+- [ ] `tests\compare\test_quality.py` (7.92 KB) | **Bằng chứng:** 1 classes, 13 funcs
+- [ ] `tests\execution\test_async_nodes.py` (18.32 KB) | **Bằng chứng:** 1 classes, 21 funcs
+- [ ] `tests\execution\test_execution.py` (47.64 KB) | **Bằng chứng:** 3 classes, 67 funcs
+- [ ] `tests\execution\test_jobs.py` (22.36 KB) | **Bằng chứng:** 9 classes, 48 funcs
+- [ ] `tests\execution\test_preview_method.py` (13.16 KB) | **Bằng chứng:** 4 classes, 17 funcs
+- [ ] `tests\execution\test_progress_isolation.py` (9.44 KB) | **Bằng chứng:** 3 classes, 13 funcs
+- [ ] `tests\execution\test_public_api.py` (6.04 KB) | **Bằng chứng:** 1 classes, 7 funcs
+- [ ] `tests\execution\testing_nodes\testing-pack\__init__.py` (1.79 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `tests\inference\test_inference.py` (8.2 KB) | **Bằng chứng:** 3 classes, 16 funcs
+- [ ] `tests\mock_data\mock_arch.py` (0.09 KB) | **Bằng chứng:** 2 classes, 2 funcs
+- [ ] `tmp\memory_leak_test.py` (0.18 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `tools\build_all_reqs.py` (0.57 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `tools\compile_drm.py` (1.16 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\convert_csv_to_data.py` (3.33 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\convert_data_to_csv.py` (2.03 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\extract_cookies.py` (3.28 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\extract_godot_csv.py` (10.83 KB) | **Bằng chứng:** 0 classes, 4 funcs, Has Main
+- [ ] `tools\generate_flagship_roadmap.py` (2.7 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\manage.py` (5.23 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\market_research_scraper.py` (2.43 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\package_beta.py` (2.14 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\scrape_opgg.py` (1.35 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\setup_project_foundation.py` (2.23 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\system_cleaner.py` (3.93 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\telegram_bot_controller.py` (4.58 KB) | **Bằng chứng:** 0 classes, 5 funcs, Has Main
+- [ ] `tools\test_youtube_api.py` (3.09 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\translate_csv.py` (4.61 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\__init__.py` (0.01 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `tools\comfy\clothoff_cli.py` (5.81 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\comfy\clothoff_gui.py` (3.78 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\comfy\clothoff_hf_cli.py` (4.2 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\comfy\create_clothoff_image.py` (2.52 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\edtech\create_10_diem_docx.py` (9.17 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_bang_tra_cuu_docx.py` (1.54 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_bmtt_cheatsheet_docx.py` (4.4 KB) | **Bằng chứng:** 0 classes, 6 funcs, Has Main
+- [ ] `tools\edtech\create_bmtt_docx.py` (6.02 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_full_10_cau_docx.py` (8.79 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\edtech\create_giai_de_cuong_qtkdcks.py` (20.59 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\edtech\create_giai_de_cuong_qtkdcks_rut_gon.py` (7.43 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\edtech\create_giai_de_cuong_qtkdcks_suy_luan.py` (10.85 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\edtech\create_mindset_docx.py` (6.45 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_qtkdcks_audio_gtts.py` (5.81 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_qtkdcks_audio_local.py` (6.47 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_qtkdcks_audio_simple.py` (5.33 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_qtkdcks_cheatsheet.py` (4.04 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_qtkdcks_custom_audio.py` (8.25 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_qtkdcks_docx.py` (14.01 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_qtkdcks_theory_audio.py` (4.99 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\create_qtkdcks_theory_audio_story.py` (8.75 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\qtkdcks_decuong_quiz.py` (15.15 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `tools\edtech\qtkdcks_formula_reflex.py` (14.38 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `tools\edtech\scan_qtkdcks_pdfs.py` (1.87 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `tools\edtech\verify_bmtt_math.py` (2.24 KB) | **Bằng chứng:** 0 classes, 4 funcs
+- [ ] `tools\edtech\archive\create_10_diem_docx.py` (9.2 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_bang_tra_cuu_docx.py` (1.56 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_bmtt_cheatsheet_docx.py` (4.42 KB) | **Bằng chứng:** 0 classes, 6 funcs, Has Main
+- [ ] `tools\edtech\archive\create_bmtt_docx.py` (6.04 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_full_10_cau_docx.py` (8.8 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\edtech\archive\create_giai_de_cuong_qtkdcks.py` (20.6 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\edtech\archive\create_giai_de_cuong_qtkdcks_rut_gon.py` (7.43 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\edtech\archive\create_giai_de_cuong_qtkdcks_suy_luan.py` (10.85 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\edtech\archive\create_mindset_docx.py` (6.46 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_qtkdcks_audio_gtts.py` (5.84 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_qtkdcks_audio_local.py` (6.47 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_qtkdcks_audio_simple.py` (5.33 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_qtkdcks_cheatsheet.py` (4.06 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_qtkdcks_custom_audio.py` (8.25 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_qtkdcks_docx.py` (14.03 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_qtkdcks_theory_audio.py` (4.99 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\create_qtkdcks_theory_audio_story.py` (8.78 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\edtech\archive\qtkdcks_decuong_quiz.py` (15.15 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `tools\edtech\archive\qtkdcks_formula_reflex.py` (14.38 KB) | **Bằng chứng:** 1 classes, 6 funcs, Has Main
+- [ ] `tools\edtech\archive\scan_qtkdcks_pdfs.py` (1.87 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `tools\edtech\archive\verify_bmtt_math.py` (2.24 KB) | **Bằng chứng:** 0 classes, 4 funcs
+- [ ] `tools\lorebook\create_ultimate_preset_v3.py` (7.94 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\lorebook\delete_empty_docs.py` (0.88 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\lorebook\find_empty_docs.py` (0.82 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\lorebook\merge_and_shorten_lorebook.py` (6.34 KB) | **Bằng chứng:** 0 classes, 1 funcs
+- [ ] `tools\lorebook\merge_physiology_lorebook.py` (2.05 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `tools\misc\organize_girl_folder.py` (4.29 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\rag_code\auto_rag_query.py` (1.54 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\rag_code\ingest_code.py` (3.83 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\rag_code\inspect_docs.py` (1.03 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\rag_code\query_code_db.py` (3.2 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\rag_code\test_code_ingestion.py` (5.58 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\scanners\architecture_auditor.py` (5.36 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\scanners\architecture_scanner.py` (2.22 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\scanners\freelance_scanner.py` (3.46 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\scanners\internship_scanner.py` (1.95 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\scanners\project_stat_analyzer.py` (5.71 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\archivist_agent.py` (2.1 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `tools\system\ast_patcher.py` (1.82 KB) | **Bằng chứng:** 1 classes, 3 funcs
+- [ ] `tools\system\audit_reporter.py` (2.98 KB) | **Bằng chứng:** 1 classes, 3 funcs, Has Main
+- [ ] `tools\system\benchmark_apis.py` (7.89 KB) | **Bằng chứng:** 0 classes, 5 funcs, Has Main
+- [ ] `tools\system\build_indexer.py` (3.72 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `tools\system\cleanup_docs.py` (1.36 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\db_migrator.py` (3.22 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\delegate_audit.py` (4.23 KB) | **Bằng chứng:** 0 classes, 0 funcs
+- [ ] `tools\system\fetch_free_models.py` (2.25 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\garbage_collector.py` (1.35 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\gcli_delegate.py` (2.03 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\generate_flagship_roadmap.py` (2.7 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\git_manager.py` (3.82 KB) | **Bằng chứng:** 1 classes, 7 funcs
+- [ ] `tools\system\intelligence_audit.py` (1.52 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\log_siphoner.py` (2.3 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\mass_generate_clinerules.py` (2.22 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\pre_flight_check.py` (3.12 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `tools\system\rag_ingest.py` (7.97 KB) | **Bằng chứng:** 0 classes, 6 funcs, Has Main
+- [ ] `tools\system\rag_query.py` (2.58 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\system\reading_task.py` (2.81 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `tools\system\refactor_architecture.py` (2.43 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\system\resource_monitor.py` (3.86 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\system\root_cleanup.py` (2.57 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\setup_project_foundation.py` (2.23 KB) | **Bằng chứng:** 0 classes, 2 funcs, Has Main
+- [ ] `tools\system\smart_patcher.py` (1.01 KB) | **Bằng chứng:** 1 classes, 2 funcs, Has Main
+- [ ] `tools\system\sync_docs.py` (2.78 KB) | **Bằng chứng:** 0 classes, 3 funcs, Has Main
+- [ ] `tools\system\system_cleaner.py` (5.54 KB) | **Bằng chứng:** 1 classes, 4 funcs, Has Main
+- [ ] `tools\system\ultimate_doc_gen.py` (2.97 KB) | **Bằng chứng:** 0 classes, 1 funcs, Has Main
+- [ ] `tools\system\__init__.py` (0.01 KB) | **Bằng chứng:** 0 classes, 0 funcs
+
+## ⚠️ 3. KHU VỰC RỦI RO (LOG/BACKUP/ZIP)
+- [ ] `logs\backup.log`
+- [ ] `logs\scheduler_2026-07.log`
+- [ ] `logs\system_cleaner.log`
+- [ ] `logs\watchdog.log`
+- [ ] `projects\ai_trading_agent\data\trading_analytics.log`
+- [ ] `projects\auto_affiliate_video\data\video_generation.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\Extension Rules\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\Extension Scripts\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\Extension State\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\GCM Store\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\Local Storage\leveldb\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\Session Storage\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\shared_proto_db\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\shared_proto_db\metadata\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\Site Characteristics Database\000003.log`
+- [ ] `projects\jarvis-rpg-assistant\chrome_profile\Default\Sync Data\LevelDB\000003.log`
+- [ ] `projects\universal_web_scraper\data\output\scraped_batdongsan.log`
+- [ ] `projects\universal_web_scraper\data\output\scraped_pages.log`
+- [ ] `tests\mock_data\mock_error.log`
+
+## ⚖️ QUYẾT ĐỊNH CỦA BOSS
+- **Phê duyệt:** Chạy `uv run python tools/system/system_cleaner.py --run` để di dời đống trên sang Lớp 1.

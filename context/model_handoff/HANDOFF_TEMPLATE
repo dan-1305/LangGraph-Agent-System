@@ -1,0 +1,87 @@
+# 🔄 CROSS-MODEL HANDOFF TEMPLATE
+
+> **Hướng dẫn:** Copy toàn bộ nội dung trong khung `PROMPT` bên dưới, paste làm prompt đầu tiên khi đổi model trong Cline.
+
+---
+
+## 📋 PROMPT CHO GEMINI 3.1 PRO (khi chuyển từ GLM-5.2)
+
+```
+[BẢO TÀNG KÝ ỨC - CROSS-MODEL HANDOFF PROTOCOL]
+
+Bạn là Gemini 3.1 Pro Preview. Model trước là GLM-5.2.
+
+BƯỚC 1 - ĐỌC KÝ ỨC:
+Hãy đọc 3 file sau bằng tool read_file:
+1. context/model_handoff/GLM_5_2_MEMORY.md - Working notes của GLM-5.2
+2. reports/CHAOS_AUDIT_2026_07_20.md - Code audit (10 file core reviewed)
+3. context/model_handoff/DEBATE_ROOM.md - 3 debates cần phản hồi
+
+BƯỚC 2 - PHẢN HỒI:
+Sau khi đọc xong, hãy phản hồi vào file context/model_handoff/GEMINI_3_1_PRO_MEMORY.md:
+- Trả lời 4 câu hỏi về Bug #1, #2, #4, #5
+- Đồng ý hay không đồng ý với Chaos Audit? Lý do?
+- Nếu không đồng ý, đưa ra counter-argument với code evidence
+
+BƯỚC 3 - DEBATE:
+Cập nhật context/model_handoff/DEBATE_ROOM.md với position của bạn cho 3 debates.
+
+BƯỚC 4 - BÁO CÁO:
+In ra: "Đã tải xong ký ức từ GLM-5.2. Sẵn sàng phản hồi/tranh luận."
+
+CHÚ Ý:
+- Không xóa findings của GLM-5.2, chỉ bổ sung/rebuttal
+- Mọi argument phải có code evidence (line numbers)
+- Tôn trọng quan điểm khác biệt - đây là debate, không phải war
+```
+
+---
+
+## 📋 PROMPT CHO GLM-5.2 (khi chuyển từ Gemini 3.1 Pro)
+
+```
+[BẢO TÀNG KÝ ỨC - CROSS-MODEL HANDOFF PROTOCOL]
+
+Bạn là GLM-5.2. Model trước là Gemini 3.1 Pro Preview.
+
+BƯỚC 1 - ĐỌC KÝ ỨC:
+Hãy đọc 3 file sau bằng tool read_file:
+1. context/model_handoff/GEMINI_3_1_PRO_MEMORY.md - Phản hồi của Gemini
+2. context/model_handoff/DEBATE_ROOM.md - Cập nhật debates
+3. reports/CHAOS_AUDIT_2026_07_20.md - Audit gốc của bạn
+
+BƯỚC 2 - REBUTTAL:
+Cập nhật context/model_handoff/GLM_5_2_MEMORY.md:
+- Đọc phản hồi của Gemini cho 4 câu hỏi
+- Đồng ý hay tiếp tục tranh luận? Lý do?
+- Nếu Gemini đưa ra point hợp lý, acknowledge nó
+
+BƯỚC 3 - DEBATE:
+Cập nhật context/model_handoff/DEBATE_ROOM.md:
+- Điền position mới của bạn
+- Đánh dấu Resolution: AGREED / DISAGREED / COMPROMISE
+
+BƯỚC 4 - BÁO CÁO:
+In ra: "Đã tải xong phản hồi từ Gemini 3.1 Pro. Tiếp tục tranh luận/chốt deal."
+
+CHÚ Ý:
+- Nếu Gemini chứng minh được bạn sai, acknowledge nó (intellectual honesty)
+- Mọi rebuttal phải có code evidence
+- Mục tiêu: tìm truth, không phải win argument
+```
+
+---
+
+## 🎯 USE CASE ROUTING (QUYẾT ĐỊNH KHI NÀO DÙNG MODEL NÀO)
+
+| Task Type | Recommended Model | Lý do |
+|-----------|-------------------|-------|
+| Code Refactor / Bug Fix | GLM-5.2 | Sạch hơn (S3 proof) |
+| Multimodal (Video/Image) | Gemini 3.1 Pro | Vision capability |
+| Architecture Design | Cả 2 (debate) | Đa góc nhìn |
+| Vietnamese Content | GLM-5.2 | Tự nhiên hơn |
+| Long Context Analysis | Cả 2 | 1M context cả 2 |
+| Quick Script | GLM-5.2 | Token efficient |
+
+---
+*Created by GLM-5.2 | 2026-07-20*

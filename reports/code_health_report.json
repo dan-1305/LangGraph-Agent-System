@@ -1,0 +1,1240 @@
+{
+  "timestamp": "2026-07-24T06:58:43.136907",
+  "total_files": 552,
+  "total_issues": 243,
+  "critical_count": 6,
+  "score": 4.7,
+  "syntax_issues": [],
+  "structure_issues": [],
+  "import_issues": [
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core\\drm_validator.py",
+      "line": 0,
+      "message": "Unused import: 'urllib'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core\\mental_sandbox.py",
+      "line": 0,
+      "message": "Unused import: 'tempfile'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core\\mental_sandbox.py",
+      "line": 0,
+      "message": "Unused import: 'List'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core\\mental_sandbox.py",
+      "line": 0,
+      "message": "Unused import: 'Optional'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core\\post_mortem_engine.py",
+      "line": 0,
+      "message": "Unused import: 'Dict'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core\\post_mortem_engine.py",
+      "line": 0,
+      "message": "Unused import: 'Any'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core\\post_mortem_engine.py",
+      "line": 0,
+      "message": "Unused import: 'List'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core_utilities\\backup_manager.py",
+      "line": 0,
+      "message": "Unused import: 'shutil'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core_utilities\\logger.py",
+      "line": 0,
+      "message": "Unused import: 'asyncio'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core_utilities\\safe_file_manager.py",
+      "line": 0,
+      "message": "Unused import: 'Optional'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "core_utilities\\self_healing.py",
+      "line": 0,
+      "message": "Unused import: 'psutil'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\ai_trading_agent\\src\\binance_executor.py",
+      "line": 0,
+      "message": "Unused import: 'concurrent'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\ai_trading_agent\\src\\binance_executor.py",
+      "line": 0,
+      "message": "Unused import: 'threading'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\ai_trading_agent\\src\\fundamental_fetcher.py",
+      "line": 0,
+      "message": "Unused import: 'Optional'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\ai_trading_agent\\src\\social_scraper.py",
+      "line": 0,
+      "message": "Unused import: 'HTTPClient'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\ai_trading_agent\\src\\telegram_intelligence.py",
+      "line": 0,
+      "message": "Unused import: 'HTTPClient'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\ai_trading_agent\\src\\telegram_intelligence.py",
+      "line": 0,
+      "message": "Unused import: 'Dict'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\airdrop_guerrilla\\src\\automation\\stealth_behavior.py",
+      "line": 0,
+      "message": "Unused import: 'async_playwright'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\airdrop_guerrilla\\src\\automation\\stealth_behavior.py",
+      "line": 0,
+      "message": "Unused import: 'Optional'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\airdrop_guerrilla\\src\\automation\\wallet_manager.py",
+      "line": 0,
+      "message": "Unused import: 'getpass'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\airdrop_guerrilla\\src\\modes\\full_auto_cli.py",
+      "line": 0,
+      "message": "Unused import: 'Fernet'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\airdrop_guerrilla\\src\\modes\\semi_auto_ui.py",
+      "line": 0,
+      "message": "Unused import: 'SessionManager'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\airdrop_guerrilla\\src\\utils\\base_scraper.py",
+      "line": 0,
+      "message": "Unused import: 'Any'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\airdrop_guerrilla\\src\\utils\\proxy_manager.py",
+      "line": 0,
+      "message": "Unused import: 'random'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\asset_audit_taskforce\\src\\detective.py",
+      "line": 0,
+      "message": "Unused import: 'Set'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\asset_audit_taskforce\\src\\scouter.py",
+      "line": 0,
+      "message": "Unused import: 'List'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\auto_affiliate_video\\app.py",
+      "line": 0,
+      "message": "Unused import: 'asyncio'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\auto_affiliate_video\\app.py",
+      "line": 0,
+      "message": "Unused import: 'HTTPClient'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\auto_affiliate_video\\src\\auto_uploader.py",
+      "line": 0,
+      "message": "Unused import: 'AuthBackend'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\scripts\\generate_figures.py",
+      "line": 0,
+      "message": "Unused import: 'mpatches'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\scripts\\infer.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\scripts\\train.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\balanced_sampler.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\data.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\detection_head.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\flow_net.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\losses.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\model.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\pseudo_labeler.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\ssm_backend.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\temporal_sparse.py",
+      "line": 0,
+      "message": "Unused import: 'annotations'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\gemini_cli\\core\\client.py",
+      "line": 0,
+      "message": "Unused import: 'asyncio'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\godot_translator\\app.py",
+      "line": 0,
+      "message": "Unused import: 'InjectionGuard'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\godot_translator\\app.py",
+      "line": 0,
+      "message": "Unused import: 'ui_error_guard'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\godot_translator\\core\\pack_manager.py",
+      "line": 0,
+      "message": "Unused import: 'struct'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\godot_translator\\core\\translator.py",
+      "line": 0,
+      "message": "Unused import: 'Any'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\godot_translator\\main.py",
+      "line": 0,
+      "message": "Unused import: 'shutil'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\jarvis-rpg-assistant\\jarvis_core\\ai_agent.py",
+      "line": 0,
+      "message": "Unused import: 'Dict'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\jarvis-rpg-assistant\\jarvis_core\\ai_agent.py",
+      "line": 0,
+      "message": "Unused import: 'timedelta'"
+    },
+    {
+      "layer": "L3-Imports",
+      "severity": "INFO",
+      "file": "projects\\jarvis-rpg-assistant\\jarvis_core\\ai_agent.py",
+      "line": 0,
+      "message": "Unused import: 'List'"
+    }
+  ],
+  "complexity_issues": [
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "core_utilities\\backup_manager.py",
+      "line": 37,
+      "message": "Function 'backup_databases' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\ai_trading_agent\\backtest\\backtester.py",
+      "line": 27,
+      "message": "Function 'run_multi_asset_backtest' quá dài: 193/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\ai_trading_agent\\backtest\\offline_backtest.py",
+      "line": 159,
+      "message": "Function 'backtest' quá dài: 128/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\ai_trading_agent\\src\\data_fetcher.py",
+      "line": 57,
+      "message": "Function 'fetch_crypto_data' quá dài: 132/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\ai_trading_agent\\src\\live_advisor.py",
+      "line": 98,
+      "message": "Function 'run_live_advisor' quá dài: 128/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\airdrop_guerrilla\\src\\automation\\executor.py",
+      "line": 51,
+      "message": "Function 'execute_wallet' quá dài: 111/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\airdrop_guerrilla\\src\\automation\\executor.py",
+      "line": 51,
+      "message": "Function 'execute_wallet' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\asset_audit_taskforce\\src\\detective.py",
+      "line": 27,
+      "message": "Function '_analyze_file_content' nesting sâu: 7/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\asset_audit_taskforce\\src\\judge_executor.py",
+      "line": 42,
+      "message": "Function 'clean_temp_folders' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\asset_audit_taskforce\\src\\scouter.py",
+      "line": 27,
+      "message": "Function '_get_python_imports' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\ceo_agent\\ceo_morning_routine.py",
+      "line": 64,
+      "message": "Function 'wake_up_ceo' quá dài: 179/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\FlowNSFW-main\\scripts\\infer.py",
+      "line": 124,
+      "message": "Function 'main' quá dài: 166/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\FlowNSFW-main\\scripts\\infer.py",
+      "line": 124,
+      "message": "Function 'main' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\FlowNSFW-main\\scripts\\train.py",
+      "line": 72,
+      "message": "Function 'main' quá dài: 228/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\gemini_cli\\core\\client.py",
+      "line": 78,
+      "message": "Function 'stream_chat' quá dài: 123/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\gemini_cli\\core\\client.py",
+      "line": 78,
+      "message": "Function 'stream_chat' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\godot_translator\\core\\pack_manager.py",
+      "line": 159,
+      "message": "Function 'repack' quá dài: 170/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\godot_translator\\core\\pack_manager.py",
+      "line": 159,
+      "message": "Function 'repack' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\jarvis-rpg-assistant\\jarvis_core\\ai_agent_fixed.py",
+      "line": 1,
+      "message": "File quá dài: 732/500 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\jarvis-rpg-assistant\\jarvis_core\\database.py",
+      "line": 370,
+      "message": "Function '_calculate_next_review_interval' nesting sâu: 7/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\jarvis-rpg-assistant\\main.py",
+      "line": 16,
+      "message": "Function 'main' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\jarvis-rpg-assistant\\src\\bot_daily.py",
+      "line": 23,
+      "message": "Function 'main' quá dài: 126/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\local_proxy_server\\core\\config.py",
+      "line": 24,
+      "message": "Function '__init__' quá dài: 123/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\local_proxy_server\\core\\router.py",
+      "line": 113,
+      "message": "Function 'stream_generator' quá dài: 121/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\local_proxy_server\\core\\router.py",
+      "line": 238,
+      "message": "Function 'chat_completions' quá dài: 106/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\local_proxy_server\\core\\router.py",
+      "line": 238,
+      "message": "Function 'chat_completions' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\nsfw_multimedia_auditor\\interaction_detector.py",
+      "line": 18,
+      "message": "Function 'analyze_interactions' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\project_manager_sentry\\lifecycle_manager.py",
+      "line": 5,
+      "message": "Function 'evaluate_monorepo_health' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\real_estate_prediction\\app.py",
+      "line": 54,
+      "message": "Function 'show_map' quá dài: 103/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\real_estate_prediction\\generate_ppt_report.py",
+      "line": 7,
+      "message": "Function 'create_dashboard_ppt' quá dài: 164/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\real_estate_prediction\\train_model.py",
+      "line": 20,
+      "message": "Function 'main' quá dài: 160/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "projects\\sillytavern_world_card_generator\\src\\agents\\coder_agent.py",
+      "line": 43,
+      "message": "Function 'generate_extensions' quá dài: 103/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\sovereign_academy\\main.py",
+      "line": 103,
+      "message": "Function 'main' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\universal_game_vault\\src\\processors\\batch_importer.py",
+      "line": 63,
+      "message": "Function 'run_import' nesting sâu: 7/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\universal_web_scraper\\src\\alonhadat_parser.py",
+      "line": 107,
+      "message": "Function 'scrape_page' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "projects\\universal_web_scraper\\src\\parser.py",
+      "line": 6,
+      "message": "Function 'parse_hacker_news' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "recover_vsc.py",
+      "line": 27,
+      "message": "Function 'recover_files' nesting sâu: 8/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "src\\base_agent.py",
+      "line": 82,
+      "message": "Function '_call_llm_with_retry' quá dài: 144/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "src\\base_agent.py",
+      "line": 82,
+      "message": "Function '_call_llm_with_retry' nesting sâu: 7/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "src\\factory\\main.py",
+      "line": 107,
+      "message": "Function 'build_meta_graph' quá dài: 112/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "src\\factory\\nodes\\principles_gate.py",
+      "line": 12,
+      "message": "Function 'principles_gate_node' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tests\\execution\\test_execution.py",
+      "line": 1,
+      "message": "File quá dài: 1014/500 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tests\\execution\\test_execution.py",
+      "line": 136,
+      "message": "Function 'run' nesting sâu: 7/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tests\\execution\\test_jobs.py",
+      "line": 1,
+      "message": "File quá dài: 598/500 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tests\\execution\\test_preview_method.py",
+      "line": 96,
+      "message": "Function 'wait_for_execution' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tests\\execution\\testing_nodes\\testing-pack\\conditions.py",
+      "line": 23,
+      "message": "Function 'int_condition' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tests\\execution\\testing_nodes\\testing-pack\\conditions.py",
+      "line": 57,
+      "message": "Function 'float_condition' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tests\\execution\\testing_nodes\\testing-pack\\conditions.py",
+      "line": 91,
+      "message": "Function 'string_condition' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tests\\execution\\testing_nodes\\testing-pack\\specific_tests.py",
+      "line": 1,
+      "message": "File quá dài: 520/500 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tests\\execution\\testing_nodes\\testing-pack\\util.py",
+      "line": 217,
+      "message": "Function 'int_math_operation' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\comfy\\clothoff_cli.py",
+      "line": 38,
+      "message": "Function 'main' quá dài: 114/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\context_bridge\\prepare_gemini_context.py",
+      "line": 147,
+      "message": "Function 'gather_context' quá dài: 157/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\edtech\\create_10_diem_docx.py",
+      "line": 4,
+      "message": "Function 'create_docx' quá dài: 124/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\edtech\\create_giai_de_cuong_qtkdcks.py",
+      "line": 26,
+      "message": "Function 'main' quá dài: 288/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\edtech\\create_giai_de_cuong_qtkdcks_rut_gon.py",
+      "line": 26,
+      "message": "Function 'main' quá dài: 132/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\edtech\\create_giai_de_cuong_qtkdcks_suy_luan.py",
+      "line": 28,
+      "message": "Function 'main' quá dài: 122/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\edtech\\create_mindset_docx.py",
+      "line": 4,
+      "message": "Function 'create_docx' quá dài: 103/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\edtech\\create_qtkdcks_docx.py",
+      "line": 4,
+      "message": "Function 'create_docx' quá dài: 143/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\extract_godot_csv.py",
+      "line": 69,
+      "message": "Function 'extract_strings_to_csv' quá dài: 145/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\extract_godot_csv.py",
+      "line": 69,
+      "message": "Function 'extract_strings_to_csv' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\scanners\\architecture_auditor.py",
+      "line": 5,
+      "message": "Function 'audit_workspace' nesting sâu: 9/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\scanners\\architecture_scanner.py",
+      "line": 5,
+      "message": "Function 'analyze_file' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\scanners\\architecture_scanner.py",
+      "line": 27,
+      "message": "Function 'main' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\api_mapper.py",
+      "line": 26,
+      "message": "Function 'scan_file_for_env_usage' nesting sâu: 7/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\auto_mapper.py",
+      "line": 10,
+      "message": "Function 'generate_system_map' nesting sâu: 9/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\code_health_sentinel.py",
+      "line": 126,
+      "message": "Function 'scan_imports' nesting sâu: 7/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\system\\encyclopedia_builder.py",
+      "line": 7,
+      "message": "Function 'build_encyclopedia' quá dài: 108/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\encyclopedia_builder.py",
+      "line": 7,
+      "message": "Function 'build_encyclopedia' nesting sâu: 9/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\extract_v4.py",
+      "line": 44,
+      "message": "Function 'extract_from_dir' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\gcli_delegate.py",
+      "line": 9,
+      "message": "Function 'generate_docs_report' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\system\\next_focus.py",
+      "line": 136,
+      "message": "Function 'main' quá dài: 107/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\pre_flight_check.py",
+      "line": 41,
+      "message": "Function 'check_circular_imports_static' nesting sâu: 7/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\project_indexer.py",
+      "line": 7,
+      "message": "Function 'analyze_dependencies' nesting sâu: 9/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\system\\rag_ingest.py",
+      "line": 69,
+      "message": "Function 'main' quá dài: 134/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\system\\test_workflow_suite.py",
+      "line": 141,
+      "message": "Function 'main' quá dài: 160/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\system\\test_workflow_suite.py",
+      "line": 304,
+      "message": "Function 'generate_report' quá dài: 143/100 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "WARNING",
+      "file": "tools\\system\\workflow_engine.py",
+      "line": 1,
+      "message": "File quá dài: 790/500 dòng"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\workflow_engine.py",
+      "line": 736,
+      "message": "Function 'main' nesting sâu: 6/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\workflow_engine.py",
+      "line": 201,
+      "message": "Function '_execute_cycle_logic' nesting sâu: 13/5"
+    },
+    {
+      "layer": "L4-Complexity",
+      "severity": "INFO",
+      "file": "tools\\system\\workflow_engine.py",
+      "line": 210,
+      "message": "Function 'worker' nesting sâu: 13/5"
+    }
+  ],
+  "security_issues": [
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "core_utilities\\self_healing.py",
+      "line": 67,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\auto_affiliate_video\\src\\scheduler.py",
+      "line": 15,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\ceo_agent\\ceo_morning_routine.py",
+      "line": 135,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "CRITICAL",
+      "file": "projects\\FlowNSFW-main\\scripts\\demo.py",
+      "line": 180,
+      "message": "eval() — RCE risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "CRITICAL",
+      "file": "projects\\FlowNSFW-main\\scripts\\eval_multi_res.py",
+      "line": 79,
+      "message": "eval() — RCE risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "CRITICAL",
+      "file": "projects\\FlowNSFW-main\\scripts\\infer.py",
+      "line": 154,
+      "message": "eval() — RCE risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "CRITICAL",
+      "file": "projects\\FlowNSFW-main\\src\\flow_nsfw\\flow_net.py",
+      "line": 110,
+      "message": "eval() — RCE risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\godot_translator\\core\\extractor.py",
+      "line": 41,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\jarvis-rpg-assistant\\jarvis_core\\google_services.py",
+      "line": 81,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\jarvis-rpg-assistant\\src\\bot_daily.py",
+      "line": 52,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\jarvis-rpg-assistant\\tools\\bot_sync.py",
+      "line": 149,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\jarvis-rpg-assistant\\tools\\public_readiness_check.py",
+      "line": 10,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\jarvis-rpg-assistant\\tools\\public_readiness_check.py",
+      "line": 64,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\nsfw_multimedia_auditor\\visual_anatomy.py",
+      "line": 56,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\sovereign_terminal\\core\\tools.py",
+      "line": 53,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\universal_game_vault\\src\\processors\\batch_importer.py",
+      "line": 85,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\universal_web_scraper\\src\\alonhadat_playwright.py",
+      "line": 26,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\universal_web_scraper\\src\\base_scraper.py",
+      "line": 14,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "projects\\universal_web_scraper\\src\\batdongsan_playwright.py",
+      "line": 43,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "scheduler\\main_scheduler.py",
+      "line": 61,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tests\\execution\\testing_nodes\\testing-pack\\conditions.py",
+      "line": 105,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tests\\execution\\testing_nodes\\testing-pack\\conditions.py",
+      "line": 141,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tests\\test_watchdog.py",
+      "line": 33,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\extract_cookies.py",
+      "line": 27,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\extract_godot_csv.py",
+      "line": 143,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\rag_code\\inspect_docs.py",
+      "line": 25,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\run_pipeline_lstm.py",
+      "line": 26,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\run_pipeline_ml.py",
+      "line": 25,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\run_tester_agent.py",
+      "line": 8,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\run_tester_agent.py",
+      "line": 16,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\scanners\\architecture_auditor.py",
+      "line": 85,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system\\awaken.py",
+      "line": 89,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "CRITICAL",
+      "file": "tools\\system\\code_health_sentinel.py",
+      "line": 220,
+      "message": "eval() — RCE risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system\\code_health_sentinel.py",
+      "line": 221,
+      "message": "exec() — RCE risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system\\code_health_sentinel.py",
+      "line": 223,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system\\extract_v4.py",
+      "line": 130,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system\\git_manager.py",
+      "line": 16,
+      "message": "shell=True — command injection risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system\\project_indexer.py",
+      "line": 75,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system\\test_workflow_suite.py",
+      "line": 102,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "CRITICAL",
+      "file": "tools\\system\\workflow_engine.py",
+      "line": 409,
+      "message": "eval() — RCE risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system\\workflow_engine.py",
+      "line": 409,
+      "message": "exec() — RCE risk"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system_cleaner.py",
+      "line": 39,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system_cleaner.py",
+      "line": 50,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\system_cleaner.py",
+      "line": 56,
+      "message": "Bare except: nuốt tất cả exceptions"
+    },
+    {
+      "layer": "L5-Security",
+      "severity": "WARNING",
+      "file": "tools\\test_youtube_api.py",
+      "line": 69,
+      "message": "Bare except: nuốt tất cả exceptions"
+    }
+  ]
+}

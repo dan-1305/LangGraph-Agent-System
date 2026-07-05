@@ -1,0 +1,71 @@
+
+[QUY TRÌNH RA QUYẾT ĐỊNH]:
+  -> Không tìm thấy.
+
+[CHẮC CHẮN, RỦI RO]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 28
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 2
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 27
+
+[CÂN ĐỐI KẾ TOÁN]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c3.pdf - Trang 8
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c3.pdf - Trang 7
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c3.pdf - Trang 16
+
+[BÁO CÁO KẾT QUẢ KINH DOANH]:
+  -> Không tìm thấy.
+
+[TỶ SỐ NỢ]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c3.pdf - Trang 39
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c3.pdf - Trang 33
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c3.pdf - Trang 14
+
+[THANH TOÁN HIỆN HÀNH]:
+  -> Không tìm thấy.
+
+[VÒNG QUAY TÀI SẢN]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c3.pdf - Trang 39
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c3.pdf - Trang 33
+
+[EMV]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 56
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 64
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 15
+
+[EOL]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 19
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 13
+
+[EVPI]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 15
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 19
+
+[MAXIMAX]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 28
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 26
+
+[HURWICZ]:
+  -> Không tìm thấy.
+
+[LÃI GỘP]:
+  -> Không tìm thấy.
+
+[EOQ]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c7.pdf - Trang 33
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c7.pdf - Trang 40
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c7.pdf - Trang 32
+
+[ROP]:
+  -> Không tìm thấy.
+
+[PERT]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c2.pdf - Trang 32
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c9.pdf - Trang 21
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c9.pdf - Trang 32
+
+[ĐƯỜNG GĂNG]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c9.pdf - Trang 30
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c9.pdf - Trang 34
+
+[PHƯƠNG SAI]:
+  -> quan-tri-kinh-doanh-cho-ky-su_slide-baigiang-qlks-c9.pdf - Trang 31

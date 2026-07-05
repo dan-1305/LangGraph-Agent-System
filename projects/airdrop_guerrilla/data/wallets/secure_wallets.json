@@ -1,0 +1,11 @@
+{
+    "0x3C038c133aa8BBB3A03164F065967f1D6234B732": {
+        "name": "Imported from .env",
+        "encrypted_private_key": "gAAAAABqM0oUppztqrVd_LUnFQuvMTuhVsHkTyUc0mrePkrOQylXtrK7sfuJ2qL6pHGQufOTEzkTtFGjpg553oUoLTWdGKJay9B0v2d9UZ3XhvE0RVJXd_7p9NFKOuvnZnPPxPmys8bH5_GCEfKmjd_JwfeNNe5o_E0L9KP81038c-M8FAlfPsk=",
+        "encrypted_twitter_token": "gAAAAABqM0oUaTUHJ_-jVszEVsvlK0lWR72-WaQ7POJ7KZ-AptU02irUaDAtck6yrNvDnywcuVvujJH3KFE3SNEH3bzDW8vLM2CQtjyabHDYoPBop76nGbkVHL03wmW24VhFEUDuZObY",
+        "encrypted_discord_token": "gAAAAABqM0oUk2j5DhQzpK4IbxF6LZ7U0d3S7Tq7e0QyD7BITUSmsPtBI0b1OC6MyTCsjRZ7odKtpLHlfNwLeXRcTzBUyROfLnKf3gyCJJa2b_j5JQ2c_umXQvNjIYuKOWENWYnc9CdVPR9bIcoNRjRE7yWPEFiBKn2md9C1iJM-J4yGr2Nce6c=",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+        "proxy_url": "",
+        "status": "Active"
+    }
+}

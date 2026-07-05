@@ -1,0 +1,13 @@
+[project]
+name = "ai_trading_agent"
+version = "0.1.0"
+description = "AI Trading Agent Project"
+requires-python = ">=3.9"
+dependencies = [
+    "ccxt",
+    "yfinance",
+    "pandas",
+    "ta",
+    "xgboost",
+    "scikit-learn"
+]

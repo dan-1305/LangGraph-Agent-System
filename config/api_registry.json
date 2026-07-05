@@ -1,0 +1,75 @@
+{
+    "TELE_TOKEN": [
+        "projects/airdrop_guerrilla/src/utils/notifier.py",
+        "projects/ai_trading_agent/src/config.py",
+        "projects/jarvis-rpg-assistant/jarvis_core/config.py"
+    ],
+    "CHAT_ID": [
+        "projects/airdrop_guerrilla/src/utils/notifier.py",
+        "projects/ai_trading_agent/src/config.py",
+        "projects/jarvis-rpg-assistant/jarvis_core/config.py"
+    ],
+    "GEMINI_API_KEY": [
+        "projects/jarvis-rpg-assistant/jarvis_core/check_model.py",
+        "projects/jarvis-rpg-assistant/jarvis_core/config.py",
+        "projects/jarvis-rpg-assistant/tools/bot_sync.py"
+    ],
+    "GEMINI_API_KEYS": [
+        "projects/jarvis-rpg-assistant/jarvis_core/config.py",
+        "projects/jarvis-rpg-assistant/jarvis_core/key_manager.py"
+    ],
+    "USER_NAME": [
+        "projects/jarvis-rpg-assistant/tools/bot_sync.py"
+    ],
+    "USER_PASSWORD": [
+        "projects/jarvis-rpg-assistant/tools/bot_sync.py"
+    ],
+    "OPENWEATHER_API_KEY": [
+        "projects/jarvis-rpg-assistant/jarvis_core/config.py"
+    ],
+    "GCLI_API_KEY": [
+        "src/base_agent.py",
+        "src/factory/config.py",
+        "projects/ai_trading_agent/src/config.py",
+        "projects/jarvis-rpg-assistant/jarvis_core/vision_parser.py",
+        "projects/sillytavern_world_card_generator/src/agents/base_agent.py"
+    ],
+    "GCLI_BASE_URL": [
+        "src/base_agent.py",
+        "src/factory/config.py",
+        "projects/ai_trading_agent/src/config.py",
+        "projects/jarvis-rpg-assistant/jarvis_core/vision_parser.py",
+        "projects/sillytavern_world_card_generator/src/agents/base_agent.py"
+    ],
+    "BINANCE_TESTNET_API_KEY": [
+        "projects/ai_trading_agent/src/config.py"
+    ],
+    "BINANCE_TESTNET_SECRET": [
+        "projects/ai_trading_agent/src/config.py"
+    ],
+    "BINANCE_TESTNET": [
+        "projects/ai_trading_agent/src/config.py"
+    ],
+    "WHALE_ALERT_API_KEY": [
+        "projects/ai_trading_agent/src/config.py"
+    ],
+    "OPENAI_API_KEY": [
+        "src/factory/config.py"
+    ],
+    "Auth_Token_Discord": [
+        "projects/airdrop_guerrilla/src/automation/executor.py"
+    ],
+    "Auth_Token_X": [
+        "projects/airdrop_guerrilla/src/automation/executor.py"
+    ],
+    "TWOCAPTCHA_API_KEY": [
+        "projects/airdrop_guerrilla/src/automation/executor.py"
+    ],
+    "WALLET_MASTER_KEY": [
+        "projects/airdrop_guerrilla/src/automation/wallet_manager.py"
+    ],
+    "WALLET_ENCRYPTION_KEY": [
+        "projects/airdrop_guerrilla/src/modes/full_auto_cli.py",
+        "projects/airdrop_guerrilla/src/modes/semi_auto_ui.py"
+    ]
+}

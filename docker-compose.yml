@@ -1,0 +1,74 @@
+version: '3.8'
+
+# ==============================================================================
+# 🚀 LANGGRAPH_AGENT_SYSTEM PRODUCTION ORCHESTRATION
+# ==============================================================================
+# This Docker Compose file orchestrates the entire monorepo into 4 separate 
+# microservices running from the same Master Dockerfile.
+# ==============================================================================
+
+x-shared-env: &shared-env
+  env_file:
+    - .env
+  volumes:
+    # Mount the 'data' directory to ensure SQLite DBs and JSON logs persist
+    - ./data:/app/data
+    - ./projects/jarvis-rpg-assistant/data:/app/projects/jarvis-rpg-assistant/data
+    - ./projects/sillytavern_world_card_generator/data:/app/projects/sillytavern_world_card_generator/data
+  restart: always
+
+services:
+  # ----------------------------------------------------------------------------
+  # 1. 🏠 Real Estate Prediction Web App (Flask)
+  # ----------------------------------------------------------------------------
+  real-estate-web:
+    <<: *shared-env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: langgraph_real_estate
+    # Override CMD to run the Flask app
+    command: python projects/real_estate_prediction/app.py
+    ports:
+      - "5000:5000"
+
+  # ----------------------------------------------------------------------------
+  # 2. 🃏 SillyTavern World Card Generator (Streamlit)
+  # ----------------------------------------------------------------------------
+  sillytavern-web:
+    <<: *shared-env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: langgraph_sillytavern
+    # Override CMD to run the Streamlit app
+    command: streamlit run projects/sillytavern_world_card_generator/ui/app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+
+  # ----------------------------------------------------------------------------
+  # 3. 🦸‍♂️ Jarvis RPG Assistant Dashboard (Streamlit)
+  # ----------------------------------------------------------------------------
+  jarvis-dashboard:
+    <<: *shared-env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: langgraph_jarvis
+    # Set working directory specifically for Jarvis to find its local config/data
+    working_dir: /app/projects/jarvis-rpg-assistant
+    command: streamlit run tools/dashboard.py --server.port=8502 --server.address=0.0.0.0
+    ports:
+      - "8502:8502"
+
+  # ----------------------------------------------------------------------------
+  # 4. ⏰ Central Scheduler (AI Trading & Web Scraping Daemons)
+  # ----------------------------------------------------------------------------
+  scheduler-daemon:
+    <<: *shared-env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: langgraph_scheduler
+    # Runs the background cronjobs (e.g., Airdrop bot, Real Estate scraper)
+    command: python scheduler/main_scheduler.py

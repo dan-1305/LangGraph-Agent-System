@@ -1,0 +1,20 @@
+# AI TRADING AGENT - DOMAIN RULES
+# CẢNH BÁO: FILE NÀY CHỈ CHỨA LOGIC NGHIỆP VỤ (BUSINESS LOGIC) CỦA TRADING AGENT.
+# TẤT CẢ CÁC VẤN ĐỀ VỀ KIẾN TRÚC, BẢO MẬT, API, TYPE HINTING ĐỀU PHẢI TUÂN THỦ `.clinerules` Ở THƯ MỤC ROOT.
+# [XUNG ĐỘT]: NẾU CÓ MÂU THUẪN, LUẬT ROOT LUÔN THẮNG VỀ KIẾN TRÚC, LUẬT NÀY LUÔN THẮNG VỀ NGHIỆP VỤ.
+
+## 1. MỤC TIÊU NGHIỆP VỤ (DOMAIN FOCUS)
+- Agent này chỉ tập trung vào việc phân tích thị trường Crypto, đưa ra quyết định giao dịch và gửi tín hiệu.
+- KHÔNG tự ý thực thi các lệnh liên quan đến hệ thống khác như QA hay Airdrop.
+
+## 2. QUẢN LÝ TRẠNG THÁI (STATE MANAGEMENT)
+- Trạng thái của trading session (số dư, PnL, lịch sử lệnh) được quản lý thông qua cơ chế File/Database local (SQLite/JSON).
+- Không nhồi nhét quá nhiều dữ liệu lịch sử vào State object trên RAM. Sử dụng con trỏ file hoặc offset khi đọc dữ liệu lớn.
+
+## 3. BẢO MẬT VÀ API TRADING
+- TUYỆT ĐỐI không hardcode API Key hoặc Secret của các sàn giao dịch (Binance, Bybit...) trong code.
+- Mọi Key phải được lưu trong `.env` và truy xuất qua `os.getenv()`.
+
+## 4. XỬ LÝ LỖI (BUSINESS FALLBACK)
+- Nếu API sàn bị lỗi Timeout hoặc Limit, Agent không được crash mà phải ghi log (PnL Log) và chờ chu kỳ tiếp theo hoặc dùng Circuit Breaker.
+- Phải có cơ chế giả lập (Mock/Testnet) trước khi giao dịch Real.

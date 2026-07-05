@@ -1,0 +1,6 @@
+[project]
+name = "localrelay"
+version = "0.1.0"
+description = "Local Relay Project"
+requires-python = ">=3.10"
+dependencies = []

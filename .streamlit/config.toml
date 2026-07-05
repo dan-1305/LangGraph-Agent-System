@@ -1,0 +1,4 @@
+[server]
+headless = true
+fileWatcherType = "auto"
+folderWatchBlacklist = ['.venv', 'env', 'node_modules', 'temp_workspace']

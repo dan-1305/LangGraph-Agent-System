@@ -1,0 +1,34 @@
+# 🎮 UNIVERSAL GAME VAULT - DOMAIN RULES
+
+> **⚖️ CONFLICT RESOLUTION:** Luôn ưu tiên Root Rules về Bảo mật và Kiến trúc. Quy tắc này chỉ quản lý Logic nghiệp vụ Game.
+
+---
+
+## 🏗️ 1. CẤU TRÚC DỮ LIỆU GAME (DATA ARCHITECTURE)
+- **Tên Game:** Sử dụng `snake_case` (VD: `morimens`, `genshin_impact`).
+- **Phân nhánh:** Mỗi game bắt buộc có 3 tiểu khu:
+  1. `wiki/`: File Markdown cho con người đọc.
+  2. `raw/`: Tài liệu gốc Admin cung cấp.
+  3. `database/`: SQLite (`game_vault.db`) cho AI truy vấn.
+
+---
+
+## 🧠 2. TIÊU CHUẨN TRÍ TUỆ NHÂN TẠO (AI STANDARDS)
+- **Phân loại Thực thể (Entity Tags):** Mọi thông tin nạp vào phải được gắn thẻ:
+  - `#Character`: Thuộc tính nhân vật, chỉ số, kỹ năng.
+  - `#Lore`: Cốt truyện, lịch sử, bối cảnh.
+  - `#Mechanic`: Công thức tính toán, quy luật game.
+  - `#Item`: Vũ khí, trang bị, vật phẩm tiêu hao.
+- **RAG Integration:** Luôn cập nhật Vector DB của game ngay sau khi viết file Markdown.
+
+---
+
+## 🛠️ 3. QUY TẮC CÔNG CỤ (TOOL RULES)
+- **Safe Storage:** Không lưu dữ liệu game vào ổ C. Sử dụng đường dẫn tương đối trỏ về `D:\Users\Admin\Downloads\LangGraphStorage\Games` nếu cần lưu trữ nặng (ảnh, video).
+- **Format MD:** Sử dụng Google-style cho các file Wiki để AI dễ phân tích AST.
+
+---
+
+## 🚩 4. CHIẾN THUẬT (STRATEGY LOGIC)
+- Khi Admin hỏi về chiến thuật, AI phải so sánh dữ liệu hiện có trong `#Mechanic` và `#Character` trước khi đưa ra lời khuyên.
+- Luôn trích dẫn nguồn (từ file `raw/`) khi giải thích Lore.

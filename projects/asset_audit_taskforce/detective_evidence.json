@@ -1,0 +1,5860 @@
+{
+    "recover_all_from_history.py": {
+        "classes": [],
+        "functions": [
+            "recover_all_files"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "recover_vsc.py": {
+        "classes": [],
+        "functions": [
+            "get_zero_byte_py_files",
+            "recover_files"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "web_dashboard_v2.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "core\\drm_validator.py": {
+        "classes": [],
+        "functions": [
+            "check_license_validity",
+            "init_drm"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "core\\logic_auditor.py": {
+        "classes": [
+            "LogicAuditor"
+        ],
+        "functions": [
+            "__init__",
+            "start_session",
+            "evaluate_evolution"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "core\\post_mortem_engine.py": {
+        "classes": [
+            "PostMortemEngine"
+        ],
+        "functions": [
+            "__init__",
+            "analyze_recent_trades",
+            "_log_failure"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "core\\principles_enforcer.py": {
+        "classes": [
+            "PrinciplesEnforcer"
+        ],
+        "functions": [
+            "__init__",
+            "verify_decision",
+            "audit_agent_output"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "core\\process_watchdog.py": {
+        "classes": [
+            "ProcessWatchdog"
+        ],
+        "functions": [
+            "__init__",
+            "log_failure",
+            "monitor_pid"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "core_utilities\\backup_manager.py": {
+        "classes": [],
+        "functions": [
+            "get_storage_dir",
+            "backup_databases",
+            "backup_full_workspace",
+            "clean_old_backups",
+            "backup_loop",
+            "send_alert"
+        ],
+        "has_main": true,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "core_utilities\\logger.py": {
+        "classes": [
+            "TelegramAlertHandler"
+        ],
+        "functions": [
+            "get_logger",
+            "__init__",
+            "emit",
+            "_send_message"
+        ],
+        "has_main": false,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": []
+    },
+    "core_utilities\\notification_gateway.py": {
+        "classes": [],
+        "functions": [
+            "send_alert"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "core_utilities\\obfuscator.py": {
+        "classes": [
+            "CodeObfuscator"
+        ],
+        "functions": [
+            "__init__",
+            "_generate_random_name",
+            "obfuscate_file"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "core_utilities\\process_watchdog.py": {
+        "classes": [],
+        "functions": [
+            "is_zombie_browser",
+            "check_system_health",
+            "check_and_kill_zombies",
+            "watchdog_loop"
+        ],
+        "has_main": true,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "core_utilities\\safe_file_manager.py": {
+        "classes": [
+            "SafeFileManager"
+        ],
+        "functions": [
+            "__init__",
+            "write_to_sandbox",
+            "request_merge"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "core_utilities\\self_healing.py": {
+        "classes": [
+            "SelfHealingWatchdog"
+        ],
+        "functions": [
+            "__init__",
+            "check_proxy_alive",
+            "repair_python_path",
+            "restart_proxy",
+            "monitor_loop",
+            "send_alert"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "custom_nodes\\websocket_image_save.py": {
+        "classes": [
+            "SaveImageWebsocket"
+        ],
+        "functions": [
+            "INPUT_TYPES",
+            "save_images",
+            "IS_CHANGED"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\analysis\\scoring.py": {
+        "classes": [
+            "AlphaAnalyzer",
+            "AirdropScoringEngine"
+        ],
+        "functions": [
+            "get_vc_weight",
+            "calculate_score",
+            "analyze_projects",
+            "__init__",
+            "calculate_wallet_metrics",
+            "generate_markdown_report"
+        ],
+        "has_main": true,
+        "complexity_score": 16,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\automation\\executor.py": {
+        "classes": [
+            "AirdropExecutor"
+        ],
+        "functions": [
+            "__init__",
+            "execute_wallet",
+            "_handle_faucet_demo",
+            "_verify_login_status",
+            "_twitter_interact",
+            "_discord_join"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\automation\\multi_account.py": {
+        "classes": [
+            "MultiAccountManager"
+        ],
+        "functions": [
+            "__init__",
+            "get_account_profile_path",
+            "list_accounts",
+            "delete_account"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\automation\\session_manager.py": {
+        "classes": [
+            "SessionManager"
+        ],
+        "functions": [
+            "apply_twitter_session",
+            "apply_discord_session"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\automation\\stealth_behavior.py": {
+        "classes": [
+            "StealthBrowser"
+        ],
+        "functions": [
+            "__init__",
+            "init_browser",
+            "stealth_page",
+            "random_delay",
+            "human_scroll",
+            "human_click"
+        ],
+        "has_main": false,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\automation\\wallet_manager.py": {
+        "classes": [
+            "WalletManager"
+        ],
+        "functions": [
+            "__init__",
+            "_load_db",
+            "_save_db",
+            "generate_static_user_agent",
+            "add_wallet",
+            "get_decrypted_data"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\automation\\zealy_bot.py": {
+        "classes": [
+            "ZealyBot"
+        ],
+        "functions": [
+            "__init__",
+            "run_quests"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\modes\\full_auto_cli.py": {
+        "classes": [],
+        "functions": [
+            "send_telegram_message",
+            "log_transaction_to_db",
+            "execute_random_action",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\modes\\semi_auto_ui.py": {
+        "classes": [],
+        "functions": [
+            "alert_user_for_manual_action",
+            "run_semi_auto_quests"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\networks\\evm_base.py": {
+        "classes": [
+            "EVMBase"
+        ],
+        "functions": [
+            "__init__",
+            "init_fallback_connection",
+            "get_balance",
+            "get_gas_price",
+            "check_balance_and_survival",
+            "send_native_token",
+            "deploy_dummy_contract",
+            "random_delay",
+            "fragment_amount"
+        ],
+        "has_main": false,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\networks\\inco.py": {
+        "classes": [
+            "IncoNetwork"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "has_main": false,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\networks\\monad.py": {
+        "classes": [
+            "MonadNetwork"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "has_main": false,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\networks\\soneium.py": {
+        "classes": [
+            "SoneiumNetwork"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "has_main": false,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\scrapers\\defillama_funding_parser.py": {
+        "classes": [
+            "DefiLlamaParser"
+        ],
+        "functions": [
+            "__init__",
+            "fetch_live_raises",
+            "run_live_pipeline"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\utils\\base_scraper.py": {
+        "classes": [
+            "BaseScraper"
+        ],
+        "functions": [
+            "__init__",
+            "get_scraped_items",
+            "add_scraped_item",
+            "build_headers",
+            "sleep_random",
+            "fetch_url"
+        ],
+        "has_main": false,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\airdrop_guerrilla\\src\\utils\\migrate_to_sqlite.py": {
+        "classes": [],
+        "functions": [
+            "init_db",
+            "migrate_data"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\utils\\notifier.py": {
+        "classes": [
+            "TelegramNotifier"
+        ],
+        "functions": [
+            "__init__",
+            "is_configured",
+            "send_message",
+            "send_alpha_alert"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\utils\\proxy_manager.py": {
+        "classes": [
+            "ProxyManager"
+        ],
+        "functions": [
+            "__init__",
+            "_load_proxies",
+            "get_proxy_for_account",
+            "add_proxy"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\airdrop_guerrilla\\src\\utils\\stealth_vault.py": {
+        "classes": [
+            "StealthVault"
+        ],
+        "functions": [
+            "__init__",
+            "_load_or_create_key",
+            "encrypt_and_store",
+            "decrypt_and_retrieve"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\dashboard.py": {
+        "classes": [],
+        "functions": [
+            "get_paper_trade_data",
+            "get_decisions"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\live_advisor.py": {
+        "classes": [],
+        "functions": [
+            "get_latest_market_data",
+            "get_latest_news",
+            "get_trading_lore",
+            "run_live_advisor"
+        ],
+        "has_main": true,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\backtest\\backtester.py": {
+        "classes": [],
+        "functions": [
+            "run_multi_asset_backtest"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\backtest\\offline_backtest.py": {
+        "classes": [
+            "OfflineBacktester"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "connect",
+            "close",
+            "__enter__",
+            "__exit__",
+            "get_historical_data",
+            "generate_signals",
+            "backtest",
+            "compare_strategies",
+            "print_results"
+        ],
+        "has_main": true,
+        "complexity_score": 16,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\backtest\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\analysis_to_social.py": {
+        "classes": [
+            "MarketAnalysisReport",
+            "AnalysisAgent"
+        ],
+        "functions": [
+            "__init__",
+            "_logic_handler",
+            "_ai_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 13,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\analytics.py": {
+        "classes": [
+            "Analytics"
+        ],
+        "functions": [
+            "__init__",
+            "_ensure_log_file",
+            "log_execution_time",
+            "log_api_cost",
+            "log_trade_performance",
+            "get_summary"
+        ],
+        "has_main": false,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\behavioral_warden.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\binance_executor.py": {
+        "classes": [
+            "BinanceExecutor"
+        ],
+        "functions": [
+            "__init__",
+            "get_current_portfolio",
+            "print_testnet_balance",
+            "_get_latest_atr",
+            "_calculate_smart_position_sizing",
+            "send_telegram_alert",
+            "execute_allocation",
+            "process_coin"
+        ],
+        "has_main": true,
+        "complexity_score": 13,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\config.py": {
+        "classes": [
+            "Config"
+        ],
+        "functions": [
+            "validate"
+        ],
+        "has_main": false,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\data_fetcher.py": {
+        "classes": [],
+        "functions": [
+            "get_trade_tickers",
+            "fetch_fear_and_greed",
+            "fetch_crypto_data"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\fundamental_fetcher.py": {
+        "classes": [
+            "FundamentalAnalyzer"
+        ],
+        "functions": [
+            "__init__",
+            "get_fundamental_data",
+            "generate_fundamental_report"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\funding_rate.py": {
+        "classes": [
+            "FundingRateMonitor"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "get_funding_rates",
+            "get_avg_funding_rate",
+            "get_funding_rate_summary",
+            "get_funding_rate_history"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\github_fetcher.py": {
+        "classes": [],
+        "functions": [
+            "fetch_github_trending_crypto"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\langgraph_agent.py": {
+        "classes": [
+            "TradingState",
+            "GenericAgent",
+            "MultiAgentTradingSystem"
+        ],
+        "functions": [
+            "_ai_handler",
+            "_logic_handler",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "_technical_node",
+            "_sentiment_node",
+            "_fundamental_node",
+            "_risk_manager_node",
+            "_build_graph",
+            "analyze_and_trade"
+        ],
+        "has_main": false,
+        "complexity_score": 26,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\live_advisor.py": {
+        "classes": [],
+        "functions": [
+            "get_latest_market_data",
+            "get_latest_news",
+            "run_live_advisor"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\mini_backtest.py": {
+        "classes": [],
+        "functions": [
+            "get_cached_prices",
+            "run_mini_backtest"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\ml_prediction.py": {
+        "classes": [
+            "LeftBrainPredictor"
+        ],
+        "functions": [
+            "__init__",
+            "predict"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\news_scraper.py": {
+        "classes": [],
+        "functions": [
+            "fetch_cointelegraph_news"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\portfolio_optimizer.py": {
+        "classes": [
+            "Config"
+        ],
+        "functions": [
+            "get_historical_prices",
+            "calculate_portfolio_performance",
+            "negative_sharpe_ratio",
+            "calculate_risk_parity_weights",
+            "optimize_portfolio"
+        ],
+        "has_main": true,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\profit_harvester.py": {
+        "classes": [
+            "ProfitHarvester"
+        ],
+        "functions": [
+            "__init__",
+            "update_position",
+            "open_position"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\self_reflection.py": {
+        "classes": [
+            "ReflectionAgent"
+        ],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 5,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\social_scraper.py": {
+        "classes": [],
+        "functions": [
+            "fetch_reddit_crypto_sentiment"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\technical_engine.py": {
+        "classes": [
+            "TechnicalEngine"
+        ],
+        "functions": [
+            "__init__",
+            "analyze_trend"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\telegram_intelligence.py": {
+        "classes": [
+            "TelegramSentiment",
+            "TelegramIntelligenceAgent"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "_logic_handler",
+            "_ai_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\validation_gate.py": {
+        "classes": [
+            "ValidationGate"
+        ],
+        "functions": [
+            "__init__",
+            "validate_proposal"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\whale_alert.py": {
+        "classes": [
+            "WhaleAlertMonitor"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "get_transactions",
+            "get_exchange_inflow_outflow",
+            "get_whale_alert_summary"
+        ],
+        "has_main": true,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\src\\whale_tracker.py": {
+        "classes": [
+            "WhaleTrackerAgent"
+        ],
+        "functions": [
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "scrape_whale_data",
+            "execute"
+        ],
+        "has_main": false,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\src\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\tools\\check_pnl.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\tools\\generate_performance_report.py": {
+        "classes": [],
+        "functions": [
+            "generate_markdown_report"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ai_trading_agent\\tools\\reset_pnl.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\tools\\verify_db.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ai_trading_agent\\tools\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\asset_audit_taskforce\\src\\app.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\asset_audit_taskforce\\src\\arb_session.py": {
+        "classes": [
+            "ArchitectureReconstructionBoard"
+        ],
+        "functions": [
+            "__init__",
+            "run_full_session"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\asset_audit_taskforce\\src\\auditor.py": {
+        "classes": [
+            "LogicAuditor"
+        ],
+        "functions": [
+            "__init__",
+            "audit",
+            "generate_sovereign_report"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\asset_audit_taskforce\\src\\detective.py": {
+        "classes": [
+            "AssetDetective"
+        ],
+        "functions": [
+            "__init__",
+            "_analyze_file_content",
+            "investigate",
+            "save_detective_report"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\asset_audit_taskforce\\src\\judge_executor.py": {
+        "classes": [
+            "DiskCleaner"
+        ],
+        "functions": [
+            "__init__",
+            "_format_size",
+            "_get_dir_size",
+            "clean_temp_folders",
+            "clean_dev_caches",
+            "clean_docker",
+            "run"
+        ],
+        "has_main": true,
+        "complexity_score": 12,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\asset_audit_taskforce\\src\\scouter.py": {
+        "classes": [
+            "MetadataScouter"
+        ],
+        "functions": [
+            "__init__",
+            "_get_python_imports",
+            "scan_all",
+            "_is_core",
+            "_map_dependencies",
+            "save_report"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\app.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\auto_affiliate_video\\main.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\src\\affiliate_manager.py": {
+        "classes": [
+            "AffiliateManager"
+        ],
+        "functions": [
+            "__init__",
+            "generate_affiliate_link"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\auto_affiliate_video\\src\\auto_uploader.py": {
+        "classes": [
+            "AutoUploader"
+        ],
+        "functions": [
+            "__init__",
+            "upload_to_tiktok"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\auto_affiliate_video\\src\\main.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\src\\pexel_client.py": {
+        "classes": [
+            "PexelClient"
+        ],
+        "functions": [
+            "find_and_download_video",
+            "_get_best_quality_link"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\src\\scheduler.py": {
+        "classes": [],
+        "functions": [
+            "job"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\src\\script_generator.py": {
+        "classes": [
+            "ScriptGenerator"
+        ],
+        "functions": [
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "generate_short_video_script"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\src\\test_upload.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\auto_affiliate_video\\src\\tiktok_api_uploader.py": {
+        "classes": [
+            "TikTokApiUploader"
+        ],
+        "functions": [
+            "__init__",
+            "upload_to_tiktok"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\auto_affiliate_video\\src\\tts_engine.py": {
+        "classes": [
+            "TTSEngine"
+        ],
+        "functions": [
+            "__init__",
+            "generate_audio",
+            "_apply_audio_effects"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\src\\vector_memory.py": {
+        "classes": [
+            "VectorMemory"
+        ],
+        "functions": [
+            "__init__",
+            "embed_and_store",
+            "query_similar_context",
+            "ingest_chronicles"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\src\\video_editor.py": {
+        "classes": [
+            "VideoEditor"
+        ],
+        "functions": [
+            "__init__",
+            "create_short_video"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_affiliate_video\\src\\video_telemetry.py": {
+        "classes": [
+            "VideoTelemetry"
+        ],
+        "functions": [
+            "measure_latency",
+            "__init__",
+            "start_run",
+            "log_event",
+            "_save_to_disk",
+            "decorator",
+            "wrapper"
+        ],
+        "has_main": false,
+        "complexity_score": 12,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\auto_x_bot\\app.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\auto_x_bot\\main.py": {
+        "classes": [],
+        "functions": [
+            "log_to_db",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_x_bot\\src\\browser_bot.py": {
+        "classes": [
+            "XBrowserBot",
+            "StealthBrowser"
+        ],
+        "functions": [
+            "__init__",
+            "post_tweet_browser",
+            "interact_with_trends",
+            "init_browser",
+            "stealth_page",
+            "random_delay",
+            "human_scroll"
+        ],
+        "has_main": true,
+        "complexity_score": 17,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_x_bot\\src\\content_generator.py": {
+        "classes": [
+            "ContentGenerator"
+        ],
+        "functions": [
+            "__init__",
+            "generate_crypto_tweet"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\auto_x_bot\\src\\social_coordinator.py": {
+        "classes": [],
+        "functions": [
+            "social_mining_cycle"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_x_bot\\src\\x_api_client.py": {
+        "classes": [
+            "XApiClient"
+        ],
+        "functions": [
+            "__init__",
+            "get_me",
+            "post_tweet",
+            "like_tweet",
+            "retweet"
+        ],
+        "has_main": true,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\auto_x_bot\\src\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ceo_agent\\admin_simulator.py": {
+        "classes": [
+            "AdminSimulator"
+        ],
+        "functions": [
+            "__init__",
+            "get_next_crisis",
+            "evaluate_decision"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\ceo_agent\\autonomous_ceo.py": {
+        "classes": [
+            "CEOState",
+            "AutonomousCEO"
+        ],
+        "functions": [
+            "list_projects",
+            "read_document",
+            "__init__",
+            "think_node",
+            "act_node",
+            "finish_node",
+            "should_continue",
+            "_build_graph",
+            "run_vi_hanh"
+        ],
+        "has_main": true,
+        "complexity_score": 19,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ceo_agent\\ceo_mind.py": {
+        "classes": [
+            "CEOAgent"
+        ],
+        "functions": [
+            "__init__",
+            "handle_crisis",
+            "reflect_and_learn"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ceo_agent\\ceo_morning_routine.py": {
+        "classes": [
+            "CEODecision",
+            "CEOUpgradePlan",
+            "AdminFeedback",
+            "AdminCriticAgent",
+            "CEOAgent",
+            "CEOUpgradeAgent"
+        ],
+        "functions": [
+            "wake_up_ceo",
+            "_logic_handler",
+            "_ai_handler",
+            "_logic_handler",
+            "_ai_handler",
+            "_logic_handler",
+            "_ai_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 37,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ceo_agent\\ceo_training_matrix.py": {
+        "classes": [
+            "CEOTrainingState"
+        ],
+        "functions": [
+            "list_files_in_directory",
+            "read_ceo_lore",
+            "summon_agent",
+            "ceo_node",
+            "ceo_router",
+            "reflect_node",
+            "run_nightly_training"
+        ],
+        "has_main": true,
+        "complexity_score": 12,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\ceo_agent\\marketing_intel.py": {
+        "classes": [
+            "MarketingInsight",
+            "MarketingAgent"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "_logic_handler",
+            "_ai_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\gemini_cli\\main.py": {
+        "classes": [],
+        "functions": [
+            "stream_response",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\gemini_cli\\core\\client.py": {
+        "classes": [
+            "GeminiError",
+            "QuotaExceededError",
+            "NetworkError",
+            "InvalidResponseError",
+            "GeminiClient"
+        ],
+        "functions": [
+            "__init__",
+            "__aenter__",
+            "__aexit__",
+            "stream_chat",
+            "chat"
+        ],
+        "has_main": false,
+        "complexity_score": 30,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\gemini_cli\\core\\config.py": {
+        "classes": [
+            "ConfigError",
+            "Config"
+        ],
+        "functions": [
+            "__init__",
+            "_validate",
+            "api_key",
+            "base_url",
+            "model",
+            "timeout",
+            "get_headers",
+            "__repr__"
+        ],
+        "has_main": false,
+        "complexity_score": 18,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\gemini_cli\\core\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\gemini_cli\\tests\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\godot_translator\\app.py": {
+        "classes": [],
+        "functions": [
+            "translation_worker",
+            "repack_cb"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\godot_translator\\build_godot_exe.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\godot_translator\\main.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\main_run.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\test_translation.py": {
+        "classes": [],
+        "functions": [
+            "test_single_file_translation"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\core\\cyber_security.py": {
+        "classes": [
+            "IntegrityGuard",
+            "InjectionGuard"
+        ],
+        "functions": [
+            "__init__",
+            "_calculate_hash",
+            "record_baseline",
+            "verify_integrity",
+            "deploy_logic_mine",
+            "__init__",
+            "is_safe",
+            "sanitize_input"
+        ],
+        "has_main": true,
+        "complexity_score": 18,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\core\\decompiler.py": {
+        "classes": [
+            "GodotDecompiler"
+        ],
+        "functions": [
+            "__init__",
+            "decompile_pck"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\core\\extractor.py": {
+        "classes": [
+            "GodotExtractor"
+        ],
+        "functions": [
+            "__init__",
+            "scan_files",
+            "extract_from_file"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\core\\gdre_downloader.py": {
+        "classes": [],
+        "functions": [
+            "download_gdre_tools"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\core\\injector.py": {
+        "classes": [
+            "GodotInjector"
+        ],
+        "functions": [
+            "__init__",
+            "inject"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\core\\pack_manager.py": {
+        "classes": [
+            "DRMError",
+            "PackManager"
+        ],
+        "functions": [
+            "__init__",
+            "detect_godot_version",
+            "unpack",
+            "test_run",
+            "repack",
+            "cleanup_temp"
+        ],
+        "has_main": false,
+        "complexity_score": 16,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\godot_translator\\core\\translator.py": {
+        "classes": [
+            "TranslationSchema",
+            "GodotTranslator"
+        ],
+        "functions": [
+            "__init__",
+            "_logic_handler",
+            "_ai_handler",
+            "translate_batch"
+        ],
+        "has_main": true,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\godot_translator\\utils\\ui_helper.py": {
+        "classes": [],
+        "functions": [
+            "ui_error_guard",
+            "wrapper"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\main.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\ai_agent.py": {
+        "classes": [
+            "AIService"
+        ],
+        "functions": [
+            "ask_jarvis",
+            "evaluate_evolution",
+            "__init__",
+            "_get_cached_response",
+            "_update_cache",
+            "generate_response"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\ai_agent_fixed.py": {
+        "classes": [
+            "CircuitState",
+            "CircuitBreakerError",
+            "CircuitBreaker",
+            "SingleFlightLRUCache",
+            "AIService"
+        ],
+        "functions": [
+            "ask_jarvis",
+            "evaluate_evolution",
+            "get_system_health",
+            "__init__",
+            "call",
+            "_should_attempt_reset",
+            "_get_remaining_cooldown",
+            "_transition_to_half_open",
+            "_on_success",
+            "_on_failure",
+            "get_status",
+            "__init__",
+            "get_or_fetch",
+            "_get_from_cache",
+            "_fetch_and_cache",
+            "_remove_entry",
+            "get_stats",
+            "__init__",
+            "_call_llm_api",
+            "generate_response",
+            "get_system_status",
+            "fetch_from_api",
+            "cleanup"
+        ],
+        "has_main": true,
+        "complexity_score": 48,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\check_model.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\config.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\database.py": {
+        "classes": [
+            "DatabaseError",
+            "DatabaseManager"
+        ],
+        "functions": [
+            "get_database",
+            "init_db",
+            "get_connection",
+            "get_due_vocab",
+            "get_review_candidates",
+            "add_vocab",
+            "update_vocab_mastery",
+            "get_user_profile",
+            "update_user_stats",
+            "__init__",
+            "_get_default_db_path",
+            "_get_connection",
+            "_execute",
+            "_fetch_one",
+            "_fetch_all",
+            "_init_db",
+            "get_user_profile",
+            "_create_default_profile",
+            "update_user_stats",
+            "add_vocab",
+            "get_due_vocab",
+            "get_review_candidates",
+            "update_vocab_mastery",
+            "_calculate_next_review_interval"
+        ],
+        "has_main": false,
+        "complexity_score": 34,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\db_sync.py": {
+        "classes": [],
+        "functions": [
+            "sync_database_with_git",
+            "commit_and_push_database",
+            "safe_database_update"
+        ],
+        "has_main": false,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\error_notifier.py": {
+        "classes": [
+            "ErrorNotifier"
+        ],
+        "functions": [
+            "__init__",
+            "_get_admin_chat_ids",
+            "_get_bot",
+            "send_error_alert",
+            "notify_error_sync"
+        ],
+        "has_main": false,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\google_services.py": {
+        "classes": [],
+        "functions": [
+            "get_creds",
+            "add_task",
+            "get_today_events",
+            "get_pending_tasks",
+            "get_completed_tasks_today",
+            "create_calendar_event"
+        ],
+        "has_main": false,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\key_manager.py": {
+        "classes": [
+            "KeyExhaustedError",
+            "KeyManager"
+        ],
+        "functions": [
+            "get_global_key_manager",
+            "__init__",
+            "get_next_key",
+            "mark_key_exhausted",
+            "reset_exhausted_keys"
+        ],
+        "has_main": false,
+        "complexity_score": 15,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\migrate_data.py": {
+        "classes": [],
+        "functions": [
+            "manual_restore"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\notes.py": {
+        "classes": [],
+        "functions": [
+            "add_note"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\setup_calendar.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\telegram_bot.py": {
+        "classes": [],
+        "functions": [
+            "send_message"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\telegram_webhook.py": {
+        "classes": [
+            "TelegramWebhookBot"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "_setup_handlers",
+            "handle_photo",
+            "start_command",
+            "help_command",
+            "handle_message",
+            "run_polling",
+            "setup_webhook",
+            "run_webhook",
+            "run",
+            "get_next_weekday"
+        ],
+        "has_main": true,
+        "complexity_score": 17,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\vision_parser.py": {
+        "classes": [],
+        "functions": [
+            "encode_image",
+            "parse_schedule_image"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\jarvis_core\\weather_service.py": {
+        "classes": [],
+        "functions": [
+            "get_weather_report"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\src\\admin_panel.py": {
+        "classes": [
+            "JarvisAdminApp"
+        ],
+        "functions": [
+            "__init__",
+            "setup_profile_tab",
+            "load_profile",
+            "save_profile",
+            "setup_vocab_tab",
+            "load_vocab_list",
+            "filter_vocab",
+            "on_select_vocab",
+            "clear_form",
+            "add_vocab",
+            "update_vocab",
+            "delete_vocab"
+        ],
+        "has_main": true,
+        "complexity_score": 17,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\auto_learn.py": {
+        "classes": [],
+        "functions": [
+            "auto_hunt_vocab"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\bot_daily.py": {
+        "classes": [],
+        "functions": [
+            "get_vietnamese_weekday",
+            "main",
+            "safe_add_task"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\bot_evolve.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\bot_teacher.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\fix_db.py": {
+        "classes": [],
+        "functions": [
+            "fix_system"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\jarvis_launcher.py": {
+        "classes": [
+            "JarvisLauncher"
+        ],
+        "functions": [
+            "__init__",
+            "setup_ui",
+            "log",
+            "launch_main_cmd",
+            "run_process"
+        ],
+        "has_main": true,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\note.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\note_search.py": {
+        "classes": [],
+        "functions": [
+            "read_journal",
+            "search_in_notes",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\src\\test_vision_calendar.py": {
+        "classes": [],
+        "functions": [
+            "get_next_weekday",
+            "test_pipeline"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\tests\\conftest.py": {
+        "classes": [],
+        "functions": [
+            "pytest_configure"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\tests\\test_ai_agent.py": {
+        "classes": [
+            "TestAIService"
+        ],
+        "functions": [
+            "mock_key_manager",
+            "ai_service",
+            "test_init_ai_service",
+            "test_cache_functionality",
+            "test_generate_content_with_retry",
+            "test_key_manager_integration",
+            "test_model_priority_list",
+            "test_cache_ttl_configuration"
+        ],
+        "has_main": false,
+        "complexity_score": 13,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\tests\\test_core.py": {
+        "classes": [
+            "TestDatabaseManager",
+            "TestKeyManager"
+        ],
+        "functions": [
+            "temp_db",
+            "key_manager",
+            "test_init_creates_tables",
+            "test_get_user_profile",
+            "test_update_user_stats",
+            "test_add_vocab",
+            "test_get_due_vocab",
+            "test_get_review_candidates_new",
+            "test_get_review_candidates_review",
+            "test_update_vocab_mastery_correct",
+            "test_update_vocab_mastery_incorrect",
+            "test_database_close",
+            "test_init_key_manager",
+            "test_get_next_key",
+            "test_get_next_key_rotation",
+            "test_mark_key_exhausted",
+            "test_reset_exhausted_keys"
+        ],
+        "has_main": false,
+        "complexity_score": 27,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\tests\\test_new_features.py": {
+        "classes": [
+            "TestConfigModule",
+            "TestKeyManager"
+        ],
+        "functions": [
+            "test_config_module_imports",
+            "test_config_paths_exist",
+            "test_key_manager_basic",
+            "test_key_rotation"
+        ],
+        "has_main": false,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\tools\\admin_gui.py": {
+        "classes": [
+            "JarvisAdminApp"
+        ],
+        "functions": [
+            "__init__",
+            "run_query",
+            "load_data",
+            "on_select",
+            "add_word",
+            "update_word",
+            "delete_word",
+            "hack_time"
+        ],
+        "has_main": true,
+        "complexity_score": 13,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\tools\\bot_sync.py": {
+        "classes": [
+            "ScheduleSyncApp"
+        ],
+        "functions": [
+            "__init__",
+            "log",
+            "start_web_sync_thread",
+            "start_img_sync_thread",
+            "handle_drop",
+            "run_web_sync",
+            "run_process_images",
+            "process_with_ai",
+            "push_to_google_calendar"
+        ],
+        "has_main": true,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\tools\\calendar_ui.py": {
+        "classes": [],
+        "functions": [
+            "get_next_weekday",
+            "generate_google_calendar_csv"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\tools\\cheat_db.py": {
+        "classes": [],
+        "functions": [
+            "hack_time"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\jarvis-rpg-assistant\\tools\\dashboard.py": {
+        "classes": [],
+        "functions": [
+            "get_db"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\tools\\public_readiness_check.py": {
+        "classes": [],
+        "functions": [
+            "run_command"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\tools\\test.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\jarvis-rpg-assistant\\tools\\test_key.py": {
+        "classes": [],
+        "functions": [
+            "load_keys_from_file",
+            "quick_verify_api"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\knowledge_base_agent\\src\\ingest.py": {
+        "classes": [],
+        "functions": [
+            "bootstrap_environment",
+            "collect_pending_assets",
+            "parse_pdf_to_markdown_and_chunk",
+            "safe_initialize_embeddings",
+            "commit_to_vectorstore",
+            "relocate_processed_assets",
+            "run_pipeline"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\knowledge_base_agent\\src\\rag_agent.py": {
+        "classes": [
+            "RAGAgent"
+        ],
+        "functions": [
+            "__init__",
+            "query",
+            "_ai_handler",
+            "_logic_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\LocalRelay\\local_relay.py": {
+        "classes": [],
+        "functions": [
+            "websocket_endpoint",
+            "handle_cline_request",
+            "stream_generator"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\local_proxy_server\\main.py": {
+        "classes": [],
+        "functions": [
+            "lifespan",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\local_proxy_server\\core\\adapter.py": {
+        "classes": [],
+        "functions": [
+            "_trim_messages_if_needed",
+            "to_gemini_payload",
+            "to_openai_stream",
+            "to_openai_final_chunk",
+            "_extract_text_from_gemini_obj",
+            "stream_gemini_to_openai",
+            "_extract_next_json_object"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\local_proxy_server\\core\\config.py": {
+        "classes": [
+            "Settings"
+        ],
+        "functions": [
+            "get_settings",
+            "__init__",
+            "map_model",
+            "get_gemini_stream_url"
+        ],
+        "has_main": false,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\local_proxy_server\\core\\rotation_manager.py": {
+        "classes": [
+            "RotationManager"
+        ],
+        "functions": [
+            "get_rotation_manager",
+            "__init__",
+            "_is_exhausted",
+            "get_valid_credential",
+            "mark_exhausted",
+            "reset_quota_pool",
+            "_maybe_auto_reset",
+            "get_stats"
+        ],
+        "has_main": false,
+        "complexity_score": 13,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\local_proxy_server\\core\\router.py": {
+        "classes": [],
+        "functions": [
+            "stream_fallback_generator",
+            "stream_generator",
+            "chat_completions",
+            "health_check",
+            "_init_billing_db",
+            "process_billing",
+            "root"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\local_proxy_server\\tests\\test_proxy.py": {
+        "classes": [],
+        "functions": [
+            "make_manager",
+            "test_basic_dispatch",
+            "test_mark_exhausted_skip",
+            "test_fallback_to_alternative_model",
+            "test_full_exhaustion",
+            "test_stats"
+        ],
+        "has_main": true,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\local_proxy_server\\tests\\test_proxy_server.py": {
+        "classes": [],
+        "functions": [
+            "test_adapter_to_gemini_payload",
+            "test_adapter_to_openai_stream",
+            "test_api_key_rotation_logic",
+            "test_health_endpoint",
+            "test_root_endpoint",
+            "test_chat_completions_stream",
+            "run_tests"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\qa_chaos_agent\\src\\encyclopedia_writer.py": {
+        "classes": [],
+        "functions": [
+            "write_to_encyclopedia"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\qa_chaos_agent\\src\\fuzzer_engine.py": {
+        "classes": [
+            "FuzzerEngine"
+        ],
+        "functions": [
+            "__init__",
+            "extract_python_files_from_map",
+            "dummy_fuzz_import",
+            "process_crash",
+            "run_nightly_fuzz"
+        ],
+        "has_main": true,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\qa_chaos_agent\\src\\llm_autopsy.py": {
+        "classes": [
+            "LLMAutopsy"
+        ],
+        "functions": [
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "analyze_crash"
+        ],
+        "has_main": false,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\qa_functional_agent\\src\\functional_tester.py": {
+        "classes": [
+            "FunctionalTester"
+        ],
+        "functions": [
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "ai_assert",
+            "test_streamlit_ui",
+            "test_script_generator"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\real_estate_prediction\\app.py": {
+        "classes": [],
+        "functions": [
+            "home",
+            "show_map",
+            "predict"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\real_estate_prediction\\generate_ppt_report.py": {
+        "classes": [],
+        "functions": [
+            "create_dashboard_ppt"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\real_estate_prediction\\generate_word_report.py": {
+        "classes": [],
+        "functions": [
+            "create_report"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\real_estate_prediction\\train_model.py": {
+        "classes": [],
+        "functions": [
+            "main",
+            "get_property_type"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\sillytavern_world_card_generator\\run_nsfw_writer.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\sillytavern_world_card_generator\\src\\auto_translator.py": {
+        "classes": [
+            "AutoTranslatorAgent"
+        ],
+        "functions": [
+            "translate_card",
+            "batch_translate",
+            "__init__",
+            "translate_text"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\sillytavern_world_card_generator\\src\\extract_png_cards.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\ingest_cards.py": {
+        "classes": [],
+        "functions": [
+            "extract_card_text",
+            "ingest_cards"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\sillytavern_world_card_generator\\src\\lore_extractor.py": {
+        "classes": [],
+        "functions": [
+            "read_json_file",
+            "build_llm_prompt",
+            "call_llm_api",
+            "write_markdown_file",
+            "get_output_filename",
+            "has_chinese_chars",
+            "get_processed_files",
+            "log_processed_file",
+            "agent_process_card",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\sillytavern_world_card_generator\\src\\merge_regex.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\merge_regex_all.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\world_card_generator.py": {
+        "classes": [
+            "WorldCardGenerator"
+        ],
+        "functions": [
+            "__init__",
+            "generate",
+            "export_to_json"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\agents\\base_agent.py": {
+        "classes": [
+            "BaseGeminiAgent"
+        ],
+        "functions": [
+            "__init__",
+            "_call_gemini",
+            "_parse_json_response"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\agents\\coder_agent.py": {
+        "classes": [
+            "CoderAgent"
+        ],
+        "functions": [
+            "generate_code_mock",
+            "__init__",
+            "generate_extensions",
+            "load_template"
+        ],
+        "has_main": false,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\agents\\lore_master_agent.py": {
+        "classes": [
+            "LoreMasterAgent"
+        ],
+        "functions": [
+            "generate_lore_mock",
+            "__init__",
+            "generate_lorebook"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\agents\\rag_card_agent.py": {
+        "classes": [
+            "RAGCardAgent"
+        ],
+        "functions": [
+            "__init__",
+            "get_reference_context"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\agents\\storyteller_agent.py": {
+        "classes": [
+            "StorytellerAgent"
+        ],
+        "functions": [
+            "__init__",
+            "generate_narrative_context"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\src\\models\\world_card_v3.py": {
+        "classes": [
+            "LoreBookExtension",
+            "LoreBookEntry",
+            "CharacterBook",
+            "CharacterExtensions",
+            "CharacterData",
+            "WorldCardV3",
+            "UserIdeaInput"
+        ],
+        "functions": [
+            "to_json"
+        ],
+        "has_main": false,
+        "complexity_score": 36,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\tests\\test_basic.py": {
+        "classes": [],
+        "functions": [
+            "test_basic_initialization"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\tools\\non_ai_lorebook_extractor.py": {
+        "classes": [
+            "LorebookExtractor"
+        ],
+        "functions": [
+            "__init__",
+            "_extract_characters_regex",
+            "extract_context_around_name",
+            "analyze_traits",
+            "create_sillytavern_entry",
+            "process_file"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\sillytavern_world_card_generator\\tools\\streamlit_lorebook_app.py": {
+        "classes": [
+            "OllamaLorebookExtractor"
+        ],
+        "functions": [
+            "__init__",
+            "get_available_models",
+            "extract_with_ai"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\sillytavern_world_card_generator\\ui\\app.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\trading_rpg_simulator\\dungeon_master.py": {
+        "classes": [
+            "DungeonMaster"
+        ],
+        "functions": [
+            "__init__",
+            "generate_next_turn",
+            "resolve_combat"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\trading_rpg_simulator\\trader_hero.py": {
+        "classes": [
+            "TraderHero"
+        ],
+        "functions": [
+            "__init__",
+            "make_decision",
+            "reflect_and_learn"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\universal_web_scraper\\main.py": {
+        "classes": [],
+        "functions": [
+            "download_html",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\universal_web_scraper\\src\\alonhadat_parser.py": {
+        "classes": [
+            "BaseScraper",
+            "AlonhadatParser"
+        ],
+        "functions": [
+            "__init__",
+            "get_scraped_pages",
+            "add_scraped_page",
+            "clean_old_data",
+            "incremental_merge",
+            "__init__",
+            "build_headers",
+            "scrape_page",
+            "run_guerrilla"
+        ],
+        "has_main": true,
+        "complexity_score": 19,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\universal_web_scraper\\src\\alonhadat_playwright.py": {
+        "classes": [
+            "AlonhadatPlaywrightScraper"
+        ],
+        "functions": [
+            "__init__",
+            "parse_page_data",
+            "run_scraper",
+            "save_and_merge"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\universal_web_scraper\\src\\base_scraper.py": {
+        "classes": [
+            "PlaywrightStealth",
+            "BaseConfig"
+        ],
+        "functions": [
+            "random_scroll",
+            "human_pause"
+        ],
+        "has_main": false,
+        "complexity_score": 12,
+        "is_empty": false,
+        "evidence": []
+    },
+    "projects\\universal_web_scraper\\src\\batdongsan_playwright.py": {
+        "classes": [
+            "BatDongSanPlaywrightScraper"
+        ],
+        "functions": [
+            "__init__",
+            "get_scraped_pages",
+            "add_scraped_page",
+            "parse_page_data",
+            "run_guerrilla",
+            "save_and_merge"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\universal_web_scraper\\src\\cleaner.py": {
+        "classes": [],
+        "functions": [
+            "clean_and_rank_data"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\universal_web_scraper\\src\\parser.py": {
+        "classes": [],
+        "functions": [
+            "parse_hacker_news"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "projects\\_template\\config\\settings.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "scheduler\\drip_feed_worker.py": {
+        "classes": [
+            "DripFeedWorker"
+        ],
+        "functions": [
+            "mock_scraping_task",
+            "test",
+            "__init__",
+            "_throttled_task",
+            "process_batch"
+        ],
+        "has_main": true,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "scheduler\\main_scheduler.py": {
+        "classes": [],
+        "functions": [
+            "load_state",
+            "save_state",
+            "update_job_state",
+            "run_with_retry_and_log",
+            "send_telegram_alert",
+            "run_queued",
+            "scrape_job",
+            "daily_trading_job",
+            "airdrop_job",
+            "omni_overlord_watchdog",
+            "check_missed_jobs",
+            "wrapper"
+        ],
+        "has_main": true,
+        "complexity_score": 12,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "scheduler\\test_catchup.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\api_gateway.py": {
+        "classes": [
+            "CentralizedAPIGateway",
+            "CircuitBreakerException",
+            "CircuitBreakerOpenException"
+        ],
+        "functions": [
+            "__init__",
+            "_initialize_db",
+            "_get_state",
+            "_set_state",
+            "_record_failure",
+            "_record_success",
+            "get_cached_response",
+            "save_to_cache",
+            "circuit_breaker",
+            "make_api_call",
+            "protected_api_call",
+            "make_api_call_405",
+            "protected_api_call_405",
+            "decorator",
+            "wrapper"
+        ],
+        "has_main": true,
+        "complexity_score": 30,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "src\\base_agent.py": {
+        "classes": [
+            "LLMAPIError",
+            "SchemaValidationError",
+            "BlankHallucinationError",
+            "BaseAgent"
+        ],
+        "functions": [
+            "__init__",
+            "_call_llm_with_retry",
+            "_extract_json_from_text",
+            "_call_llm",
+            "_parse_json_response",
+            "_ai_handler",
+            "_logic_handler",
+            "execute"
+        ],
+        "has_main": false,
+        "complexity_score": 28,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\database.py": {
+        "classes": [
+            "SystemDB"
+        ],
+        "functions": [
+            "__init__",
+            "_create_tables",
+            "log_trading_decision",
+            "log_backtest_report",
+            "log_project_update",
+            "log_paper_trade_balance",
+            "get_latest_decisions",
+            "get_latest_backtests",
+            "get_latest_updates",
+            "get_paper_trade_history",
+            "get_latest_paper_trade_balance",
+            "close"
+        ],
+        "has_main": false,
+        "complexity_score": 17,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\token_tracker.py": {
+        "classes": [
+            "QuotaExceededError",
+            "TokenTracker"
+        ],
+        "functions": [
+            "track_llm_usage",
+            "__init__",
+            "_init_db",
+            "_calculate_cost",
+            "log_usage",
+            "get_total_cost"
+        ],
+        "has_main": false,
+        "complexity_score": 16,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\config.py": {
+        "classes": [
+            "Config"
+        ],
+        "functions": [
+            "create_fallback_chain",
+            "initialize",
+            "get_llm_credentials",
+            "get_best_model_for_provider"
+        ],
+        "has_main": false,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\main.py": {
+        "classes": [],
+        "functions": [
+            "product_ba_node",
+            "overlord_graph",
+            "production_graph",
+            "debate_graph",
+            "primary_router",
+            "route_to_workflow",
+            "post_prd_update",
+            "build_meta_graph",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "src\\factory\\state.py": {
+        "classes": [
+            "FactoryState",
+            "DebateState"
+        ],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\nodes\\architecture_critic.py": {
+        "classes": [
+            "ArchitectureCritic"
+        ],
+        "functions": [
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "evaluate_core_maturity"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "src\\factory\\nodes\\coder.py": {
+        "classes": [],
+        "functions": [
+            "coder_node"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\nodes\\context_manager.py": {
+        "classes": [],
+        "functions": [
+            "context_manager_node"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\nodes\\memory_manager.py": {
+        "classes": [],
+        "functions": [
+            "truncate_text",
+            "memory_manager_node"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\nodes\\omni_overlord.py": {
+        "classes": [
+            "OmniOverlord"
+        ],
+        "functions": [
+            "__init__",
+            "check_market_pulse"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "src\\factory\\nodes\\principles_gate.py": {
+        "classes": [],
+        "functions": [
+            "principles_gate_node"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\nodes\\qa_agent.py": {
+        "classes": [
+            "QAOutput",
+            "QAAgent"
+        ],
+        "functions": [
+            "qa_node",
+            "__init__",
+            "_logic_handler",
+            "_ai_handler"
+        ],
+        "has_main": false,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\nodes\\qa_reviewer.py": {
+        "classes": [
+            "QAReviewer"
+        ],
+        "functions": [
+            "extract_score",
+            "qa_node",
+            "__init__",
+            "evaluate"
+        ],
+        "has_main": false,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\nodes\\router_agent.py": {
+        "classes": [
+            "SemanticRouter"
+        ],
+        "functions": [
+            "router_node",
+            "__init__",
+            "route_query"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\nodes\\system_designer.py": {
+        "classes": [
+            "SystemDesigner"
+        ],
+        "functions": [
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "generate_mermaid_map"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "src\\factory\\nodes\\triage_director.py": {
+        "classes": [],
+        "functions": [
+            "triage_issues_and_plan",
+            "triage_director_node"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\workflows\\daily_health_loop.py": {
+        "classes": [
+            "DailyHealthState",
+            "ArchitectAgent",
+            "WardenAgent"
+        ],
+        "functions": [
+            "nightwatch_node",
+            "architect_node",
+            "warden_node",
+            "mechanic_node",
+            "test_pilot_node",
+            "build_daily_health_graph",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "warden_router"
+        ],
+        "has_main": false,
+        "complexity_score": 28,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\factory\\workflows\\software_production.py": {
+        "classes": [],
+        "functions": [
+            "router_node",
+            "route_start",
+            "check_qa_score",
+            "build_factory_graph"
+        ],
+        "has_main": false,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\scrapers\\auto_repair_selector.py": {
+        "classes": [
+            "SelectorPatch",
+            "AutoRepairSelector"
+        ],
+        "functions": [
+            "__init__",
+            "_logic_handler",
+            "_ai_handler",
+            "repair_and_patch"
+        ],
+        "has_main": false,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\skills\\search_knowledge_base.py": {
+        "classes": [],
+        "functions": [
+            "search_research_papers"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "src\\skills\\skill_manager.py": {
+        "classes": [
+            "SkillManager"
+        ],
+        "functions": [
+            "__init__",
+            "load_skill"
+        ],
+        "has_main": false,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\conftest.py": {
+        "classes": [],
+        "functions": [
+            "pytest_addoption",
+            "args_pytest",
+            "skip_timing_checks",
+            "pytest_collection_modifyitems"
+        ],
+        "has_main": false,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\test_advanced_rag_flow.py": {
+        "classes": [],
+        "functions": [
+            "test_performance"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tests\\test_all_roles_gcli.py": {
+        "classes": [
+            "ArenaJudge"
+        ],
+        "functions": [
+            "create_mocks",
+            "main",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 10,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tests\\test_asset_seeder.py": {
+        "classes": [
+            "TestResetToIdle",
+            "TestEnqueueEnrichStartsImmediately",
+            "TestEnqueueEnrichQueuesWhenBusy",
+            "TestEnqueueEnrichMergesPending",
+            "TestPendingEnrichDrain",
+            "TestEnqueueEnrichThreadSafety"
+        ],
+        "functions": [
+            "seeder",
+            "test_sets_idle_and_clears_progress",
+            "test_noop_when_progress_already_none",
+            "test_starts_when_idle",
+            "test_no_pending_when_started_immediately",
+            "test_queues_when_busy",
+            "test_queues_preserves_compute_hashes_true",
+            "_make_busy",
+            "test_merges_roots",
+            "test_merges_overlapping_roots",
+            "test_compute_hashes_sticky_true",
+            "test_compute_hashes_upgrades_to_true",
+            "test_compute_hashes_stays_false",
+            "test_triple_merge",
+            "test_pending_enrich_starts_after_scan",
+            "test_pending_cleared_even_when_start_fails",
+            "test_no_drain_when_no_pending",
+            "test_concurrent_enqueues",
+            "enqueue"
+        ],
+        "has_main": false,
+        "complexity_score": 49,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\test_base_agent.py": {
+        "classes": [
+            "DummyAgent"
+        ],
+        "functions": [
+            "test_circuit_breaker_fallback",
+            "test_blank_hallucination",
+            "test_api_rate_limit",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler"
+        ],
+        "has_main": false,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\test_daily_loop.py": {
+        "classes": [
+            "ContextDelegatorAgent"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tests\\test_local_proxy.py": {
+        "classes": [],
+        "functions": [
+            "test_read_docs",
+            "test_missing_auth_header"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\test_token_tracker.py": {
+        "classes": [],
+        "functions": [
+            "test_calculate_cost_flash",
+            "test_calculate_cost_pro",
+            "test_calculate_cost_unknown_model"
+        ],
+        "has_main": false,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\test_trading_agent.py": {
+        "classes": [],
+        "functions": [
+            "test_trading_agent_llm_error_fallback",
+            "test_trading_agent_binance_error_fallback"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\test_validation_gate.py": {
+        "classes": [],
+        "functions": [
+            "test_slippage_guard_rejects_high_volatility",
+            "test_trend_filter_rejects_downtrend"
+        ],
+        "has_main": false,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\test_watchdog.py": {
+        "classes": [],
+        "functions": [
+            "test_watchdog_kill_memory_leak"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\chaos_module\\chaos_monkey.py": {
+        "classes": [
+            "ChaosMonkey",
+            "FakeResponse"
+        ],
+        "functions": [
+            "__init__",
+            "inject_chaos",
+            "wrapper"
+        ],
+        "has_main": false,
+        "complexity_score": 13,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\chaos_module\\run_chaos_test.py": {
+        "classes": [],
+        "functions": [
+            "chaotic_invoke",
+            "run_test"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tests\\compare\\conftest.py": {
+        "classes": [],
+        "functions": [
+            "pytest_addoption",
+            "args_pytest",
+            "gather_file_basenames",
+            "pytest_generate_tests"
+        ],
+        "has_main": false,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\compare\\test_quality.py": {
+        "classes": [
+            "TestCompareImageMetrics"
+        ],
+        "functions": [
+            "ssim_score",
+            "test_file_names",
+            "teardown",
+            "fname",
+            "test_directories_not_empty",
+            "test_dir_has_all_matching_metadata",
+            "test_pipeline_compare",
+            "read_img",
+            "image_grid",
+            "lookup_score_from_fname",
+            "gather_file_basenames",
+            "read_file_prompt",
+            "find_file_match"
+        ],
+        "has_main": false,
+        "complexity_score": 18,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\test_async_nodes.py": {
+        "classes": [
+            "TestAsyncNodes"
+        ],
+        "functions": [
+            "_server",
+            "shared_client",
+            "client",
+            "builder",
+            "test_basic_async_execution",
+            "test_multiple_async_parallel_execution",
+            "test_async_with_dependencies",
+            "test_async_validate_inputs",
+            "test_async_lazy_evaluation",
+            "test_async_check_lazy_status",
+            "test_async_execution_error",
+            "test_async_validation_error",
+            "test_async_timeout_handling",
+            "test_concurrent_async_error_recovery",
+            "test_sync_error_during_async_execution",
+            "test_async_with_execution_blocker",
+            "test_async_caching_behavior",
+            "test_async_with_dynamic_prompts",
+            "test_async_resource_cleanup",
+            "test_async_cancellation",
+            "test_mixed_sync_async_execution"
+        ],
+        "has_main": false,
+        "complexity_score": 26,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\test_execution.py": {
+        "classes": [
+            "RunResult",
+            "ComfyClient",
+            "TestExecution"
+        ],
+        "functions": [
+            "run_warmup",
+            "__init__",
+            "get_output",
+            "did_run",
+            "was_cached",
+            "was_executed",
+            "get_images",
+            "get_prompt_id",
+            "__init__",
+            "connect",
+            "queue_prompt",
+            "get_image",
+            "get_history",
+            "get_all_history",
+            "get_jobs",
+            "get_job",
+            "set_test_name",
+            "run",
+            "server",
+            "start_client",
+            "shared_client",
+            "client",
+            "builder",
+            "test_lazy_input",
+            "test_full_cache",
+            "test_partial_cache",
+            "test_error",
+            "test_validation_error_literal",
+            "test_validation_error_edge1",
+            "test_validation_error_edge2",
+            "test_validation_error_edge3",
+            "test_validation_error_edge4",
+            "test_validation_error_kwargs",
+            "test_cycle_error",
+            "test_dynamic_cycle_error",
+            "test_missing_node_error",
+            "test_custom_is_changed",
+            "test_undeclared_inputs",
+            "test_for_loop",
+            "test_mixed_expansion_returns",
+            "test_mixed_lazy_results",
+            "test_output_reuse",
+            "test_is_changed_with_outputs",
+            "test_parallel_sleep_nodes",
+            "test_parallel_sleep_expansion",
+            "test_execution_block_list_output",
+            "test_partial_execution_included_outputs",
+            "test_partial_execution_excluded_outputs",
+            "test_partial_execution_dependencies",
+            "test_partial_execution_with_lazy_nodes",
+            "test_partial_execution_multiple_output_nodes",
+            "test_partial_execution_empty_list",
+            "_create_history_item",
+            "test_offset_returns_different_items_than_beginning_of_history",
+            "test_offset_beyond_history_length_returns_empty",
+            "test_offset_at_exact_history_length_returns_empty",
+            "test_offset_zero_equals_no_offset_parameter",
+            "test_offset_without_max_items_skips_from_beginning",
+            "test_offset_with_max_items_returns_correct_window",
+            "test_offset_near_end_returns_remaining_items_only",
+            "test_jobs_api_job_structure",
+            "test_jobs_api_preview_output_structure",
+            "test_jobs_api_pagination",
+            "test_jobs_api_sorting",
+            "test_jobs_api_status_filter",
+            "test_get_job_by_id",
+            "test_get_job_not_found"
+        ],
+        "has_main": false,
+        "complexity_score": 82,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\test_jobs.py": {
+        "classes": [
+            "TestJobStatus",
+            "TestIsPreviewable",
+            "TestGetOutputsSummary",
+            "TestHas3DExtension",
+            "TestApplySorting",
+            "TestNormalizeQueueItem",
+            "TestNormalizeHistoryItem",
+            "TestNormalizeOutputItem",
+            "TestNormalizeOutputs"
+        ],
+        "functions": [
+            "test_status_values",
+            "test_all_contains_all_statuses",
+            "test_previewable_media_types",
+            "test_non_previewable_media_types",
+            "test_3d_extensions_previewable",
+            "test_3d_extensions_case_insensitive",
+            "test_video_format_previewable",
+            "test_audio_format_previewable",
+            "test_other_format_not_previewable",
+            "test_empty_outputs",
+            "test_counts_across_multiple_nodes",
+            "test_skips_animated_key_and_non_list_values",
+            "test_preview_prefers_type_output",
+            "test_preview_fallback_when_no_output_type",
+            "test_non_previewable_media_types_counted_but_no_preview",
+            "test_previewable_media_types",
+            "test_3d_files_previewable",
+            "test_format_mime_type_previewable",
+            "test_preview_enriched_with_node_metadata",
+            "test_string_3d_filename_creates_preview",
+            "test_string_non_3d_filename_no_preview",
+            "test_string_3d_filename_used_as_fallback",
+            "test_recognized_extensions",
+            "test_case_insensitive",
+            "test_non_3d_extensions",
+            "test_sort_by_create_time_desc",
+            "test_sort_by_create_time_asc",
+            "test_sort_by_execution_duration",
+            "test_sort_with_none_values",
+            "test_basic_normalization",
+            "test_completed_job",
+            "test_failed_job",
+            "test_cancelled_job",
+            "test_include_outputs",
+            "test_include_outputs_normalizes_3d_strings",
+            "test_include_outputs_preserves_dict_items",
+            "test_none_returns_none",
+            "test_string_3d_extension_synthesizes_dict",
+            "test_string_non_3d_extension_returns_none",
+            "test_string_no_extension_returns_none",
+            "test_dict_passes_through",
+            "test_other_types_return_none",
+            "test_empty_outputs",
+            "test_dict_items_pass_through",
+            "test_3d_string_synthesized",
+            "test_animated_key_preserved",
+            "test_non_dict_node_outputs_preserved",
+            "test_none_items_filtered_but_other_types_preserved"
+        ],
+        "has_main": false,
+        "complexity_score": 93,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\test_preview_method.py": {
+        "classes": [
+            "PreviewMethodClient",
+            "TestPreviewMethodExecution",
+            "TestPreviewMethodComparison",
+            "TestPreviewMethodSequential"
+        ],
+        "functions": [
+            "is_server_running",
+            "prepare_graph_for_test",
+            "load_graph",
+            "client",
+            "graph",
+            "__init__",
+            "connect",
+            "close",
+            "queue_prompt",
+            "wait_for_execution",
+            "test_execution_with_latent2rgb",
+            "test_execution_with_taesd",
+            "test_execution_with_none_preview",
+            "test_execution_with_default",
+            "test_execution_without_preview_method",
+            "test_none_vs_latent2rgb_preview_count",
+            "test_sequential_different_methods"
+        ],
+        "has_main": false,
+        "complexity_score": 37,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\test_progress_isolation.py": {
+        "classes": [
+            "ProgressTracker",
+            "IsolatedClient",
+            "TestProgressIsolation"
+        ],
+        "functions": [
+            "__init__",
+            "add_message",
+            "get_messages_for_prompt",
+            "has_cross_contamination",
+            "__init__",
+            "connect",
+            "listen_for_messages",
+            "_server",
+            "start_client_with_retry",
+            "test_progress_isolation_between_clients",
+            "test_progress_with_missing_client_id",
+            "listen_client_a",
+            "listen_client_b"
+        ],
+        "has_main": false,
+        "complexity_score": 28,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\test_public_api.py": {
+        "classes": [
+            "TestPublicAPI"
+        ],
+        "functions": [
+            "_server",
+            "shared_client",
+            "client",
+            "builder",
+            "test_sync_progress_update_executes",
+            "test_async_progress_update_executes",
+            "test_sync_and_async_progress_together"
+        ],
+        "has_main": false,
+        "complexity_score": 12,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\api_test_nodes.py": {
+        "classes": [
+            "TestAsyncProgressUpdate",
+            "TestSyncProgressUpdate"
+        ],
+        "functions": [
+            "INPUT_TYPES",
+            "execute",
+            "INPUT_TYPES",
+            "execute"
+        ],
+        "has_main": false,
+        "complexity_score": 14,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\async_test_nodes.py": {
+        "classes": [
+            "TestAsyncValidation",
+            "TestAsyncError",
+            "TestAsyncValidationError",
+            "TestAsyncTimeout",
+            "TestSyncError",
+            "TestAsyncLazyCheck",
+            "TestDynamicAsyncGeneration",
+            "TestAsyncResourceUser",
+            "TestAsyncBatchProcessing",
+            "TestAsyncConcurrentLimit"
+        ],
+        "functions": [
+            "INPUT_TYPES",
+            "VALIDATE_INPUTS",
+            "process",
+            "INPUT_TYPES",
+            "error_execution",
+            "INPUT_TYPES",
+            "VALIDATE_INPUTS",
+            "process",
+            "INPUT_TYPES",
+            "timeout_execution",
+            "INPUT_TYPES",
+            "sync_error",
+            "INPUT_TYPES",
+            "check_lazy_status",
+            "process",
+            "INPUT_TYPES",
+            "generate_async_workflow",
+            "INPUT_TYPES",
+            "use_resource",
+            "INPUT_TYPES",
+            "process_batch",
+            "INPUT_TYPES",
+            "limited_execution"
+        ],
+        "has_main": false,
+        "complexity_score": 73,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\conditions.py": {
+        "classes": [
+            "TestIntConditions",
+            "TestFloatConditions",
+            "TestStringConditions",
+            "TestToBoolNode",
+            "TestBoolOperationNode"
+        ],
+        "functions": [
+            "__init__",
+            "INPUT_TYPES",
+            "int_condition",
+            "__init__",
+            "INPUT_TYPES",
+            "float_condition",
+            "__init__",
+            "INPUT_TYPES",
+            "string_condition",
+            "__init__",
+            "INPUT_TYPES",
+            "to_bool",
+            "__init__",
+            "INPUT_TYPES",
+            "bool_operation"
+        ],
+        "has_main": false,
+        "complexity_score": 40,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\flow_control.py": {
+        "classes": [
+            "TestWhileLoopOpen",
+            "TestWhileLoopClose",
+            "TestExecutionBlockerNode"
+        ],
+        "functions": [
+            "__init__",
+            "INPUT_TYPES",
+            "while_loop_open",
+            "__init__",
+            "INPUT_TYPES",
+            "explore_dependencies",
+            "collect_contained",
+            "while_loop_close",
+            "__init__",
+            "INPUT_TYPES",
+            "execution_blocker"
+        ],
+        "has_main": false,
+        "complexity_score": 26,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\specific_tests.py": {
+        "classes": [
+            "TestLazyMixImages",
+            "TestVariadicAverage",
+            "TestCustomIsChanged",
+            "TestIsChangedWithConstants",
+            "TestCustomValidation1",
+            "TestCustomValidation2",
+            "TestCustomValidation3",
+            "TestCustomValidation4",
+            "TestCustomValidation5",
+            "TestDynamicDependencyCycle",
+            "TestMixedExpansionReturns",
+            "TestSamplingInExpansion",
+            "TestSleep",
+            "TestParallelSleep",
+            "TestOutputNodeWithSocketOutput"
+        ],
+        "functions": [
+            "INPUT_TYPES",
+            "check_lazy_status",
+            "mix",
+            "INPUT_TYPES",
+            "variadic_average",
+            "INPUT_TYPES",
+            "custom_is_changed",
+            "IS_CHANGED",
+            "INPUT_TYPES",
+            "custom_is_changed",
+            "IS_CHANGED",
+            "INPUT_TYPES",
+            "custom_validation1",
+            "VALIDATE_INPUTS",
+            "INPUT_TYPES",
+            "custom_validation2",
+            "VALIDATE_INPUTS",
+            "INPUT_TYPES",
+            "custom_validation3",
+            "INPUT_TYPES",
+            "custom_validation4",
+            "VALIDATE_INPUTS",
+            "INPUT_TYPES",
+            "custom_validation5",
+            "VALIDATE_INPUTS",
+            "INPUT_TYPES",
+            "dynamic_dependency_cycle",
+            "INPUT_TYPES",
+            "mixed_expansion_returns",
+            "INPUT_TYPES",
+            "sampling_in_expansion",
+            "INPUT_TYPES",
+            "sleep",
+            "INPUT_TYPES",
+            "parallel_sleep",
+            "INPUT_TYPES",
+            "process"
+        ],
+        "has_main": false,
+        "complexity_score": 112,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\stubs.py": {
+        "classes": [
+            "StubImage",
+            "StubConstantImage",
+            "StubMask",
+            "StubInt",
+            "StubFloat"
+        ],
+        "functions": [
+            "__init__",
+            "INPUT_TYPES",
+            "stub_image",
+            "__init__",
+            "INPUT_TYPES",
+            "stub_constant_image",
+            "__init__",
+            "INPUT_TYPES",
+            "stub_mask",
+            "__init__",
+            "INPUT_TYPES",
+            "stub_int",
+            "__init__",
+            "INPUT_TYPES",
+            "stub_float"
+        ],
+        "has_main": false,
+        "complexity_score": 40,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\tools.py": {
+        "classes": [
+            "SmartType"
+        ],
+        "functions": [
+            "MakeSmartType",
+            "VariantSupport",
+            "__ne__",
+            "decorator",
+            "new_input_types",
+            "validate_inputs"
+        ],
+        "has_main": false,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\util.py": {
+        "classes": [
+            "TestAccumulateNode",
+            "TestAccumulationHeadNode",
+            "TestAccumulationTailNode",
+            "TestAccumulationToListNode",
+            "TestListToAccumulationNode",
+            "TestAccumulationGetLengthNode",
+            "TestAccumulationGetItemNode",
+            "TestAccumulationSetItemNode",
+            "TestIntMathOperation",
+            "TestForLoopOpen",
+            "TestForLoopClose",
+            "TestMakeListNode"
+        ],
+        "functions": [
+            "__init__",
+            "INPUT_TYPES",
+            "accumulate",
+            "__init__",
+            "INPUT_TYPES",
+            "accumulation_head",
+            "__init__",
+            "INPUT_TYPES",
+            "accumulation_tail",
+            "__init__",
+            "INPUT_TYPES",
+            "accumulation_to_list",
+            "__init__",
+            "INPUT_TYPES",
+            "list_to_accumulation",
+            "__init__",
+            "INPUT_TYPES",
+            "accumlength",
+            "__init__",
+            "INPUT_TYPES",
+            "get_item",
+            "__init__",
+            "INPUT_TYPES",
+            "set_item",
+            "__init__",
+            "INPUT_TYPES",
+            "int_math_operation",
+            "__init__",
+            "INPUT_TYPES",
+            "for_loop_open",
+            "__init__",
+            "INPUT_TYPES",
+            "for_loop_close",
+            "__init__",
+            "INPUT_TYPES",
+            "make_list"
+        ],
+        "has_main": false,
+        "complexity_score": 96,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\execution\\testing_nodes\\testing-pack\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\inference\\test_inference.py": {
+        "classes": [
+            "ComfyGraph",
+            "ComfyClient",
+            "TestInference"
+        ],
+        "functions": [
+            "__init__",
+            "set_prompt",
+            "set_sampler_name",
+            "set_scheduler",
+            "set_filename_prefix",
+            "connect",
+            "queue_prompt",
+            "get_image",
+            "get_history",
+            "get_images",
+            "_server",
+            "start_client",
+            "_client_graph",
+            "client",
+            "comfy_graph",
+            "test_comfy"
+        ],
+        "has_main": false,
+        "complexity_score": 31,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tests\\mock_data\\mock_arch.py": {
+        "classes": [
+            "A",
+            "C"
+        ],
+        "functions": [
+            "b",
+            "d"
+        ],
+        "has_main": false,
+        "complexity_score": 12,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tmp\\memory_leak_test.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\build_all_reqs.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\compile_drm.py": {
+        "classes": [],
+        "functions": [
+            "run_cython"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\convert_csv_to_data.py": {
+        "classes": [],
+        "functions": [
+            "convert_csv_to_data"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\convert_data_to_csv.py": {
+        "classes": [],
+        "functions": [
+            "convert_data_to_csv"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\extract_cookies.py": {
+        "classes": [],
+        "functions": [
+            "extract_tiktok_cookies"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\extract_godot_csv.py": {
+        "classes": [],
+        "functions": [
+            "generate_smart_key",
+            "is_garbage_string",
+            "extract_strings_to_csv",
+            "decode_str"
+        ],
+        "has_main": true,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\generate_flagship_roadmap.py": {
+        "classes": [],
+        "functions": [
+            "generate_flagship_roadmap"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\manage.py": {
+        "classes": [],
+        "functions": [
+            "print_help",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\market_research_scraper.py": {
+        "classes": [],
+        "functions": [
+            "scrape_reddit",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\package_beta.py": {
+        "classes": [],
+        "functions": [
+            "create_portable_package"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\run_notebooks.py": {
+        "classes": [],
+        "functions": [
+            "run_notebook"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\run_pipeline_data.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\run_pipeline_lstm.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\run_pipeline_ml.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\run_qa_agent.py": {
+        "classes": [],
+        "functions": [
+            "qa_agent_audit"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\run_tester_agent.py": {
+        "classes": [],
+        "functions": [
+            "test_code"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\scrape_opgg.py": {
+        "classes": [],
+        "functions": [
+            "scrape_valorant"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\setup_project_foundation.py": {
+        "classes": [],
+        "functions": [
+            "create_template",
+            "generate_missing_files"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system_cleaner.py": {
+        "classes": [],
+        "functions": [
+            "get_core_sig",
+            "clean_docs",
+            "clean_comfy"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\telegram_bot_controller.py": {
+        "classes": [],
+        "functions": [
+            "start",
+            "handle_message",
+            "main",
+            "run_trading",
+            "run_airdrop"
+        ],
+        "has_main": true,
+        "complexity_score": 5,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\test_youtube_api.py": {
+        "classes": [],
+        "functions": [
+            "test_youtube_api"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\translate_csv.py": {
+        "classes": [],
+        "functions": [
+            "translate_csv"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\comfy\\clothoff_cli.py": {
+        "classes": [],
+        "functions": [
+            "to_base64",
+            "select_file",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\comfy\\clothoff_gui.py": {
+        "classes": [],
+        "functions": [
+            "process_clothoff"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\comfy\\clothoff_hf_cli.py": {
+        "classes": [],
+        "functions": [
+            "select_file",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\comfy\\create_clothoff_image.py": {
+        "classes": [],
+        "functions": [
+            "to_base64",
+            "generate_clothoff"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_10_diem_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_bang_tra_cuu_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_bmtt_cheatsheet_docx.py": {
+        "classes": [],
+        "functions": [
+            "init_document",
+            "add_affine_section",
+            "add_hill_section",
+            "add_playfair_rsa_theory",
+            "generate_exam_doc",
+            "run_unit_test"
+        ],
+        "has_main": true,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_bmtt_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_full_10_cau_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx",
+            "add_mindset",
+            "add_write"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_giai_de_cuong_qtkdcks.py": {
+        "classes": [],
+        "functions": [
+            "add_heading",
+            "add_paragraph",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_giai_de_cuong_qtkdcks_rut_gon.py": {
+        "classes": [],
+        "functions": [
+            "add_heading",
+            "add_paragraph",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_giai_de_cuong_qtkdcks_suy_luan.py": {
+        "classes": [],
+        "functions": [
+            "add_heading",
+            "add_paragraph",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_mindset_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_qtkdcks_audio_gtts.py": {
+        "classes": [],
+        "functions": [
+            "create_audio"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_qtkdcks_audio_local.py": {
+        "classes": [],
+        "functions": [
+            "create_audio"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_qtkdcks_audio_simple.py": {
+        "classes": [],
+        "functions": [
+            "amain"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_qtkdcks_cheatsheet.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_qtkdcks_custom_audio.py": {
+        "classes": [],
+        "functions": [
+            "create_audio"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_qtkdcks_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_qtkdcks_theory_audio.py": {
+        "classes": [],
+        "functions": [
+            "amain"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\create_qtkdcks_theory_audio_story.py": {
+        "classes": [],
+        "functions": [
+            "create_audio"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\qtkdcks_decuong_quiz.py": {
+        "classes": [
+            "DecuongQuizApp"
+        ],
+        "functions": [
+            "__init__",
+            "build_ui",
+            "handle_enter",
+            "load_question",
+            "check_answer",
+            "next_question"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\qtkdcks_formula_reflex.py": {
+        "classes": [
+            "FormulaQuizApp"
+        ],
+        "functions": [
+            "__init__",
+            "build_ui",
+            "handle_enter",
+            "load_question",
+            "check_answer",
+            "next_question"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\qtkdcks_quiz_app.py": {
+        "classes": [
+            "QuizApp"
+        ],
+        "functions": [
+            "__init__",
+            "build_ui",
+            "handle_enter",
+            "load_question",
+            "check_answer",
+            "next_question"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\scan_qtkdcks_pdfs.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\edtech\\verify_bmtt_math.py": {
+        "classes": [],
+        "functions": [
+            "mod_inverse",
+            "affine_decrypt",
+            "hill_encrypt",
+            "rsa_encrypt"
+        ],
+        "has_main": false,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\edtech\\archive\\create_10_diem_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_bang_tra_cuu_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_bmtt_cheatsheet_docx.py": {
+        "classes": [],
+        "functions": [
+            "init_document",
+            "add_affine_section",
+            "add_hill_section",
+            "add_playfair_rsa_theory",
+            "generate_exam_doc",
+            "run_unit_test"
+        ],
+        "has_main": true,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_bmtt_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_full_10_cau_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx",
+            "add_mindset",
+            "add_write"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_giai_de_cuong_qtkdcks.py": {
+        "classes": [],
+        "functions": [
+            "add_heading",
+            "add_paragraph",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_giai_de_cuong_qtkdcks_rut_gon.py": {
+        "classes": [],
+        "functions": [
+            "add_heading",
+            "add_paragraph",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_giai_de_cuong_qtkdcks_suy_luan.py": {
+        "classes": [],
+        "functions": [
+            "add_heading",
+            "add_paragraph",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_mindset_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_qtkdcks_audio_gtts.py": {
+        "classes": [],
+        "functions": [
+            "create_audio"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_qtkdcks_audio_local.py": {
+        "classes": [],
+        "functions": [
+            "create_audio"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_qtkdcks_audio_simple.py": {
+        "classes": [],
+        "functions": [
+            "amain"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_qtkdcks_cheatsheet.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_qtkdcks_custom_audio.py": {
+        "classes": [],
+        "functions": [
+            "create_audio"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_qtkdcks_docx.py": {
+        "classes": [],
+        "functions": [
+            "create_docx"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_qtkdcks_theory_audio.py": {
+        "classes": [],
+        "functions": [
+            "amain"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\create_qtkdcks_theory_audio_story.py": {
+        "classes": [],
+        "functions": [
+            "create_audio"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\qtkdcks_decuong_quiz.py": {
+        "classes": [
+            "DecuongQuizApp"
+        ],
+        "functions": [
+            "__init__",
+            "build_ui",
+            "handle_enter",
+            "load_question",
+            "check_answer",
+            "next_question"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\qtkdcks_formula_reflex.py": {
+        "classes": [
+            "FormulaQuizApp"
+        ],
+        "functions": [
+            "__init__",
+            "build_ui",
+            "handle_enter",
+            "load_question",
+            "check_answer",
+            "next_question"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\qtkdcks_quiz_app.py": {
+        "classes": [
+            "QuizApp"
+        ],
+        "functions": [
+            "__init__",
+            "build_ui",
+            "handle_enter",
+            "load_question",
+            "check_answer",
+            "next_question"
+        ],
+        "has_main": true,
+        "complexity_score": 11,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\edtech\\archive\\scan_qtkdcks_pdfs.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\edtech\\archive\\verify_bmtt_math.py": {
+        "classes": [],
+        "functions": [
+            "mod_inverse",
+            "affine_decrypt",
+            "hill_encrypt",
+            "rsa_encrypt"
+        ],
+        "has_main": false,
+        "complexity_score": 4,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\lorebook\\create_ultimate_preset_v3.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\lorebook\\delete_empty_docs.py": {
+        "classes": [],
+        "functions": [
+            "delete_empty_docs"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\lorebook\\find_empty_docs.py": {
+        "classes": [],
+        "functions": [
+            "find_empty_files"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\lorebook\\merge_and_shorten_lorebook.py": {
+        "classes": [],
+        "functions": [
+            "get_category"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\lorebook\\merge_physiology_lorebook.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\misc\\organize_girl_folder.py": {
+        "classes": [],
+        "functions": [
+            "get_common_prefix",
+            "clean_common_prefix",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\misc\\run_ocr_hentai.py": {
+        "classes": [],
+        "functions": [
+            "extract_text"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\rag_code\\auto_rag_query.py": {
+        "classes": [],
+        "functions": [
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\rag_code\\ingest_code.py": {
+        "classes": [],
+        "functions": [
+            "get_all_code_files",
+            "ingest_codebase"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\rag_code\\inspect_docs.py": {
+        "classes": [],
+        "functions": [
+            "inspect_docs"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\rag_code\\query_code_db.py": {
+        "classes": [],
+        "functions": [
+            "query_codebase"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\rag_code\\test_code_ingestion.py": {
+        "classes": [],
+        "functions": [
+            "run_automated_tests"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\scanners\\architecture_auditor.py": {
+        "classes": [],
+        "functions": [
+            "audit_workspace"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\scanners\\architecture_scanner.py": {
+        "classes": [],
+        "functions": [
+            "analyze_file",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\scanners\\freelance_scanner.py": {
+        "classes": [],
+        "functions": [
+            "scan_freelance_jobs"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\scanners\\internship_scanner.py": {
+        "classes": [],
+        "functions": [
+            "scan_internships"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\scanners\\project_stat_analyzer.py": {
+        "classes": [],
+        "functions": [
+            "analyze_project"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\api_mapper.py": {
+        "classes": [],
+        "functions": [
+            "extract_env_keys",
+            "scan_file_for_env_usage",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\apply_updates.py": {
+        "classes": [],
+        "functions": [
+            "get_category"
+        ],
+        "has_main": false,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\system\\archivist_agent.py": {
+        "classes": [
+            "ArchivistAgent"
+        ],
+        "functions": [
+            "__init__",
+            "distill_debate_room",
+            "run"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\ast_patcher.py": {
+        "classes": [
+            "ASTPatcher"
+        ],
+        "functions": [
+            "read_ast",
+            "write_ast",
+            "apply_patch"
+        ],
+        "has_main": false,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\system\\audit_reporter.py": {
+        "classes": [
+            "AIAuditReporter"
+        ],
+        "functions": [
+            "__init__",
+            "_get_airdrop_stats",
+            "generate_pdf"
+        ],
+        "has_main": true,
+        "complexity_score": 8,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\auto_mapper.py": {
+        "classes": [],
+        "functions": [
+            "generate_system_map"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\awaken.py": {
+        "classes": [],
+        "functions": [
+            "awaken"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\batch_qa_runner.py": {
+        "classes": [],
+        "functions": [
+            "get_all_projects",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\benchmark_apis.py": {
+        "classes": [],
+        "functions": [
+            "build_request_args",
+            "test_speed",
+            "send_single_req",
+            "test_rate_limit",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 5,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\build_indexer.py": {
+        "classes": [
+            "IndexerAgent"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\cleanup_docs.py": {
+        "classes": [],
+        "functions": [
+            "cleanup_docs"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\db_migrator.py": {
+        "classes": [],
+        "functions": [
+            "migrate_database"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\delegate_audit.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\system\\doc_debate_runner.py": {
+        "classes": [
+            "SkepticAgent",
+            "DefenderAgent",
+            "SynthesizerAgent"
+        ],
+        "functions": [
+            "main",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "__init__",
+            "_ai_handler",
+            "_logic_handler"
+        ],
+        "has_main": true,
+        "complexity_score": 25,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\fetch_free_models.py": {
+        "classes": [],
+        "functions": [
+            "fetch_free_models"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\garbage_collector.py": {
+        "classes": [],
+        "functions": [
+            "clean_root_directory"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\gcli_delegate.py": {
+        "classes": [],
+        "functions": [
+            "generate_docs_report"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\generate_flagship_roadmap.py": {
+        "classes": [],
+        "functions": [
+            "generate_flagship_roadmap"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\git_manager.py": {
+        "classes": [
+            "GitManager"
+        ],
+        "functions": [
+            "run_command",
+            "checkout_branch",
+            "stash_changes",
+            "merge_branch",
+            "delete_branch",
+            "rollback",
+            "ensure_clean_state"
+        ],
+        "has_main": false,
+        "complexity_score": 12,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\system\\intelligence_audit.py": {
+        "classes": [],
+        "functions": [
+            "run_intelligence_audit"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\log_siphoner.py": {
+        "classes": [],
+        "functions": [
+            "siphon_log"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\mass_generate_clinerules.py": {
+        "classes": [],
+        "functions": [
+            "generate_domain_rules"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\pre_flight_check.py": {
+        "classes": [
+            "PreFlightCheck"
+        ],
+        "functions": [
+            "__init__",
+            "check_zero_byte_files",
+            "check_circular_imports_static",
+            "run_static_checks"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\rag_ingest.py": {
+        "classes": [],
+        "functions": [
+            "get_file_hash",
+            "load_hash_cache",
+            "save_hash_cache",
+            "check_resource_guard",
+            "parse_pdf_to_text",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 6,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\rag_query.py": {
+        "classes": [],
+        "functions": [
+            "query_rag_return_context",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\reading_task.py": {
+        "classes": [
+            "LibrarianAgent"
+        ],
+        "functions": [
+            "__init__",
+            "_ai_handler",
+            "_logic_handler",
+            "read_random_wisdom"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\refactor_architecture.py": {
+        "classes": [],
+        "functions": [
+            "move_if_exists",
+            "delete_if_exists",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\resource_monitor.py": {
+        "classes": [],
+        "functions": [
+            "get_system_stats",
+            "update_global_state"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\root_cleanup.py": {
+        "classes": [],
+        "functions": [
+            "root_cleanup"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\setup_project_foundation.py": {
+        "classes": [],
+        "functions": [
+            "create_template",
+            "generate_missing_files"
+        ],
+        "has_main": true,
+        "complexity_score": 2,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\smart_patcher.py": {
+        "classes": [
+            "SmartPatcher"
+        ],
+        "functions": [
+            "__init__",
+            "run_ruff"
+        ],
+        "has_main": true,
+        "complexity_score": 7,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\sync_docs.py": {
+        "classes": [],
+        "functions": [
+            "print_header",
+            "analyze_directory",
+            "main"
+        ],
+        "has_main": true,
+        "complexity_score": 3,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\system_cleaner.py": {
+        "classes": [
+            "TripleFilterCleaner"
+        ],
+        "functions": [
+            "clean_zombie_files",
+            "level_1_migrate",
+            "level_2_compress",
+            "level_3_terminate"
+        ],
+        "has_main": true,
+        "complexity_score": 9,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\ultimate_doc_gen.py": {
+        "classes": [],
+        "functions": [
+            "generate_docs_and_map_models"
+        ],
+        "has_main": true,
+        "complexity_score": 1,
+        "is_empty": false,
+        "evidence": [
+            "C\u00f3 h\u00e0m main (Script th\u1ef1c thi)."
+        ]
+    },
+    "tools\\system\\__init__.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    },
+    "tools\\ui\\dashboard_app.py": {
+        "classes": [],
+        "functions": [],
+        "has_main": false,
+        "complexity_score": 0,
+        "is_empty": false,
+        "evidence": []
+    }
+}

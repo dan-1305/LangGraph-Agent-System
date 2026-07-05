@@ -1,0 +1,1 @@
+Tạo một app FastAPI cơ bản với 1 route GET /ping trả về {'status': 'ok'}.

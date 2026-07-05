@@ -1,0 +1,210 @@
+import os
+import sys
+import json
+import hashlib
+import chromadb
+import argparse
+import psutil
+import re
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Nạp biến môi trường từ .env
+root_dir = Path(__file__).resolve().parent.parent.parent
+load_dotenv(root_dir / '.env')
+
+from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
+from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
+
+# Đảm bảo in console tiếng Việt không lỗi trên Windows
+if hasattr(sys.stdout, 'reconfigure'):
+    if 'pytest' not in sys.modules: sys.stdout.reconfigure(encoding='utf-8')
+
+def get_file_hash(file_path: Path) -> str:
+    """Tính mã băm MD5 của một file."""
+    hasher = hashlib.md5()
+    with open(file_path, 'rb') as f:
+        buf = f.read()
+        hasher.update(buf)
+    return hasher.hexdigest()
+
+def load_hash_cache(cache_file: Path) -> dict:
+    if cache_file.exists():
+        with open(cache_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+def save_hash_cache(cache_file: Path, cache_data: dict):
+    with open(cache_file, 'w', encoding='utf-8') as f:
+        json.dump(cache_data, f, ensure_ascii=False, indent=4)
+
+def check_resource_guard():
+    """Kiểm tra xem hệ thống còn đủ RAM để chạy tác vụ nặng không."""
+    mem = psutil.virtual_memory()
+    free_gb = mem.available / (1024**3)
+    print(f"📊 Kiểm tra tài nguyên: RAM trống {free_gb:.2f} GB")
+    
+    if free_gb < 1.0:
+        print("❌ [RESOURCE GUARD] CẢNH BÁO: RAM trống quá thấp (< 1.0GB). Ingest bị chặn.")
+        return False
+    return True
+
+def parse_pdf_to_text(pdf_path: Path) -> str:
+    """Parse PDF sang text bằng pymupdf4llm hoặc fitz."""
+    try:
+        import pymupdf4llm
+        return pymupdf4llm.to_markdown(str(pdf_path))
+    except ImportError:
+        try:
+            import fitz
+            doc = fitz.open(str(pdf_path))
+            text = ""
+            for page in doc:
+                text += page.get_text()
+            return text
+        except ImportError:
+            print("❌ Lỗi: Cần cài đặt 'pymupdf4llm' hoặc 'pymupdf' để parse PDF.")
+            return ""
+
+def main(force_all=False, mode="system"):
+    """
+    mode: "system" (Code/Docs) hoặc "knowledge" (Sách/Papers)
+    """
+    if not check_resource_guard():
+        sys.exit(1)
+
+    root_dir = Path(__file__).resolve().parent.parent.parent
+    
+    storage_dir = os.getenv("STORAGE_DIR")
+    base_data_dir = Path(storage_dir) if storage_dir else root_dir / 'data'
+    
+    if mode == "system":
+        db_name = "system_architecture_docs"
+        # Ưu tiên sử dụng ổ D nếu STORAGE_DIR được cấu hình
+        db_path = Path(os.getenv("STORAGE_DIR", str(base_data_dir / 'chroma_db')))
+        if "chroma_db" not in str(db_path):
+            db_path = db_path / "chroma_db"
+        cache_path = db_path.parent / 'rag_file_cache.json'
+        source_dirs = [root_dir / 'context', root_dir / 'docs', root_dir / 'logs', root_dir / 'analysis_user']
+        file_extensions = ['*.md', 'FAILED_PATHS.json']
+    else:
+        db_name = "knowledge_base_core"
+        db_path = Path(os.getenv("STORAGE_DIR", str(base_data_dir / 'knowledge_db')))
+        if "knowledge_db" not in str(db_path):
+            db_path = db_path / "knowledge_db"
+        cache_path = db_path.parent / 'knowledge_file_cache.json'
+        source_dirs = [root_dir / 'data' / 'knowledge_base']
+        file_extensions = ['*.pdf', '*.md', '*.txt']
+
+    db_path.parent.mkdir(exist_ok=True)
+    
+    print(f"🚀 Bắt đầu Ingest [{mode.upper()}] vào ChromaDB...")
+    client = chromadb.PersistentClient(path=str(db_path))
+    
+    try:
+        collection = client.get_collection(name=db_name)
+    except Exception:
+        collection = client.create_collection(name=db_name)
+        force_all = True
+        
+    if force_all:
+        try:
+            client.delete_collection(db_name)
+            collection = client.create_collection(name=db_name)
+            print(f"Đã xóa collection [{db_name}] cũ để làm mới.")
+        except Exception:
+            pass
+            
+    hash_cache = load_hash_cache(cache_path) if not force_all else {}
+    new_hash_cache = {}
+    
+    headers_to_split_on = [("#", "Header 1"), ("##", "Header 2"), ("###", "Header 3")]
+    md_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=headers_to_split_on)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+    
+    files_to_ingest = []
+    for s_dir in source_dirs:
+        if s_dir.exists():
+            for ext in file_extensions:
+                files_to_ingest.extend(list(s_dir.glob(f'**/{ext}')))
+
+    all_chunks, all_metadatas, all_ids = [], [], []
+    files_processed = 0
+    
+    for file_path in files_to_ingest:
+        try:
+            rel_path = str(file_path.relative_to(root_dir))
+        except ValueError:
+            rel_path = str(file_path) # Outside root (like D: drive)
+
+        current_hash = get_file_hash(file_path)
+        new_hash_cache[rel_path] = current_hash
+        
+        if not force_all and hash_cache.get(rel_path) == current_hash:
+            continue
+            
+        files_processed += 1
+        try:
+            try: collection.delete(where={"source": rel_path})
+            except Exception: pass
+                
+            if file_path.suffix == '.pdf':
+                print(f"📄 Parsing PDF: {file_path.name}")
+                content = parse_pdf_to_text(file_path)
+            else:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+            
+            if not content: continue
+
+            chunks = []
+            if file_path.name == 'FAILED_PATHS.json':
+                try:
+                    data = json.loads(content)
+                    failures = data.get("failure_logs", [])
+                    from langchain_core.documents import Document
+                    for f_log in failures:
+                        chunks.append(Document(page_content=f_log, metadata={"type": "failure_memory"}))
+                except json.JSONDecodeError:
+                    pass
+            elif file_path.suffix == '.md' or content.startswith('#'):
+                chunks = md_splitter.split_text(content)
+            else:
+                chunks = text_splitter.create_documents([content])
+            
+            for i, chunk in enumerate(chunks):
+                if len(chunk.page_content.strip()) < 50: continue
+                all_chunks.append(chunk.page_content)
+                meta = chunk.metadata.copy()
+                meta.update({"source": rel_path, "chunk_index": i})
+                all_metadatas.append(meta)
+                all_ids.append(f"{hashlib.md5(rel_path.encode()).hexdigest()}_{i}")
+                
+            print(f"✅ Đã xử lý: {file_path.name} ({len(chunks)} chunks)")
+        except Exception as e:
+            print(f"❌ Lỗi file {file_path.name}: {e}")
+            
+    if not all_chunks:
+        print(f"⚡ Không có thay đổi trong [{mode}].")
+        save_hash_cache(cache_path, new_hash_cache)
+        return
+            
+    print("\nTải model Embedding (ChromaDB Default ONNX)...")
+    
+    batch_size = 50
+    for i in range(0, len(all_chunks), batch_size):
+        b_chunks = all_chunks[i:i+batch_size]
+        b_metas = all_metadatas[i:i+batch_size]
+        b_ids = all_ids[i:i+batch_size]
+        collection.add(documents=b_chunks, metadatas=b_metas, ids=b_ids)
+        print(f"  Batch {i//batch_size + 1}/{(len(all_chunks)-1)//batch_size + 1} done.")
+        
+    save_hash_cache(cache_path, new_hash_cache)
+    print(f"✅ Hoàn tất [{mode}]! {files_processed} files updated.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--force", action="store_true")
+    parser.add_argument("--mode", choices=["system", "knowledge"], default="system")
+    args = parser.parse_args()
+    main(force_all=args.force, mode=args.mode)

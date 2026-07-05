@@ -1,0 +1,1 @@
+"""Universal Game Vault - Knowledge extraction & storage for game lore."""

@@ -1,0 +1,62 @@
+# 🧠 ACTIVE THOUGHTS - WORK IN PROGRESS
+
+> **Last Updated:** 2026-07-20 19:56 (Session S7 ended)
+> **Current Model:** GLM-5.2 (Z.ai gói Lite)
+> **Status:** Phiên S3-S7 hoàn thành. Ready for next session.
+
+---
+
+## ✅ ĐÃ HOÀN THÀNH (S3-S7, 2026-07-20)
+
+### S3 - Context Bridge Refactor
+- Tách `context_pipeline.py` & `prepare_gemini_context.py` → `tools/context_bridge/`
+- ETL Pipeline V3.0: Extract → Transform → Enrich → Assemble
+
+### S4 - Chaos Audit + Cross-Model Handoff
+- GLM-5.2 vào vai Chaos Overlord, audit 10 file core của Gemini 3.1 Pro
+- Avg score: 3.5/10, 5 critical bugs
+- Tạo `context/model_handoff/` (4 files: GLM memory, Gemini memory, debate room, template)
+
+### S5 - Bug Fixes + Tests
+- Fix 5 critical bugs: FAILED_PATHS injection, CancelJob, HTML escape, retry bomb, resource leak
+- 10/10 tests PASSED (test_scheduler_fixes.py + test_base_agent_fixes.py)
+- Tech debt: 3.5/10 → ~7/10
+
+### S6 - Cleanup
+- Dọn 456 files rác (Chrome profile + Ruff cache + pytest cache)
+- 1293 → 837 files (-35%)
+- Update .gitignore (cache rules)
+
+### S7 - RAG History Ingest
+- Edit `rag_ingest.py`: thêm `analysis_user` vào source_dirs
+- Copy 2 SFW files từ Drive D
+- Ingest: 10 files, 505 chunks mới
+- Query verify thành công
+
+---
+
+## 🎯 MỤC TIÊU ĐOẠN CHAT TIẾP THEO
+
+### Test limit của GLM-5.2 (gói Lite Z.ai)
+- **Context:** GLM-5.2 claim 1M context, nhưng gói Lite có thể có limit thấp hơn
+- **Cần test:**
+  1. Max context window thực tế (bao nhiêu tokens trước khi truncate?)
+  2. Rate limit (RPM/TPM) - gói Lite có different quota?
+  3. Behavior khi exceed limit (error? silent truncate?)
+  4. So sánh với taskHistory data (GLM-5.2 sessions trước)
+- **Method:**
+  - Gửi prompt lớn dần (50k → 100k → 500k → 1M tokens)
+  - Đo response quality degradation
+  - Check Cline taskHistory cho token counts
+
+---
+
+## 📊 KEY METRICS
+- **Tests:** 10/10 PASSED
+- **Files cleaned:** 456 (-35%)
+- **RAG chunks:** +505 (history searchable)
+- **Tech debt:** ~7/10 (from 3.5/10)
+- **Bugs fixed:** 5 critical
+
+---
+*End-of-Session Anchor | 2026-07-20*

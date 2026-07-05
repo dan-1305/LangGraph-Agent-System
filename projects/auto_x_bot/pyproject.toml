@@ -1,0 +1,14 @@
+[project]
+name = "auto-x-bot"
+version = "0.1.0"
+description = "Auto X (Twitter) Bot"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "tweepy>=4.14.0",
+    "python-dotenv>=1.0.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

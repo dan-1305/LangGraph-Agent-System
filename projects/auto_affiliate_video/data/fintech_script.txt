@@ -1,0 +1,44 @@
+Câu 1: Tổng quan về công nghệ tài chính (Fintech)
+Công nghệ tài chính (Fintech) là sự giao thoa giữa tài chính truyền thống (TradFi) và các công nghệ hiện đại (Blockchain, AI) nhằm giải quyết các điểm nghẽn của hệ thống cũ. Tổng quan có thể nhìn qua sự đối chiếu trực tiếp:
+Về tính cấu trúc: Tài chính truyền thống mang tính tập trung, tiềm ẩn rủi ro lỗi hệ thống trung tâm. Blockchain giải quyết vấn đề này bằng cơ chế phi tập trung, loại bỏ trung gian thông qua mạng lưới mạng ngang hàng (P2P).
+Về chi phí: Các hệ thống cũ tốn kém do nhiều bên trung gian thu phí. Fintech sử dụng Smart Contracts (Hợp đồng thông minh) để tự động hóa các thỏa thuận, giúp giảm thiểu chi phí xuống mức thấp nhất.
+Về tốc độ giao dịch: Các hệ thống như SWIFT mất từ 3-5 ngày để xử lý. Blockchain cho phép thanh toán 24/7 với các giao dịch tức thời, không phụ thuộc vào ngày nghỉ.
+Về tính minh bạch: Hồ sơ tài chính truyền thống thường nằm trong các "hộp đen" thiếu minh bạch. Sổ cái Blockchain mang tính bất biến, không thể sửa hay xóa dữ liệu sau khi đã được ghi nhận.
+
+Câu 2: Trí tuệ nhân tạo (AI) ứng dụng trong Fintech
+Trí tuệ nhân tạo đóng vai trò là lớp "tối ưu hóa" và "tự động hóa" trên nền tảng tài chính, giải quyết các tác vụ phức tạp với tốc độ thần tốc. Các ứng dụng chính bao gồm:
+Tự động hóa quy trình (Agentic Workflow): AI Agents có khả năng tự động tương tác trực tiếp với Smart Contract để thực hiện các nghiệp vụ mà không cần sự can thiệp thủ công của con người.
+Quản lý và Tối ưu hóa đầu tư: Sự xuất hiện của Robo-advisors giúp tự động hóa quá trình tái cơ cấu danh mục đầu tư cho người dùng.
+Bảo mật và Phát hiện gian lận: AI có khả năng quét hàng triệu giao dịch theo thời gian thực để phát hiện các dấu hiệu gian lận.
+Chấm điểm tín dụng phi truyền thống: Phân tích hành vi tiêu dùng để cấp tín dụng cho những tệp khách hàng chưa tiếp cận được dịch vụ ngân hàng (người Unbanked).
+Xử lý quy trình (RPA): AI hỗ trợ xử lý quy trình và kiểm tra tính tuân thủ (Compliance) với tốc độ cực nhanh.
+
+Câu 3: Giải thích 10 thuật ngữ cốt lõi
+Dưới đây là 10 thuật ngữ quan trọng nhất được trích xuất và giải thích ngắn gọn:
+Asymmetric Cryptography (Mật mã bất đối xứng): Cơ chế mã hóa sử dụng cặp khóa (Public Key và Private Key), là nền tảng để phân biệt ví Custodial và Non-custodial.
+Blockchain Trilemma: Bài toán nan giải trong thiết kế blockchain, đòi hỏi sự đánh đổi giữa ba yếu tố: Tính Phi tập trung, Bảo mật và Khả năng mở rộng.
+Impermanent Loss (Tổn thất tạm thời): Rủi ro tổn thất về thanh khoản khi người dùng cung cấp tài sản vào các bể tạo lập thị trường tự động (AMM).
+RWA (Real World Assets): Quá trình token hóa các tài sản thực tế (như bất động sản, trái phiếu) đưa lên mạng lưới blockchain để thu hút dòng tiền.
+Smart Contracts (Hợp đồng thông minh): Các đoạn mã tự động thực thi thỏa thuận khi các điều kiện được đáp ứng, giúp giảm thiểu phí trung gian.
+Proof of Work (PoW): Cơ chế đồng thuận yêu cầu thợ đào sử dụng phần cứng và năng lượng tính toán để giải mã các bài toán, từ đó giành quyền tạo block.
+Proof of Stake (PoS): Cơ chế đồng thuận sử dụng cổ phần (staking), trong đó người cọc nhiều tiền hơn sẽ có xác suất cao hơn được chọn để xác thực block.
+EVM (Ethereum Virtual Machine): Một máy tính ảo toàn cầu chạy trên tất cả các node của hệ thống Ethereum, chịu trách nhiệm thực thi mã code của Smart Contract.
+EOA (Externally Owned Account): Loại tài khoản ví do người dùng trực tiếp kiểm soát thông qua Private Key, không chứa code và có khả năng tự khởi tạo giao dịch.
+Mempool: Khu vực hàng chờ tạm thời chứa các giao dịch đã qua bước kiểm tra logic toán học hợp lệ nhưng chưa được ghi chính thức vào sổ cái.
+Digital Assets (Tài sản kỹ thuật số): Là các loại tài sản được biểu diễn, lưu trữ và giao dịch dưới dạng ký tự số trên nền tảng blockchain. Chúng bao gồm tiền mã hóa (Cryptocurrency), tiền kỹ thuật số của Ngân hàng Trung ương (CBDC), hoặc các tài sản thực tế được token hóa (RWA).
+Web3: Là thế hệ Internet thứ ba với đặc tính cốt lõi là "Đọc, Ghi và Sở hữu" (Read-Write-Own). Nhờ tính phi tập trung (Decentralization), người dùng thực sự nắm quyền sở hữu đối với dữ liệu và tài sản của chính mình.
+DApp (Decentralized Application): Là các ứng dụng được xây dựng trên mạng lưới blockchain, sử dụng Smart Contract làm hệ thống xử lý logic thay vì dùng máy chủ tập trung.
+Hashing (Hàm băm): Thuật toán mã hóa một chiều giúp chuyển đổi dữ liệu đầu vào thành một chuỗi ký tự có độ dài cố định.
+Ledger (Sổ cái): Cuốn sổ lưu trữ toàn bộ lịch sử các giao dịch của mạng lưới blockchain. Sổ cái có tính bất biến.
+
+Câu 4: Giải thích quy trình trong tấm ảnh
+Quá trình chia làm 3 giai đoạn:
+Giai đoạn Gửi (Sender): Người gửi đóng gói dữ liệu và mã hóa nó bằng Khóa công khai của người nhận. Đồng thời tạo Chữ ký số bằng Khóa bí mật của mình.
+Giai đoạn Xác thực (Miner): Thợ đào sử dụng Khóa công khai của người gửi để giải mã chữ ký, so sánh bản băm để xác thực chính chủ và ghi vào sổ cái.
+Giai đoạn Nhận (Receiver): Người nhận sử dụng Khóa bí mật duy nhất của mình để giải mã và đọc nội dung.
+
+Câu 5: Vai trò của sổ cái và thuật toán
+Vai trò: Sổ cái Blockchain đóng vai trò lưu trữ sự thật tuyệt đối. Đặc tính cốt lõi là tính bất biến (Immutable), mang lại tính minh bạch tuyệt đối.
+Thuật toán xử lý:
+Bước 1: Xác nhận logic (Thực thi): Kiểm tra số dư, chữ ký mật mã và chống Double Spending. Đưa vào Mempool.
+Bước 2: Đồng thuận (Đóng block): Các Node đua giải bài toán mật mã (Nonce) để giành quyền ghi vào sổ cái vĩnh viễn.

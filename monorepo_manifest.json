@@ -1,0 +1,183 @@
+{
+  "monorepo_version": "5.3",
+  "governance": "Sovereign Tier 0",
+  "last_audit": "2026-07-23",
+  "active_projects": {
+    "ai_trading_agent": {
+      "status": "stable",
+      "core_path": "projects/ai_trading_agent/src/",
+      "max_ram_allowed_gb": 2.0,
+      "description": "Swing Trading & Strategic Advisor"
+    },
+    "auto_affiliate_video": {
+      "status": "development",
+      "core_path": "projects/auto_affiliate_video/src/",
+      "max_ram_allowed_gb": 4.0,
+      "description": "High-Output Video Creation"
+    },
+    "airdrop_guerrilla": {
+      "status": "stable",
+      "core_path": "projects/airdrop_guerrilla/src/",
+      "max_ram_allowed_gb": 1.5,
+      "description": "On-chain Automation Sentinel"
+    },
+    "local_proxy_server": {
+      "status": "stable",
+      "core_path": "projects/local_proxy_server/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "API Resilience & Key Rotation"
+    },
+    "asset_audit_taskforce": {
+      "status": "stable",
+      "core_path": "projects/asset_audit_taskforce/src/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "Asset Auditing & Arbitrage Detection"
+    },
+    "auto_x_bot": {
+      "status": "development",
+      "core_path": "projects/auto_x_bot/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "X/Twitter Automation Bot"
+    },
+    "ceo_agent": {
+      "status": "stable",
+      "core_path": "projects/ceo_agent/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "CEO Mind & Training Matrix"
+    },
+    "gemini_cli": {
+      "status": "stable",
+      "core_path": "projects/gemini_cli/core/",
+      "max_ram_allowed_gb": 0.5,
+      "description": "Gemini CLI Client Wrapper"
+    },
+    "godot_translator": {
+      "status": "experimental",
+      "core_path": "projects/godot_translator/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "Godot Game Translation Tool"
+    },
+    "jarvis-rpg-assistant": {
+      "status": "development",
+      "core_path": "projects/jarvis-rpg-assistant/",
+      "max_ram_allowed_gb": 1.5,
+      "description": "Discord RPG Assistant Bot"
+    },
+    "knowledge_base_agent": {
+      "status": "stable",
+      "core_path": "projects/knowledge_base_agent/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "Research Papers Search & RAG"
+    },
+    "LocalRelay": {
+      "status": "experimental",
+      "core_path": "projects/LocalRelay/",
+      "max_ram_allowed_gb": 0.5,
+      "description": "Local Network Relay Server"
+    },
+    "sovereign_terminal": {
+      "status": "stable",
+      "core_path": "projects/sovereign_terminal/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "Headless Agent + Telegram Bot + Daemon Mode"
+    },
+     "project_manager_sentry": {
+      "status": "stable",
+      "core_path": "projects/project_manager_sentry/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "Project Governance & Lifecycle Manager"
+    },
+    "qa_chaos_agent": {
+      "status": "stable",
+      "core_path": "projects/qa_chaos_agent/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "Chaos Engineering QA Agent"
+    },
+    "qa_functional_agent": {
+      "status": "stable",
+      "core_path": "projects/qa_functional_agent/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "Functional QA & Test Agent"
+    },
+    "real_estate_prediction": {
+      "status": "experimental",
+      "core_path": "projects/real_estate_prediction/",
+      "max_ram_allowed_gb": 2.0,
+      "description": "Real Estate Price Prediction ML"
+    },
+    "sillytavern_world_card_generator": {
+      "status": "stable",
+      "core_path": "projects/sillytavern_world_card_generator/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "SillyTavern Lorebook & World Card Generator"
+    },
+    "sovereign_academy": {
+      "status": "stable",
+      "core_path": "projects/sovereign_academy/",
+      "max_ram_allowed_gb": 1.0,
+      "description": "Code Tutor Agent (Feynman Technique)"
+    },
+    "universal_game_vault": {
+      "status": "stable",
+      "core_path": "projects/universal_game_vault/src/",
+      "max_ram_allowed_gb": 1.5,
+      "description": "Game Wiki Vault & Team Advisor (Morimens)"
+    },
+    "universal_web_scraper": {
+      "status": "stable",
+      "core_path": "projects/universal_web_scraper/",
+      "max_ram_allowed_gb": 1.5,
+      "description": "Universal Multi-Site Scraper"
+    }
+  },
+  "archived_projects": {
+    "FlowNSFW-main": {
+      "status": "archived",
+      "core_path": "projects/FlowNSFW-main/",
+      "description": "[EXTERNAL ARCHIVE] FlowNSFW reference repo"
+    },
+    "NSFWDetector-master": {
+      "status": "archived",
+      "core_path": "projects/NSFWDetector-master/",
+      "description": "[EXTERNAL ARCHIVE] NSFWDetector reference repo"
+    },
+    "trading_rpg_simulator": {
+      "status": "archived",
+      "core_path": "projects/trading_rpg_simulator/",
+      "description": "[ARCHIVED] Trading RPG Simulator"
+    },
+    "nsfw_multimedia_auditor": {
+      "status": "archived",
+      "core_path": "projects/nsfw_multimedia_auditor/",
+      "description": "[ARCHIVED] Shadow Sentinel V6 - NSFW Content Auditor (Dockerized)"
+    }
+  },
+  "shared_dependencies": [
+    "pydantic",
+    "python-dotenv",
+    "httpx",
+    "langchain-core",
+    "langgraph"
+  ],
+  "immutable_files": [
+    ".clinerules",
+    "src/base_agent.py",
+    "src/factory/nodes/principles_gate.py",
+    "core/process_watchdog.py",
+    "core_utilities/safe_file_manager.py",
+    "monorepo_manifest.json",
+    "WHITE_PAPER_JARVIS.md",
+    "tools/system/pre_flight_check.py",
+    "tools/system/awaken.py"
+  ],
+  "pre_flight_checks": {
+    "static": [
+      "check_circular_imports",
+      "check_zero_byte_files",
+      "sync_manifest"
+    ],
+    "dynamic": [
+      "run_core_pytest"
+    ]
+  }
+}

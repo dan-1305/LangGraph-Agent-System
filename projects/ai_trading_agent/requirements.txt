@@ -1,0 +1,9 @@
+pydantic<3.0
+langchain-openai
+langchain-core
+langgraph
+langgraph-checkpoint-sqlite
+python-dotenv
+ccxt
+yfinance
+pandas

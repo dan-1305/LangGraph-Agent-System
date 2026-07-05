@@ -1,0 +1,10 @@
+[project]
+name = "ceo-agent"
+version = "0.1.0"
+description = "CEO Agent for System Management Simulator"
+authors = [{name = "Admin", email = "admin@example.com"}]
+dependencies = [
+    "langchain-openai",
+]
+readme = "README.md"
+requires-python = ">=3.10"

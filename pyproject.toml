@@ -1,0 +1,84 @@
+[project]
+name = "langgraph-agent-system"
+version = "1.0.0"
+description = "A powerful LangGraph Agent Monorepo"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic<3.0",
+    "python-dotenv",
+    "schedule",
+    "colorama",
+    "httpx",
+    "langchain-openai",
+    "langchain-core",
+    "langgraph",
+    "langgraph-checkpoint-sqlite",
+    "langchain-experimental",
+    "langchain-google-genai",
+    "python-telegram-bot",
+    "aiosqlite",
+    "langchain-huggingface>=1.2.2",
+    "chromadb>=1.5.8",
+    "sentence-transformers>=5.4.1",
+    "onnxruntime==1.23.2",
+    "gtts>=2.5.4",
+    "pydub>=0.25.1",
+    "moviepy>=2.2.1",
+    "requests>=2.33.1",
+    "openai>=2.32.0",
+    "playwright>=1.58.0",
+    "ta>=0.11.0",
+    "yfinance>=1.3.0",
+    "pandas>=2.3.3",
+    "playwright-stealth>=2.0.3",
+    "tiktok-uploader>=1.2.0",
+    "web3>=7.16.0",
+    "ccxt>=4.5.51",
+    "psutil>=7.2.2",
+    "pymupdf>=1.28.0",
+    "python-docx>=1.2.0",
+    "easyocr>=1.7.2",
+    "opencv-python>=5.0.0.93",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv.workspace]
+members = [
+    "projects/ai_trading_agent",
+    "projects/airdrop_guerrilla",
+    "projects/auto_affiliate_video",
+    "projects/auto_x_bot",
+    "projects/ceo_agent",
+    "projects/asset_audit_taskforce",
+    "projects/gemini_cli",
+    "projects/godot_translator",
+    "projects/jarvis-rpg-assistant",
+    "projects/knowledge_base_agent",
+    "projects/LocalRelay",
+    "projects/minecraft_eden_simulation",
+    "projects/qa_chaos_agent",
+    "projects/qa_functional_agent",
+    "projects/real_estate_prediction",
+    "projects/sillytavern_world_card_generator",
+    "projects/trading_rpg_simulator",
+    "projects/universal_web_scraper",
+    "src",
+    "tools"
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+ignore = [
+    "E402", # Module level import not at top of file
+    "E701", # Multiple statements on one line (colon)
+    "E722", # Do not use bare `except`
+    "F841", # Local variable is assigned to but never used
+    "E712", # Avoid equality comparisons to True/False
+    "F821", # Undefined name
+]
