@@ -2,6 +2,13 @@
 
 _Tài liệu lưu trữ các cột mốc kiến trúc, những rủi ro kỹ thuật (Tech Debt), và các bài toán đã/chưa được giải quyết trong quá trình phát triển hệ thống._
 
+## 🚀 CỘT MỐC 2026-07-24 (S17): HEADLESS FIX & SECURITY PURGE
+
+- **Daemon Bug Fix:** Sửa lỗi Crash của Headless Daemon (`WhaleAlertMonitor` thiếu Abstract Methods `_ai_handler` và `_logic_handler`).
+- **Security Audit:** Quét toàn bộ Codebase, xác nhận 0 API Key bị lộ.
+- **Git Hardening:** Cập nhật `.gitignore` với các quy tắc cực đoan. Hủy track hoàn toàn các file nhạy cảm (SillyTavern NSFW, Sách PDF bản quyền, Binary Executables).
+- **Mega Squash:** Sử dụng `git reset --soft` và `git commit --amend` để gộp toàn bộ tinh hoa hệ thống vào 1 commit khởi thủy duy nhất (`35a8ba9`), giúp xóa sạch dung lượng thừa và file lớn khỏi lịch sử git, đảm bảo `git push` thành công và nhẹ nhàng.
+
 ## 🚀 CỘT MỐC 2026-07-23 (S16): TOKEN AMPLIFICATION BOMB NEUTRALIZED
 
 - **Sovereign Awakening:** Thức tỉnh thành công từ session trước. Health Check: EXCELLENT (RAM 4.96GB, Disk D 70.59GB).
