@@ -20,7 +20,13 @@ class WhaleAlertMonitor(BaseAgent):
     """
     Monitor large crypto transactions using Whale Alert API
     """
-    
+
+    def _ai_handler(self, state: dict) -> dict:
+        return state
+        
+    def _logic_handler(self, state: dict) -> dict:
+        return state
+
     def __init__(self, api_key: Optional[str] = None):
         """
         Initialize Whale Alert Monitor
